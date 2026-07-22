@@ -11,6 +11,11 @@ class AppTheme {
 
   static const Color _seed = Color(0xFFB8860B); // warm amber / dark goldenrod
 
+  // Bundled CJK fallback (assets/fonts/) — see the pubspec.yaml `fonts:`
+  // comment for why this is bundled rather than left to the browser's
+  // system font fallback.
+  static const List<String> _fontFallback = ['NotoSansSC'];
+
   static ThemeData light() => _build(Brightness.light);
   static ThemeData dark() => _build(Brightness.dark);
 
@@ -34,6 +39,7 @@ class AppTheme {
           fontSize: 22,
           fontWeight: FontWeight.w800,
           letterSpacing: -0.3,
+          fontFamilyFallback: _fontFallback,
         ),
       ),
       cardTheme: CardThemeData(
@@ -48,7 +54,11 @@ class AppTheme {
       chipTheme: ChipThemeData(
         backgroundColor: scheme.surfaceContainerHigh,
         side: BorderSide(color: scheme.outlineVariant.withValues(alpha: 0.5)),
-        labelStyle: TextStyle(color: scheme.onSurfaceVariant, fontSize: 12.5),
+        labelStyle: TextStyle(
+          color: scheme.onSurfaceVariant,
+          fontSize: 12.5,
+          fontFamilyFallback: _fontFallback,
+        ),
         shape: const StadiumBorder(),
       ),
       dividerTheme: DividerThemeData(
@@ -63,10 +73,14 @@ class AppTheme {
       textTheme: Typography.material2021().black.apply(
             bodyColor: scheme.onSurface,
             displayColor: scheme.onSurface,
+            fontFamilyFallback: _fontFallback,
           ),
       snackBarTheme: SnackBarThemeData(
         backgroundColor: scheme.inverseSurface,
-        contentTextStyle: TextStyle(color: scheme.onInverseSurface),
+        contentTextStyle: TextStyle(
+          color: scheme.onInverseSurface,
+          fontFamilyFallback: _fontFallback,
+        ),
         behavior: SnackBarBehavior.floating,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       ),

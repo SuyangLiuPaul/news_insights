@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.1.0+2
+version: 1.1.1+3
 
 environment:
   sdk: ^3.12.2
@@ -86,6 +86,23 @@ flutter:
 
   assets:
     - assets/daily_news.json
+
+  # Bundled CJK font. Neither Flutter's default text theme nor the
+  # web renderer ship Chinese glyph coverage, so without this the
+  # browser has to resolve a system fallback font for every Chinese
+  # character at paint time — on some devices/browsers that resolution
+  # doesn't reliably re-trigger a relayout once it finishes, so
+  # Chinese text can render incorrectly on a cold load in zh locale
+  # until something else (e.g. toggling locale) forces a rebuild.
+  # Bundling the font makes it part of the same AssetManifest Flutter
+  # already blocks first paint on for MaterialIcons/CupertinoIcons —
+  # no network dependency, no race, identical across every platform.
+  fonts:
+    - family: NotoSansSC
+      fonts:
+        - asset: assets/fonts/NotoSansSC-Regular.otf
+        - asset: assets/fonts/NotoSansSC-Bold.otf
+          weight: 700
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
