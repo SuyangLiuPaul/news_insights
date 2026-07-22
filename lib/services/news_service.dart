@@ -31,8 +31,15 @@ class _NewsServiceImpl extends RemoteDataService<DailyNewsBundle> {
   @override
   String get remoteUrl => _envUrl;
 
+  // v1 -> v2 (2026-07-22): a class of already-installed browsers had
+  // cached a pre-fix snapshot (raw unmirrored SBS image URLs and/or
+  // incomplete verse translations from an earlier pipeline state) and
+  // had no way to self-heal — the old cache-then-background-refresh
+  // path never told the UI when fresher data arrived (see `updates`
+  // below, added the same day). Bumping the key forces every existing
+  // cache to be discarded once, on top of that structural fix.
   @override
-  String get cachePrefsKey => 'dailyNews.cachedJson.v1';
+  String get cachePrefsKey => 'dailyNews.cachedJson.v2';
 
   @override
   DailyNewsBundle parse(Map<String, dynamic> json) =>
@@ -64,6 +71,12 @@ class NewsService {
   static Future<void> refresh({bool force = false}) =>
       _impl.refresh(force: force);
   static Future<void> clearCache() => _impl.clearCache();
+
+  /// Fires whenever a background refresh brings in a fresher bundle
+  /// than whatever [load] originally returned — see
+  /// [RemoteDataService.updates] for why a screen needs this instead
+  /// of just calling [load] once.
+  static Stream<DailyNewsBundle> get updates => _impl.updates;
 
   /// Available archive dates, newest first (matches the pipeline's own
   /// sort). Empty list on any failure — including the expected

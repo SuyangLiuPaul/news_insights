@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -39,19 +41,49 @@ class _FeedPageState extends State<FeedPage> {
   bool _archiveExhausted = false;
   bool _loadMoreFailed = false;
   final ScrollController _scrollController = ScrollController();
+  StreamSubscription<DailyNewsBundle>? _updatesSub;
 
   @override
   void initState() {
     super.initState();
     _load();
     _scrollController.addListener(_onScroll);
+    // NewsService.load() only ever hands back its FIRST snapshot — the
+    // cache-then-network refresh underneath it keeps running silently
+    // after that, so without this subscription a fresher bundle (say,
+    // one where a broken image URL or a missing translation has since
+    // been fixed upstream) could arrive and never actually reach the
+    // screen. This is what lets a same-session background refresh
+    // repair itself instead of requiring a manual refresh tap.
+    _updatesSub = NewsService.updates.listen((b) {
+      if (!mounted) return;
+      setState(() {
+        _bundle = b;
+        _selected = _resolveSelected(b);
+      });
+    });
   }
 
   @override
   void dispose() {
     _scrollController.removeListener(_onScroll);
     _scrollController.dispose();
+    _updatesSub?.cancel();
     super.dispose();
+  }
+
+  /// Re-anchors [_selected] to the matching-id article in a freshly
+  /// arrived bundle, rather than leaving it pointing at a stale
+  /// [NewsArticle] instance whose fields (image, translations, …)
+  /// may have since been corrected upstream. Falls back to the first
+  /// article, or null if the bundle is empty.
+  NewsArticle? _resolveSelected(DailyNewsBundle b) {
+    if (_selected != null) {
+      for (final a in b.allArticles) {
+        if (a.id == _selected!.id) return a;
+      }
+    }
+    return b.allArticles.isNotEmpty ? b.allArticles.first : null;
   }
 
   void _onScroll() {
@@ -98,11 +130,7 @@ class _FeedPageState extends State<FeedPage> {
         _archiveIndexLoaded = false;
         _archiveExhausted = false;
         _loadMoreFailed = false;
-        final keepSelected = _selected != null &&
-            b.allArticles.any((a) => a.id == _selected!.id);
-        if (!keepSelected) {
-          _selected = b.allArticles.isNotEmpty ? b.allArticles.first : null;
-        }
+        _selected = _resolveSelected(b);
       });
       // The archive history above was just cleared back to only the
       // live edition, so any scroll position deeper than that is now

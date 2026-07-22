@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
@@ -85,6 +86,18 @@ abstract class RemoteDataService<T> {
 
   T? _cached;
   Future<T>? _inflight;
+  final StreamController<T> _updatesController =
+      StreamController<T>.broadcast();
+
+  /// Fires whenever a background [refresh] (or an explicit forced one)
+  /// actually swaps in a fresher bundle. `load()` only ever returns
+  /// its FIRST snapshot to the caller — every refresh after that runs
+  /// silently in the background updating [_cached] with nothing to
+  /// tell a long-lived screen a newer bundle exists. Without this, a
+  /// widget that read `load()` once at `initState` could be stuck
+  /// showing whatever was cached at that exact moment indefinitely,
+  /// even after the network fetch underneath it succeeds.
+  Stream<T> get updates => _updatesController.stream;
 
   /// Returns the freshest available bundle (cached → bundled).
   /// Triggers a background refresh on every call.
@@ -164,6 +177,7 @@ abstract class RemoteDataService<T> {
 
       _cached = fresh;
       await prefs.setString(cachePrefsKey, body);
+      _updatesController.add(fresh);
     } catch (_) {
       // Network down, server slow, malformed JSON — keep what we have.
     }
