@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:news_insights/models/news_article.dart';
 import 'package:news_insights/utils/relative_time.dart';
+import 'package:news_insights/widgets/retry_network_image.dart';
 
 /// A single headline row in the feed list. Shows a thumbnail (or a
 /// section-tinted gradient placeholder when no image is available —
@@ -105,15 +106,11 @@ class _Thumbnail extends StatelessWidget {
         width: size,
         height: size,
         child: image != null && image.isNotEmpty
-            ? Image.network(
-                image,
+            ? RetryNetworkImage(
+                url: image,
                 fit: BoxFit.cover,
-                errorBuilder: (_, _, _) =>
+                placeholderBuilder: (context) =>
                     _placeholder(article.section, scheme),
-                loadingBuilder: (context, child, progress) =>
-                    progress == null
-                        ? child
-                        : _placeholder(article.section, scheme),
               )
             : _placeholder(article.section, scheme),
       ),

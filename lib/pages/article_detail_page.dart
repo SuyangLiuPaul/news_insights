@@ -4,6 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:news_insights/models/news_article.dart';
 import 'package:news_insights/theme/ui_strings.dart';
 import 'package:news_insights/utils/relative_time.dart';
+import 'package:news_insights/widgets/retry_network_image.dart';
 import 'package:news_insights/widgets/verse_lens_card.dart';
 
 /// Full article view. Used both as a pushed route (narrow screens)
@@ -58,10 +59,22 @@ class _DetailBody extends StatelessWidget {
             borderRadius: BorderRadius.circular(14),
             child: AspectRatio(
               aspectRatio: 16 / 9,
-              child: Image.network(
-                article.image!,
+              child: RetryNetworkImage(
+                url: article.image!,
                 fit: BoxFit.cover,
-                errorBuilder: (_, _, _) => const SizedBox.shrink(),
+                placeholderBuilder: (context) => DecoratedBox(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                      colors: [
+                        scheme.secondary.withValues(alpha: 0.4),
+                        scheme.secondary.withValues(alpha: 0.15),
+                      ],
+                    ),
+                  ),
+                  child: Icon(Icons.public, color: scheme.surface, size: 40),
+                ),
               ),
             ),
           ),
