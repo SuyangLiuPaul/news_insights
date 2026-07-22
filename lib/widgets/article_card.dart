@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:news_insights/models/news_article.dart';
+import 'package:news_insights/utils/book_name_localizer.dart';
 import 'package:news_insights/utils/relative_time.dart';
 import 'package:news_insights/widgets/retry_network_image.dart';
 
@@ -78,7 +79,10 @@ class ArticleCard extends StatelessWidget {
                     ),
                     if (article.verse.reference.isNotEmpty) ...[
                       const SizedBox(height: 8),
-                      _VerseChip(reference: article.verse.reference),
+                      _VerseChip(
+                        reference: localizeVerseReference(
+                            article.verse.reference, locale),
+                      ),
                     ],
                   ],
                 ),

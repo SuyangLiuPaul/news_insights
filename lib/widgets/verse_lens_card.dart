@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:news_insights/models/news_article.dart';
 import 'package:news_insights/theme/ui_strings.dart';
+import 'package:news_insights/utils/book_name_localizer.dart';
 
 /// The "Bible Lens" card — this app's actual differentiator: the
 /// AI-picked verse plus the reflection connecting it to the story.
@@ -63,7 +64,7 @@ class VerseLensCard extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            '— ${verse.reference}',
+            '— ${localizeVerseReference(verse.reference, locale)}',
             style: TextStyle(
               fontSize: 13,
               fontWeight: FontWeight.w700,
