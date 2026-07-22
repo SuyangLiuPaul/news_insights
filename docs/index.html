@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News Insights — Documentation</title>
+<meta name="description" content="Architecture, data schema, and engineering notes for News Insights, a bilingual world-news reader paired with an AI-picked Bible verse per story.">
+<style>
+  :root {
+    --accent: #B8860B;
+    --accent-dark: #8a6d1a;
+    --bg: #fdf9f2;
+    --surface: #ffffff;
+    --surface-alt: #f5efe2;
+    --text: #2a2418;
+    --text-muted: #6b5f47;
+    --border: #e6dcc6;
+    --code-bg: #2a2418;
+    --code-text: #f0ead9;
+    --radius: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1810;
+      --surface: #262019;
+      --surface-alt: #2f271b;
+      --text: #f0ead9;
+      --text-muted: #c2b699;
+      --border: #443a28;
+      --code-bg: #12100a;
+      --code-text: #f0ead9;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  a { color: var(--accent-dark); }
+  @media (prefers-color-scheme: dark) { a { color: #e0b84a; } }
+
+  .hero {
+    padding: 64px 24px 48px;
+    text-align: center;
+    background: linear-gradient(160deg, var(--surface-alt), var(--bg));
+    border-bottom: 1px solid var(--border);
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 44px);
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  .hero .zh { font-weight: 400; color: var(--text-muted); font-size: 0.6em; }
+  .hero p.tagline {
+    max-width: 640px;
+    margin: 0 auto 28px;
+    color: var(--text-muted);
+    font-size: 1.05em;
+  }
+  .hero .cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    padding: 11px 22px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95em;
+    border: 1px solid var(--border);
+  }
+  .btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn.primary:hover { background: var(--accent-dark); }
+  .btn.secondary { background: var(--surface); color: var(--text); }
+
+  nav.toc {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 20px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    font-size: 0.9em;
+    border-bottom: 1px solid var(--border);
+  }
+  nav.toc a { color: var(--text-muted); text-decoration: none; }
+  nav.toc a:hover { color: var(--accent-dark); }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 8px 24px 80px;
+  }
+  section { padding: 40px 0; border-bottom: 1px solid var(--border); }
+  section:last-child { border-bottom: none; }
+  h2 {
+    font-size: 1.5em;
+    margin: 0 0 20px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  h2 .num { color: var(--accent); font-variant-numeric: tabular-nums; font-size: 0.7em; }
+  h3 { font-size: 1.1em; margin: 28px 0 10px; }
+  p { color: var(--text); }
+  .muted { color: var(--text-muted); }
+
+  code {
+    background: var(--surface-alt);
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  pre {
+    background: var(--code-bg);
+    color: var(--code-text);
+    padding: 16px 18px;
+    border-radius: var(--radius);
+    overflow-x: auto;
+    font-size: 0.85em;
+    line-height: 1.5;
+  }
+  pre code { background: none; padding: 0; color: inherit; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92em;
+    margin: 12px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th { color: var(--text-muted); font-weight: 600; font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.03em; }
+  tr:last-child td { border-bottom: none; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    margin: 16px 0;
+  }
+  .card h4 { margin: 0 0 6px; font-size: 1em; }
+  .card .tag {
+    display: inline-block;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent-dark);
+    background: var(--surface-alt);
+    border-radius: 999px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+  }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+  }
+  .stat .n { font-size: 1.6em; font-weight: 700; color: var(--accent-dark); display: block; }
+  .stat .l { font-size: 0.85em; color: var(--text-muted); }
+
+  .diagram {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    overflow-x: auto;
+  }
+  .diagram svg { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+
+  ul.releases { list-style: none; padding: 0; margin: 0; }
+  ul.releases li {
+    display: flex;
+    gap: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.92em;
+  }
+  ul.releases li:last-child { border-bottom: none; }
+  ul.releases .v { font-weight: 700; color: var(--accent-dark); min-width: 62px; }
+
+  footer {
+    text-align: center;
+    padding: 32px 24px 60px;
+    color: var(--text-muted);
+    font-size: 0.85em;
+  }
+
+  ::selection { background: var(--accent); color: #fff; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>News Insights <span class="zh">新闻洞见</span></h1>
+  <p class="tagline">A bilingual (English / 简体中文) world-news reader that pairs every headline with an AI-picked Bible verse and reflection — read from the shared <code>yswords-data</code> feed.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://news-insight.netlify.app">Open the live app</a>
+    <a class="btn secondary" href="https://github.com/SuyangLiuPaul/news_insights">View on GitHub</a>
+    <a class="btn secondary" href="https://github.com/SuyangLiuPaul/news_insights/releases/latest">Latest release</a>
+  </div>
+</div>
+
+<nav class="toc">
+  <a href="#overview">Overview</a>
+  <a href="#architecture">Architecture</a>
+  <a href="#schema">Data schema</a>
+  <a href="#client-strategy">Client data strategy</a>
+  <a href="#engineering-notes">Engineering notes</a>
+  <a href="#releases">Release history</a>
+  <a href="#stack">Tech stack</a>
+</nav>
+
+<main>
+
+<section id="overview">
+  <h2><span class="num">01</span> Overview</h2>
+  <p>News Insights is a dedicated reader for a bilingual news feed that pairs each headline — World, China, or Australia — with a Bible verse an AI has matched to it, plus a short reflection connecting the two. It doesn't run its own scraping or AI pipeline: all of that lives upstream in <a href="https://yswords-data.netlify.app">yswords-data</a>, a shared data source originally built for a sister Bible-reading app and kept CORS-enabled specifically so other clients like this one could read it.</p>
+  <p class="muted">This project is the client only — a Flutter app (web, Android, iOS, macOS from one codebase) that fetches, caches, and renders that feed.</p>
+
+  <div class="grid">
+    <div class="stat"><span class="n">4</span><span class="l">platforms from one codebase</span></div>
+    <div class="stat"><span class="n">2</span><span class="l">languages, every field</span></div>
+    <div class="stat"><span class="n">90</span><span class="l">days of scrollable archive</span></div>
+    <div class="stat"><span class="n">3</span><span class="l">news sections (World / China / Australia)</span></div>
+  </div>
+</section>
+
+<section id="architecture">
+  <h2><span class="num">02</span> Architecture &amp; data flow</h2>
+  <p>Everything upstream of this app is someone else's problem on purpose — the app's job starts at a single JSON URL.</p>
+
+  <div class="diagram">
+<svg viewBox="0 0 820 300" xmlns="http://www.w3.org/2000/svg" font-family="inherit">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#B8860B"/>
+    </marker>
+  </defs>
+  <style>
+    .box { fill: none; stroke: #B8860B; stroke-width: 1.5; rx: 10; }
+    .boxfill { fill: #B8860B; fill-opacity: 0.08; stroke: #B8860B; stroke-width: 1.5; rx: 10; }
+    .lbl { font-size: 13px; fill: currentColor; }
+    .lbl-sm { font-size: 11px; fill: currentColor; opacity: 0.65; }
+    .edge { stroke: #B8860B; stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+  </style>
+
+  <rect x="10" y="20" width="150" height="70" class="box"/>
+  <text x="85" y="48" text-anchor="middle" class="lbl">RSS feeds</text>
+  <text x="85" y="66" text-anchor="middle" class="lbl-sm">Guardian · BBC</text>
+  <text x="85" y="80" text-anchor="middle" class="lbl-sm">DW · SBS News</text>
+
+  <rect x="220" y="10" width="200" height="90" class="boxfill"/>
+  <text x="320" y="34" text-anchor="middle" class="lbl">yswords-data pipeline</text>
+  <text x="320" y="52" text-anchor="middle" class="lbl-sm">AI verse-match + translate</text>
+  <text x="320" y="68" text-anchor="middle" class="lbl-sm">image resolve + CORS mirror</text>
+  <text x="320" y="84" text-anchor="middle" class="lbl-sm">hourly cron</text>
+
+  <rect x="480" y="20" width="170" height="70" class="box"/>
+  <text x="565" y="48" text-anchor="middle" class="lbl">daily_news.json</text>
+  <text x="565" y="66" text-anchor="middle" class="lbl-sm">+ 90-day archive/</text>
+
+  <rect x="700" y="20" width="110" height="70" class="boxfill"/>
+  <text x="755" y="48" text-anchor="middle" class="lbl">Netlify CDN</text>
+  <text x="755" y="66" text-anchor="middle" class="lbl-sm">ACAO: *</text>
+
+  <path d="M160,55 H220" class="edge"/>
+  <path d="M420,55 H480" class="edge"/>
+  <path d="M650,55 H700" class="edge"/>
+
+  <rect x="220" y="180" width="200" height="90" class="boxfill"/>
+  <text x="320" y="204" text-anchor="middle" class="lbl">This app: RemoteDataService</text>
+  <text x="320" y="222" text-anchor="middle" class="lbl-sm">1. SharedPreferences cache</text>
+  <text x="320" y="238" text-anchor="middle" class="lbl-sm">2. bundled asset fallback</text>
+  <text x="320" y="254" text-anchor="middle" class="lbl-sm">3. network refresh (silent)</text>
+
+  <path d="M755,90 V140 Q755,160 700,160 H420 Q400,160 400,180" class="edge" fill="none"/>
+
+  <rect x="480" y="185" width="170" height="80" class="box"/>
+  <text x="565" y="213" text-anchor="middle" class="lbl">FeedPage UI</text>
+  <text x="565" y="231" text-anchor="middle" class="lbl-sm">list · filter · detail</text>
+  <text x="565" y="247" text-anchor="middle" class="lbl-sm">EN / 中文 toggle</text>
+
+  <path d="M420,225 H480" class="edge"/>
+
+  <rect x="700" y="185" width="110" height="80" class="box"/>
+  <text x="755" y="220" text-anchor="middle" class="lbl">Reader</text>
+  <text x="755" y="238" text-anchor="middle" class="lbl-sm">web/Android/</text>
+  <text x="755" y="252" text-anchor="middle" class="lbl-sm">iOS/macOS</text>
+
+  <path d="M650,225 H700" class="edge"/>
+</svg>
+  </div>
+
+  <h3>Why a separate data pipeline?</h3>
+  <p>The verse-pairing feature originally lived inside the main YsWords Bible-reading app, but was removed there since it had no clear owner inside a Bible-reading app's scope. The pipeline itself kept running — it's genuinely useful on its own — so this app was built to give it a dedicated home rather than reinventing the AI-matching and translation logic.</p>
+</section>
+
+<section id="schema">
+  <h2><span class="num">03</span> Data schema</h2>
+  <p>The feed is a single JSON document per edition (the live one at <code>data/daily_news.json</code>, or an archived day at <code>data/archive/YYYY-MM-DD.json</code>), organized as <code>sections.{world,china,australia}.items[]</code>. Every text field ships in both languages up front — there is no per-locale endpoint.</p>
+
+  <h3>NewsArticle</h3>
+  <table>
+    <tr><th>field</th><th>type</th><th>notes</th></tr>
+    <tr><td><code>id</code></td><td>string</td><td>Stable per story; used for de-duplication across infinite-scroll pages</td></tr>
+    <tr><td><code>section</code></td><td>string</td><td><code>world</code> / <code>china</code> / <code>australia</code></td></tr>
+    <tr><td><code>source</code>, <code>sourceUrl</code>, <code>link</code></td><td>string</td><td>Publisher name + the original article URL</td></tr>
+    <tr><td><code>image</code></td><td>string?</td><td>Nullable — some stories have no usable image</td></tr>
+    <tr><td><code>title</code>, <code>summary</code>, <code>body</code>, <code>reflection</code></td><td>{ en, zh }</td><td><code>zh</code> falls back to <code>en</code> client-side if ever empty</td></tr>
+    <tr><td><code>verse</code></td><td>NewsVerse</td><td>see below</td></tr>
+  </table>
+
+  <h3>NewsVerse</h3>
+  <table>
+    <tr><th>field</th><th>type</th><th>notes</th></tr>
+    <tr><td><code>reference</code></td><td>string</td><td><strong>Always English</strong> (e.g. <code>"Matthew 5:9"</code>) — there is no <code>referenceZh</code> upstream. The app localizes the book name at display time (see Engineering notes).</td></tr>
+    <tr><td><code>textEn</code> / <code>textZh</code></td><td>string</td><td>The verse text itself, both languages</td></tr>
+    <tr><td><code>themeEn</code> / <code>themeZh</code></td><td>string</td><td>One-line theme tag shown as a chip</td></tr>
+  </table>
+</section>
+
+<section id="client-strategy">
+  <h2><span class="num">04</span> Client-side data strategy</h2>
+  <p>The app has no backend of its own. <code>RemoteDataService&lt;T&gt;</code> is a small generic base class every data-backed screen builds on, with a three-tier fallback so the feed always has <em>something</em> to render immediately:</p>
+  <ol>
+    <li><strong>SharedPreferences cache</strong> — the last successful network response, read synchronously on startup.</li>
+    <li><strong>Bundled asset</strong> — a snapshot shipped inside the app itself, used only when there's no cache yet (a brand-new install).</li>
+    <li><strong>Network fetch</strong> — always attempted in the background regardless of which of the above rendered first; on success it updates both the in-memory bundle and the persisted cache.</li>
+  </ol>
+  <p>A background refresh that silently updates its own cache is only half the job — a long-lived screen also needs to be <em>told</em> when fresher data has arrived, or it can be stuck rendering its very first snapshot indefinitely. <code>RemoteDataService</code> exposes a broadcast <code>updates</code> stream for exactly this: <code>FeedPage</code> subscribes once and re-renders whenever a background refresh actually swaps in newer content, instead of requiring a manual pull-to-refresh to ever see it.</p>
+</section>
+
+<section id="engineering-notes">
+  <h2><span class="num">05</span> Engineering notes</h2>
+  <p class="muted">A few fixes worth documenting because the root cause wasn't where it first looked.</p>
+
+  <div class="card">
+    <span class="tag">Rendering</span>
+    <h4>Cold-load CJK text race</h4>
+    <p>Flutter Web's CanvasKit renderer doesn't bundle Chinese glyphs — the browser resolves a system fallback font asynchronously, and that resolution didn't always retrigger a relayout, so a cold load straight into Chinese could show garbled text until some unrelated state change (like toggling EN/中文) forced a redraw. Fixed by bundling Noto Sans SC as a real Flutter asset font, making CJK glyph availability part of the same guaranteed-ready-before-first-paint pipeline as the icon fonts.</p>
+  </div>
+
+  <div class="card">
+    <span class="tag">Networking</span>
+    <h4>A third of all images silently failing</h4>
+    <p>SBS News images return <code>Access-Control-Allow-Origin: null</code> — an explicit CORS <em>deny</em>, not just a missing header — which blocks CanvasKit from decoding them, even though the exact same URL loads fine via a plain server-side fetch (which doesn't enforce CORS). Guardian, BBC, and DW all send a permissive <code>ACAO: *</code>; only SBS didn't. Fixed upstream in <code>yswords-data</code> by mirroring SBS images into its own CDN with an open CORS header — the same pattern already used there for another image set.</p>
+  </div>
+
+  <div class="card">
+    <span class="tag">Caching</span>
+    <h4>Fixes that didn't reach already-affected browsers</h4>
+    <p>Three compounding gaps meant a shipped fix didn't self-propagate: the bundled fallback snapshot hadn't been regenerated since the very first commit (still carrying pre-fix image URLs), the background refresh had no way to tell the UI a fresher bundle had arrived (see above), and an already-cached stale snapshot had no self-healing path. Fixed all three: regenerated the bundled asset, added the update stream, and bumped the cache key to force one clean refetch for every existing install.</p>
+  </div>
+
+  <div class="card">
+    <span class="tag">i18n</span>
+    <h4>"Matthew 5:9" instead of "马太福音 5:9"</h4>
+    <p>The verse <code>reference</code> field is English-only upstream — there's no <code>referenceZh</code>, unlike every other text field. <code>lib/utils/book_name_localizer.dart</code> splits a reference into book name + chapter:verse and maps the book name through a Simplified-Chinese table (ported from the main YsWords app's book-name mapping), covering all 66 books plus the corpus's singular "Psalm" form — with a graceful fallback to the original string for anything unrecognized.</p>
+  </div>
+</section>
+
+<section id="releases">
+  <h2><span class="num">06</span> Release history</h2>
+  <ul class="releases">
+    <li><span class="v">v1.1.5</span> Localize verse book names to Chinese (马太福音, not "Matthew")</li>
+    <li><span class="v">v1.1.4</span> Fix stale client caches — background-refresh update stream + cache-key bump</li>
+    <li><span class="v">v1.1.3</span> Scroll to top on section-filter tap and manual refresh</li>
+    <li><span class="v">v1.1.2</span> Fix SBS image CORS block + auto-retrying image loader</li>
+    <li><span class="v">v1.1.1</span> Brand-quality app icon redesign + bundled CJK font (cold-load fix)</li>
+    <li><span class="v">v1.1.0</span> Infinite scroll into a 90-day rolling archive</li>
+    <li><span class="v">v1.0.0</span> Initial release — feed, section filter, verse lens, EN/中文 toggle</li>
+  </ul>
+  <p><a href="https://github.com/SuyangLiuPaul/news_insights/releases">Full changelog on GitHub →</a></p>
+</section>
+
+<section id="stack">
+  <h2><span class="num">07</span> Tech stack &amp; running locally</h2>
+  <p>Flutter (Dart ^3.12) targeting web, Android, iOS, and macOS from one codebase. <code>provider</code> for the small amount of app-wide state (locale, theme); <code>http</code> + <code>shared_preferences</code> for the entire data layer — no bespoke backend.</p>
+  <pre><code>git clone https://github.com/SuyangLiuPaul/news_insights.git
+cd news_insights
+flutter pub get
+flutter run -d chrome
+flutter test</code></pre>
+  <p class="muted">See the <a href="https://github.com/SuyangLiuPaul/news_insights#readme">README</a> for the full project layout and deployment notes.</p>
+</section>
+
+</main>
+
+<footer>
+  News Insights is an independent reader for the <a href="https://yswords-data.netlify.app">yswords-data</a> feed.
+  News content and images belong to their original publishers.
+  MIT-licensed code — <a href="https://github.com/SuyangLiuPaul/news_insights">github.com/SuyangLiuPaul/news_insights</a>
+</footer>
+
+</body>
+</html>
