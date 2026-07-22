@@ -1,0 +1,1520 @@
+{
+  "generatedAt": "2026-07-22T04:59:15.609Z",
+  "editionDate": "2026-07-22",
+  "sources": [
+    {
+      "name": "The Guardian World",
+      "url": "https://www.theguardian.com/world/rss",
+      "category": "world",
+      "categoryLabel": {
+        "en": "World",
+        "zh": "全球"
+      }
+    },
+    {
+      "name": "BBC News World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "world",
+      "categoryLabel": {
+        "en": "World",
+        "zh": "全球"
+      }
+    },
+    {
+      "name": "SBS News World",
+      "url": "https://www.sbs.com.au/news/topic/world/feed",
+      "category": "world",
+      "categoryLabel": {
+        "en": "World",
+        "zh": "全球"
+      }
+    },
+    {
+      "name": "DW World",
+      "url": "https://rss.dw.com/rdf/rss-en-world",
+      "category": "world",
+      "categoryLabel": {
+        "en": "World",
+        "zh": "全球"
+      }
+    },
+    {
+      "name": "The Guardian China",
+      "url": "https://www.theguardian.com/world/china/rss",
+      "category": "china",
+      "categoryLabel": {
+        "en": "China",
+        "zh": "中国"
+      }
+    },
+    {
+      "name": "BBC News China Focus",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "china",
+      "categoryLabel": {
+        "en": "China",
+        "zh": "中国"
+      }
+    },
+    {
+      "name": "SBS News China Focus",
+      "url": "https://www.sbs.com.au/news/topic/world/feed",
+      "category": "china",
+      "categoryLabel": {
+        "en": "China",
+        "zh": "中国"
+      }
+    },
+    {
+      "name": "DW Asia China Focus",
+      "url": "https://rss.dw.com/rdf/rss-en-asia",
+      "category": "china",
+      "categoryLabel": {
+        "en": "China",
+        "zh": "中国"
+      }
+    },
+    {
+      "name": "The Guardian Australia",
+      "url": "https://www.theguardian.com/australia-news/rss",
+      "category": "australia",
+      "categoryLabel": {
+        "en": "Australia",
+        "zh": "澳洲"
+      }
+    },
+    {
+      "name": "SBS News Australia",
+      "url": "https://www.sbs.com.au/news/topic/australia/feed",
+      "category": "australia",
+      "categoryLabel": {
+        "en": "Australia",
+        "zh": "澳洲"
+      }
+    }
+  ],
+  "sections": {
+    "world": {
+      "id": "world",
+      "title": {
+        "en": "World Desk",
+        "zh": "全球焦点"
+      },
+      "strap": {
+        "en": "A fast view of global affairs, conflict, diplomacy, and human need.",
+        "zh": "快速掌握国际局势、冲突、外交与人类处境。"
+      },
+      "sourceNotes": [
+        "The Guardian World",
+        "BBC News World",
+        "SBS News World",
+        "DW World"
+      ],
+      "items": [
+        {
+          "id": "www-theguardian-com-australia-news-live-2026-jul-22-australia-news-live-",
+          "section": "world",
+          "source": "The Guardian World",
+          "sourceUrl": "https://www.theguardian.com/world/rss",
+          "link": "https://www.theguardian.com/australia-news/live/2026/jul/22/australia-news-live-penny-wong-asean-pacific-missile-pauline-hanson-one-nation-labor-conference-tax-anthony-albanese-antisemitism-royal-commission-ntwnfb",
+          "image": "https://i.guim.co.uk/img/media/2f7bbb4ae2bacbafa3f380652b00942e93c0c9b8/571_0_6483_5187/master/6483.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=813faa69c2839f6ed216876e3b9edf17",
+          "publishedAt": "2026-07-22T04:44:19.000Z",
+          "title": {
+            "en": "Australia news live: Brittany Higgins accuses Hanson of victim-blaming in ‘atrocious’ comments on domestic violence",
+            "zh": "澳大利亚新闻直播：布列塔尼·希金斯指责汉森就家庭暴力发表“恶劣”言论是受害者有罪论"
+          },
+          "summary": {
+            "en": "Brittany Higgins has accused Pauline Hanson of victim-blaming following comments made about domestic violence, sparking public debate.",
+            "zh": "布列塔尼·希金斯指责宝琳·汉森就家庭暴力发表的言论是“受害者有罪论”，引发了公众辩论。"
+          },
+          "body": {
+            "en": "Follow today’s news live Get our breaking news email , free app or daily news podcast The New South Wales premier, Chris Minns , says the state’s Labor party is under threat from One Nation and “we’ve got to fight for those votes”. Appearing on ABC Radio National this morning, Minns was asked if One Nation was a “racist party”. He said people who had concerns about the levels of immigration weren’t necessarily racist but some of the things Pauline Hanson had said were. Certainly some of the things Pauline Hanson says are definitely racist, when she said there’s no such thing as a good Muslim. I mean, how else do you characterise that? You’ve got to be straight with people. And that clearly is. But I don’t think everyone who’s supporting them currently is racist at all … And we’ve got to fight for those votes. I think that we are under threat in a whole bunch of seats as a result of the surge of votes for One Nation … So we’re doing some what we regard as practical commonsense changes to policy in New South Wales. When people join the Do Not Call Register or unsubscribe from marketing messages, they are making a clear choice. Those choices must be respected – especially given the heightened risks of financial loss and psychological harm from gambling marketing. The scale and range of these breaches point to serious weaknesses in TAB’s compliance systems. Continue reading...",
+            "zh": "关注今天的新闻直播 获取我们的突发新闻电子邮件、免费应用程序或每日新闻播客 新南威尔士州州长克里斯·明斯 (Chris Minns) 表示，该州工党受到“一国党”的威胁，“我们必须为这些选票而战”。今天早上，明斯在美国广播公司国家广播电台上被问及一国党是否是一个“种族主义政党”。他说，对移民水平感到担忧的人不一定是种族主义者，但宝琳·汉森所说的一些话是种族主义者。当然，宝琳·汉森所说的一些话绝对是种族主义的，当她说没有好穆斯林这样的东西时。我的意思是，你还能如何描述这一点？你必须与人坦诚相待。显然是这样。但我不认为目前支持他们的每个人都是种族主义者……我们必须为这些选票而战。我认为，由于一国党的选票激增，我们的一大堆席位都受到威胁……因此，我们正在对新南威尔士州的政策进行一些我们认为是实际常识性的改变。当人们加入谢绝来电登记或取消订阅营销信息时，他们就做出了明确的选择。这些选择必须得到尊重——特别是考虑到赌博营销造成的经济损失和心理伤害的风险更高。这些违规行为的规模和范围暴露了 TAB 合规系统的严重缺陷。继续阅读..."
+          },
+          "reflection": {
+            "en": "When public figures comment on sensitive issues like domestic violence, their words carry significant weight. Yahweh's word reminds us to treat others, especially within domestic spheres, with consideration and honor. Victim-blaming undermines the dignity of those who have suffered and fails to uphold the respect due to every individual.",
+            "zh": "当公众人物评论家庭暴力等敏感问题时，他们的话语具有重要分量。雅伟的话语提醒我们，要以体谅和尊重对待他人，尤其是在家庭关系中。指责受害者不仅损害了受害者的尊严，也未能维护每个人应得的尊重。"
+          },
+          "verse": {
+            "reference": "1 Peter 3:7",
+            "textEn": "Husbands, in the same way be considerate as you live with your wives, and treat them with respect as the weaker partner and as heirs with you of the gracious gift of life.",
+            "textZh": "你们作丈夫的，也要按情理和妻子同住；因她比你软弱，与你一同承受生命之恩的，所以要敬重她，这样便叫你们的祷告没有阻碍。",
+            "themeEn": "Honor in marriage",
+            "themeZh": "婚姻中的尊重"
+          },
+          "aiVerseId": "1pet_3_7",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-theguardian-com-environment-2026-jul-22-baby-puffin-first-dorset-coa",
+          "section": "world",
+          "source": "The Guardian World",
+          "sourceUrl": "https://www.theguardian.com/world/rss",
+          "link": "https://www.theguardian.com/environment/2026/jul/22/baby-puffin-first-dorset-coast-three-decades",
+          "image": "https://i.guim.co.uk/img/media/f8f0e32abca5a46146d0179fe46965c10ffde036/96_533_1389_1111/master/1389.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d5021f2401ea0374479acfb5ebab83b3",
+          "publishedAt": "2026-07-22T04:00:06.000Z",
+          "title": {
+            "en": "‘A great thrill’: baby puffin is first one seen on Dorset coast in three decades",
+            "zh": "“巨大的喜悦”：多塞特海岸三十年来首次发现海鹦幼鸟"
+          },
+          "summary": {
+            "en": "Volunteers on the Dorset coast have celebrated the first baby puffin sighting in three decades, a significant moment for efforts to save the last regular nesting site on mainland southern England. Their years of patient observation and dedication have finally been rewarded with this joyful discovery.",
+            "zh": "多塞特海岸的志愿者们庆祝了三十年来首次发现海鹦幼鸟，这对于拯救英格兰南部大陆上最后一个已知海鹦筑巢点来说是一个重要的时刻。他们多年的耐心观察和奉献终于得到了回报，迎来了这一令人欣喜的发现。"
+          },
+          "body": {
+            "en": "Puffling excites volunteers trying to save the last known regular nesting site on mainland of southern England For years, volunteers have craned their necks and tested their patience to peer into the crevices of the cliffs hoping for a glimpse of fluffy joy. Finally it all paid off as a puffling – baby puffin – poked its way into the sunshine, becoming the first to be spotted on the coast of Dorset in southern England for three decades. Continue reading...",
+            "zh": "海雀让志愿者们兴奋不已，他们试图拯救英格兰南部大陆最后一个已知的常规筑巢地。多年来，志愿者们一直伸长脖子，考验自己的耐心，窥视悬崖的缝隙，希望能看到毛茸茸的快乐。最终，这一切得到了回报，一只小海雀在阳光下探出路，成为三十年来第一只在英格兰南部多塞特海岸被发现的海雀。继续阅读..."
+          },
+          "reflection": {
+            "en": "The long wait and patient dedication of these volunteers remind us that sustained effort, even through periods of uncertainty, can yield profound joy. Yahweh often uses our perseverance in small, faithful acts to bring about beautiful and hopeful outcomes.",
+            "zh": "这些志愿者漫长的等待和耐心的奉献提醒我们，即使在不确定的时期，持续的努力也能带来深刻的喜悦。雅伟常常使用我们在微小而忠实的行动中的坚韧，来成就美好而充满希望的成果。"
+          },
+          "verse": {
+            "reference": "Romans 5:3-4",
+            "textEn": "We also glory in our sufferings, because we know that suffering produces perseverance; perseverance, character; and character, hope.",
+            "textZh": "就是在患难中也是欢欢喜喜的；因为知道患难生忍耐，忍耐生老练，老练生盼望。",
+            "themeEn": "Suffering produces hope",
+            "themeZh": "患难中的盼望"
+          },
+          "aiVerseId": "rom_5_3",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-bbc-co-uk-news-articles-cq56l9p4y93o-at-medium-rss-at-campaign-rss",
+          "section": "world",
+          "source": "BBC News World",
+          "sourceUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "link": "https://www.bbc.co.uk/news/articles/cq56l9p4y93o?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/e4c4/live/46825250-8580-11f1-a2a8-afc39501b832.jpg",
+          "publishedAt": "2026-07-22T03:50:55.000Z",
+          "title": {
+            "en": "France passes law banning under-15s from social media",
+            "zh": "法国通过法律禁止15岁以下青少年使用社交媒体"
+          },
+          "summary": {
+            "en": "The law will require social media platforms in France to verify all users age from January.",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及公义、尊严与问责。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "France's parliament has approved a law to ban social media for under-15s from January 2027, making it the first European country to block young people from the platforms.\n\nThe law will mean everyone in France must verify their age to access social media and comes as the UK and EU are developing their own limits in response to concerns for children's mental health.\n\nFrench President Emmanuel Macron has welcomed the move, which he had pledged to introduce to mark the end of his decade in office.\n\nWhile sceptics have questioned the law's viability, the government has insisted the online tools to put the age checks in place are effective and safe.\n\nBoth the French Senate and National Assembly adopted the ban on Tuesday, despite criticism from some on the left.\n\nOnce the ban is in place, social media platforms would need to use age-verification tools approved by the French privacy regulator, according to Reuters news agency.\n\nBut concerns have been raised over privacy, the efficacy of age-verification tools, the risks of young people bypassing them, and how quickly the ban has been designed and brought in, Agence France Presse reports.\n\nFrench Digital Minister Anne Le Hénanff defended the speed of the law's implementation ahead of the vote \"because age-verification tools already exist\", the agency added.\n\nDespite Australia banning under-16s from social media in December, it is widely acknowledged that many continue to use the platforms.\n\nIn March, Australia's eSafety Commission announced seven out of 10 children aged under 16 who had a social media account before the ban still had \"some access\".\n\nGiven this, Professor of Internet Studies at Western Australia's Curtin University Tama Leaver told the BBC the ban has \"failed\" in its technical aims.\n\nBut, he says, it has successfully shown a ban \"can be done\" though classifies it as \"a bit of an experiment\".\n\nOne lesson other countries can learn from its example is that \"young people need to be part of this conversation\" so that a ban is \"done with them\" and not \"to them\".\n\nLeaver said France's ban may have a higher chance of succeeding because of the requirement for every person to verify their age but that this will also increase risks to privacy.\n\nAdditional risks of the ban include pushing young people into less-regulated online spaces, reducing their news consumption and their political empowerment, he added.\n\nLegislation restricting young people's access to social media has been ramping up around Europe in the past few months.\n\nIn June, former British Prime Minister Sir Keir Starmer announced under-16s in the UK will be banned from social media from January 2027. An optional midnight curfew for UK teens aged 16 and 17 was also announced.\n\nIn May, Commission President Ursula von der Leyen proposed a \"...",
+            "zh": "法国议会批准了一项法律，从 2027 年 1 月起禁止 15 岁以下青少年使用社交媒体，使其成为第一个阻止年轻人使用这些平台的欧洲国家。 这项法律将意味着法国的每个人都必须验证自己的年龄才能访问社交媒体，与此同时，英国和欧盟正在制定自己的限制，以应对对儿童心理健康的担忧。 法国总统埃马纽埃尔·马克龙对这一举措表示欢迎，他曾承诺将推出这一举措，以纪念他执政十年的结束。 尽管怀疑者质疑该法律的可行性，但政府坚称用于年龄检查的在线工具是有效且安全的。 尽管遭到一些左翼人士的批评，法国参议院和国民议会均于周二通过了该禁令。 据路透社报道，一旦禁令实施，社交媒体平台将需要使用法国隐私监管机构批准的年龄验证工具。 但据法新社报道，人们对隐私、年龄验证工具的有效性、年轻人绕过这些工具的风险以及禁令的设计和实施速度提出了担忧。 该机构补充说，法国数字部长 Anne Le Hénanff 在投票前为该法律的实施速度进行了辩护，“因为年龄验证工具已经存在”。 尽管澳大利亚于 12 月禁止 16 岁以下青少年使用社交媒体，但人们普遍承认许多人仍在使用这些平台。 今年 3 月，澳大利亚电子安全委员会宣布，在禁令实施前拥有社交媒体帐户的 16 岁以下儿童中，有十分之七的人仍具有“部分访问权限”。 鉴于此，西澳大利亚科廷大学互联网研究教授 Tama Leaver 告诉 BBC，该禁令在其技术目标上“失败”了。 但是，他说，尽管将其归类为“一点实验”，但它已经成功地表明了禁令“可以做到”。 其他国家可以从这个例子中学到的一个教训是，“年轻人需要成为这场对话的一部分”，以便禁令是“与他们一起完成”，而不是“针对他们”。 利弗表示，法国的禁令成功的机会可能更高，因为每个人都需要验证自己的年龄，但这也会增加隐私风险。 他补充说，该禁令的其他风险包括将年轻人推向监管较少的网络空间，减少他们的新闻消费和政治权力。 过去几个月，欧洲各地不断加强限制年轻人使用社交媒体的立法。 6 月，英国前首相基尔·斯塔默爵士宣布，从 2027 年 1 月起，英国 16 岁以下青少年将被禁止使用社交媒体。还宣布对 16 岁和 17 岁的英国青少年实行可选的午夜宵禁。 五月，委员会主席乌苏拉·冯·德·莱恩 (Ursula von der Leyen) 提出“......"
+          },
+          "reflection": {
+            "en": "This story draws attention to justice, dignity, and accountability. Micah 6:8 reminds us to meet sharp headlines with justice tempered by mercy, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到公义、尊严与问责。Micah 6:8提醒我们，在快速变化的新闻里，仍要以带着怜悯的公义来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Micah 6:8",
+            "textEn": "What does Yahweh require of you? To act justly and to love mercy and to walk humbly with your God.",
+            "textZh": "雅伟向你所要的是什么呢？只要你行公义，好怜悯，存谦卑的心，与你的神同行。",
+            "themeEn": "Justice and mercy",
+            "themeZh": "公义与怜悯"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-world-2026-jul-22-japan-heat-kokushobi-cruelly-hot-4",
+          "section": "world",
+          "source": "The Guardian World",
+          "sourceUrl": "https://www.theguardian.com/world/rss",
+          "link": "https://www.theguardian.com/world/2026/jul/22/japan-heat-kokushobi-cruelly-hot-40c-weather",
+          "image": "https://i.guim.co.uk/img/media/e51a86cc375e69a00f0b0f08fb1d463572f095bb/413_0_4174_3340/master/4174.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b579ed16474c34a3536b4a0d9ba879f0",
+          "publishedAt": "2026-07-22T03:48:04.000Z",
+          "title": {
+            "en": "Japan records its first ‘cruelly hot day’ as cities swelter in 40-degree heat",
+            "zh": "日本迎来首个“酷热日”，城市酷热达 40 度"
+          },
+          "summary": {
+            "en": "In April Japan coined new term kokushobi for days above 40C as country advises workers to wear shorts to the office to cope with stifling heat Japan logged its first official kokushobi or “cruelly hot day” on Tuesday since the new term for when temperatures top 40 degrees...",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "In April Japan coined new term kokushobi for days above 40C as country advises workers to wear shorts to the office to cope with stifling heat Japan logged its first official kokushobi or “cruelly hot day” on Tuesday since the new term for when temperatures top 40 degrees Celsius was introduced in April. The Japan Meteorological Agency coined the new designation to warn the public of the heat dangers of days that were once freak weather events but have now become more common. The central Japan cities of Gujo and Tajimi in Gifu prefecture, along with Toyota in Aichi prefecture, all hit 40C. Gujo’s 40C and Toyota’s 40.1C were all-time highs recorded at their respective weather stations. Continue reading...",
+            "zh": "4月，日本创造了新术语“kokushobi”来形容高于40摄氏度的天气，建议员工穿短裤去办公室以应对闷热的天气。周二，日本迎来了自4月份引入新术语“酷热日”以来第一个正式的“酷热日”（kokushobi），即“酷热日”。日本气象厅创造了这个新名称，以警告公众注意曾经是反常天气事件但现在变得更加常见的天气的高温危险。日本中部城市岐阜县郡上市和多治见市以及爱知县丰田市的气温均达到 40 摄氏度。郡上市的 40 摄氏度和丰田市的 40.1 摄氏度是各自气象站记录的历史最高温度。继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-bbc-co-uk-news-articles-c62qw1qk95eo-at-medium-rss-at-campaign-rss",
+          "section": "world",
+          "source": "BBC News World",
+          "sourceUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "link": "https://www.bbc.co.uk/news/articles/c62qw1qk95eo?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4b2a/live/c37aad90-8579-11f1-8811-6b329a8b70ce.jpg",
+          "publishedAt": "2026-07-22T03:32:56.000Z",
+          "title": {
+            "en": "Michelin-starred restaurateur faces jail for using ants as dessert garnish",
+            "zh": "米其林星级餐厅老板因使用蚂蚁作为甜点装饰而面临牢狱之灾"
+          },
+          "summary": {
+            "en": "Officials say the restaurant in South Korea used some 49,000 ants in various dishes over four years.",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "South Korean prosecutors sought a one-year jail term for the owner of a Michelin-starred restaurant accused of using ants as a dessert garnish, local media reported.\n\nAnts are not among the 10 insect species approved for human consumption under the country's laws. The approved list includes grasshoppers, locusts and two-spotted crickets, among others.\n\nProsecutors on Monday also asked that the restaurant, which holds two Michelin stars, be fined 20 million Korean won ($13,510; £10,100).\n\nThe owner admitted to serving ants but argued that they were used in a \"small part\" of the restaurant's 15-course menu – as a topping for sorbets – and that diners were told they could opt for non-ant toppings.\n\nThe case came to light after officials from the Ministry of Food and Drug Safety found reviews that diners had posted online with photographs of dishes sprinkled with ants.\n\nInvestigators estimate that some 49,000 ants, imported from the US and Thailand, were used in several dishes over four years.\n\nHealth authorities also found that the restaurant used ants that \"contained up to 55 times more heavy metals than typical edible insects\", according to a report on The Chosun Daily.\n\nSouth Korean authorities consider several criteria in deciding whether insects can be approved as food. These include food safety risks, toxicity, nutritional value, and whether they can be bred and processed hygienically.\n\nIn its defence the restaurant owner argued that just 60% of diners had opted to try the ants, while the rest were served alternatives like fermented vinegar and edible flowers.\n\nHe added that restaurants in other countries, such as Australia, Denmark and the UK, also use ants as ingredients.\n\nCourt documents did not name the restaurant nor its owner. Ten restaurants in South Korea, all located in capital city Seoul, have been awarded two Michelin stars.\n\nThe Michelin Guide awards up to three stars to eateries based on ingredient quality, flavour mastery, cooking technique, chef's personality and consistency.\n\nTwo stars denote restaurants that do \"excellent cooking\" and are \"worth a detour\", according to Michelin's criteria.\n\nAnts are eaten, sometimes even valued as a delicacy, in several Asian, African and Latin American cultures. Weaver ants and their eggs are used in Thai and Cambodian cooking, while in Colombia, queen ants are as prized as caviar .",
+            "zh": "据当地媒体报道，韩国检察官寻求对一家米其林星级餐厅的老板判处一年监禁，该餐厅被指控使用蚂蚁作为甜点装饰。 根据该国法律，蚂蚁不属于批准供人类食用的 10 种昆虫之一。批准的名单包括蚱蜢、蝗虫和二斑蟋蟀等。 检察官周一还要求对这家拥有两颗米其林星的餐厅处以 2000 万韩元（13,510 美元；10,100 英镑）的罚款。 店主承认提供了蚂蚁，但辩称它们只用于餐厅 15 道菜菜单的“一小部分”——作为冰糕的配料——并且食客被告知他们可以选择非蚂蚁配料。 食品药品安全部官员发现，食客在网上发布的评论中附有撒满蚂蚁的菜肴照片，此案曝光。 调查人员估计，四年来，从美国和泰国进口的约 49,000 只蚂蚁被用于制作多种菜肴。 据《朝鲜日报》报道，卫生当局还发现，该餐厅使用的蚂蚁“重金属含量比典型食用昆虫高出 55 倍”。 韩国当局在决定昆虫是否可以被批准作为食品时考虑了几个标准。其中包括食品安全风险、毒性、营养价值以及是否可以卫生地饲养和加工。 餐馆老板在辩护中辩称，只有 60% 的食客选择尝试蚂蚁，而其余的食客则选择了发酵醋和食用花等替代品。 他补充说，澳大利亚、丹麦和英国等其他国家的餐馆也使用蚂蚁作为食材。 法庭文件没有提及该餐厅及其所有者的名字。韩国有 10 家餐厅均位于首都首尔，荣获米其林两星。 《米其林指南》根据食材质量、风味掌握、烹饪技术、厨师个性和一致性，向餐馆授予最多三颗星。 根据米其林的标准，两颗星表示餐厅“烹饪出色”并且“值得绕道而行”。 在亚洲、非洲和拉丁美洲的一些文化中，蚂蚁被食用，有时甚至被视为美味佳肴。织蚁和它们的卵用于泰国和柬埔寨的烹饪，而在哥伦比亚，蚁后和鱼子酱一样珍贵。"
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-us-news-2026-jul-22-arizona-republican-primary-andy-",
+          "section": "world",
+          "source": "The Guardian World",
+          "sourceUrl": "https://www.theguardian.com/world/rss",
+          "link": "https://www.theguardian.com/us-news/2026/jul/22/arizona-republican-primary-andy-biggs-katie-hobbs",
+          "image": "https://i.guim.co.uk/img/media/517b19e25e3ed96eea359a624e517f652609ad82/500_0_4444_3557/master/4444.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=87fc21fb39efa7d7d424b3771a5af6c7",
+          "publishedAt": "2026-07-22T03:17:10.000Z",
+          "title": {
+            "en": "Trump ally wins Republican primary for Arizona governor, setting up race against Katie Hobbs",
+            "zh": "特朗普盟友赢得亚利桑那州州长共和党初选，与凯蒂·霍布斯展开竞争"
+          },
+          "summary": {
+            "en": "The victory for Andy Biggs, who was a central figure in the effort to overturn Trump’s 2020 election defeat, sets up a high-stakes contest in the battleground state Arizona voters on Tuesday chose their nominees for governor, Congress and other top offices, setting up a fall...",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及领导、智慧与公共责任。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "The victory for Andy Biggs, who was a central figure in the effort to overturn Trump’s 2020 election defeat, sets up a high-stakes contest in the battleground state Arizona voters on Tuesday chose their nominees for governor, Congress and other top offices, setting up a fall campaign that will test whether Republicans can reverse some of the Trump-era losses they suffered in a premier battleground state. Andy Biggs, the hard-right congressman endorsed by Donald Trump, easily won the Republican nomination to challenge the incumbent Democrat, governor Katie Hobbs. Continue reading...",
+            "zh": "安迪·比格斯是扭转特朗普2020年大选失利努力的核心人物，他的胜利在战场州亚利桑那州掀起了一场高风险的竞争。周二，亚利桑那州选民选出了州长、国会和其他高层职位的提名人，开启了一场秋季竞选活动，考验共和党是否能扭转特朗普时代在这个重要战场州所遭受的一些损失。得到唐纳德·特朗普支持的极右翼国会议员安迪·比格斯轻松赢得共和党提名，挑战现任民主党州长凯蒂·霍布斯。继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to leadership, wisdom, and public responsibility. Proverbs 11:14 reminds us to meet sharp headlines with wisdom, integrity, and service, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到领导、智慧与公共责任。Proverbs 11:14提醒我们，在快速变化的新闻里，仍要以智慧、正直与服事来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Proverbs 11:14",
+            "textEn": "For lack of guidance a nation falls, but victory is won through many advisers.",
+            "textZh": "无智谋，民就败落；谋士多，人便安居。",
+            "themeEn": "Wise counsel",
+            "themeZh": "智谋的价值"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-world-live-2026-jul-21-us-iran-war-live-updates-stra",
+          "section": "world",
+          "source": "The Guardian World",
+          "sourceUrl": "https://www.theguardian.com/world/rss",
+          "link": "https://www.theguardian.com/world/live/2026/jul/21/us-iran-war-live-updates-strait-of-hormuz-attacks-houthis-blockade-red-sea-middle-east-crisis-latest-news",
+          "image": "https://i.guim.co.uk/img/media/d30522748c95ecffc982c57c53f91ff63a987ddb/182_0_4583_3667/master/4583.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=05581720d62cc7eab65bb96f9fda8898",
+          "publishedAt": "2026-07-22T03:09:47.000Z",
+          "title": {
+            "en": "Hegseth estimates rising cost of Iran war now at $37.5bn – as it happened",
+            "zh": "特朗普誓言若胡塞武装封锁沙特船只将“处理”该组织——中东危机直播"
+          },
+          "summary": {
+            "en": "The Iran-backed Houthi group has announced plans for an immediate maritime blockade of Saudi Arabia in the Red Sea. In response, former President Trump has pledged to “take care of” the Houthis if they proceed with blocking Saudi ships.",
+            "zh": "受伊朗支持的胡塞武装宣布计划立即在红海对沙特阿拉伯实施海上封锁。作为回应，前总统特朗普誓言，如果胡塞武装阻挠沙特船只，他将“处理”胡塞武装。"
+          },
+          "body": {
+            "en": "This blog is now closed. Read our latest full report here . Lebanon’s president, Joseph Aoun, is due to meet Donald Trump for the first time today as he wraps up a four-day visit to Washington. The meeting coincides with ongoing US-mediated talks between Lebanon and Israel. The two sides announced a “framework agreement” on 26 June which stipulates the withdrawal of Israeli forces from southern Lebanon as well as the disarmament of Hezbollah. Continue reading...",
+            "zh": "这个总部位于伊朗的组织表示，计划立即对沙特阿拉伯在红海实施海上封锁。黎巴嫩总统约瑟夫·奥恩将于今天在结束对华盛顿为期四天的访问时首次会见唐纳德·特朗普。此次会议恰逢美国在黎巴嫩和以色列的斡旋下正在进行的会谈。 6月26日，双方宣布达成“框架协议”，规定以色列军队从黎巴嫩南部撤军以及解除真主党武装。继续阅读..."
+          },
+          "reflection": {
+            "en": "In situations where threats and counter-threats escalate, it can feel like there are no alternatives to a cycle of retaliation. Yahweh's wisdom calls us to consider how we might respond to perceived wrongs not by mirroring evil, but by seeking ways to overcome it with good. This approach, though challenging, offers a path toward breaking cycles of conflict...",
+            "zh": "在威胁与反威胁不断升级的局势中，似乎除了以牙还牙的循环之外别无选择。雅伟的智慧呼召我们思考，如何回应被视为的错误，不是以恶报恶，而是寻求以善胜恶的方式。这种方法虽然充满挑战，但提供了一条打破冲突循环而非使其持续下去的道路。"
+          },
+          "verse": {
+            "reference": "Romans 12:21",
+            "textEn": "Do not be overcome by evil, but overcome evil with good.",
+            "textZh": "你不可为恶所胜，反要以善胜恶。",
+            "themeEn": "Overcoming evil with good",
+            "themeZh": "以善胜恶"
+          },
+          "aiVerseId": "rom_12_21",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-bbc-co-uk-news-articles-cdrv0p37k8jo-at-medium-rss-at-campaign-rss",
+          "section": "world",
+          "source": "BBC News World",
+          "sourceUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "link": "https://www.bbc.co.uk/news/articles/cdrv0p37k8jo?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9a13/live/5d582620-8572-11f1-bee8-53ce494e1abc.jpg",
+          "publishedAt": "2026-07-22T03:05:08.000Z",
+          "title": {
+            "en": "US renews strikes on Iran as Trump threatens to attack underground nuclear site",
+            "zh": "特朗普威胁攻击地下核设施，美国再次对伊朗发动打击"
+          },
+          "summary": {
+            "en": "The US president's threat to target a key Iranian nuclear site came ahead of the 11th consecutive night of attacks.",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "The US launched strikes on Iran for the 11th consecutive night late on Tuesday, as Tehran warned the US against targeting its nuclear facilities.\n\nUS Central Command (Centcom) said the wave of strikes were \"designed to continue degrading Iran's ability to threaten commercial shipping\" in the Strait of Hormuz.\n\nIranian state media reported that air defences were activated in the capital Tehran. Explosions were also reported in Tabriz, Chabahar, Konarak, and in Bushehr, home to Iran's only nuclear power plant.\n\nIran, which has retaliated against the US and its Middle East allies, warned of reprisals after Donald Trump said the US would soon hit an underground nuclear site near Natanz.\n\nIran and the US agreed a ceasefire in April, but hostilities resumed last week as both countries battled over control of the vital Strait of Hormuz waterway.\n\nCentcom said US forces had targeted Iranian military operations centres, maritime capabilities, aircraft hangars, drone storage facilities, and military logistics infrastructure.\n\nIt also accused Iran of attacking \"more than 30 commercial vessels\" passing through the Strait of Hormuz over the past three months.\n\n\"The unwarranted attacks have endangered hundreds of innocent mariners and undermined freedom of navigation,\" it said, adding the waterway remained \"open for commercial vessel transit\".\n\nKuwait's army said early on Wednesday morning that its air defences were engaging with drone attacks from Iran, while Bahrain and Jordan said they had also intercepted drone and missile strikes.\n\nEarlier the US president said the next military target could be a complex known as Pickaxe Mountain , an underground nuclear site where Iran is suspected of building an undeclared enrichment facility.\n\n\"We'll be hitting that area pretty soon, and very heavily,\" Trump said, addressing reporters during a White House meeting with Lebanese President Joseph Aoun.\n\nHe added that he would not normally announce targets but \"there's not a thing they can do about it\".\n\nIran's Khatam Al-Anbiya military command said it would consider such an attack \"as an expansion of war in the region\", threatening strikes on \"all the interests of America, the allies and supporters\", state-run broadcaster IRIB reported.\n\nTrump also threatened to \"take care of\" the Houthi rebels if the Iran-backed militant group in Yemen followed through on its threatened blockade of Saudi ports.\n\nA Houthi media official had earlier said they were closing the Bab al-Mandab Strait - the Red Sea's southern gateway - to Saudi vessels.\n\nThe Red Sea has become crucial for oil shipments from Saudi Arabia during the US-Israeli war with Iran, which has led to the effective closure of the Strait of Hormuz.\n\nFollowing the Houthi announcement, two tankers which had just loaded Saudi...",
+            "zh": "周二晚间，美国连续第 11 次对伊朗发动袭击，德黑兰警告美国不要针对其核设施。 美国中央司令部（Centcom）表示，这波袭击旨在“继续削弱伊朗威胁霍尔木兹海峡商业航运的能力”。 伊朗官方媒体报道称，首都德黑兰启动了防空系统。据报道，大不里士、恰巴哈尔、科纳拉克和伊朗唯一核电站所在地布什尔也发生了爆炸。 在唐纳德·特朗普表示美国将很快袭击纳坦兹附近的地下核设施后，对美国及其中东盟友进行报复的伊朗警告称，将采取报复行动。 伊朗和美国于四月份同意停火，但上周两国为争夺重要的霍尔木兹海峡水道的控制权而展开敌对行动。 中央司令部表示，美军的目标是伊朗军事行动中心、海上能力、飞机库、无人机储存设施和军事后勤基础设施。 它还指责伊朗在过去三个月里袭击了通过霍尔木兹海峡的“30多艘商船”。 声明称：“无端袭击危及了数百名无辜海员，并破坏了航行自由。”并补充说，该水道仍然“对商船通行开放”。 科威特军队周三凌晨表示，其防空系统正在应对来自伊朗的无人机袭击，而巴林和约旦表示，他们也拦截了无人机和导弹袭击。 美国总统早些时候表示，下一个军事目标可能是一个名为镐山的综合体，这是一个地下核设施，伊朗怀疑在那里建造了一个未申报的浓缩设施。 特朗普在白宫与黎巴嫩总统约瑟夫·奥恩会面时对记者说：“我们很快就会对这个地区进行非常严厉的打击。” 他补充说，他通常不会宣布目标，但“他们对此无能为力”。 据国营广播公司 IRIB 报道，伊朗哈塔姆·安比亚军事指挥部表示，将把此类袭击视为“该地区战争的扩大”，并威胁对“美国、盟友和支持者的所有利益”进行打击。 特朗普还威胁说，如果伊朗支持的也门激进组织胡塞武装兑现其对沙特港口的封锁威胁，他将“照顾”胡塞叛军。 胡塞武装媒体官员早些时候表示，他们正在对沙特船只关闭红海南部门户曼德海峡。 在美以与伊朗的战争期间，红海对于沙特阿拉伯的石油运输至关重要，导致霍尔木兹海峡实际上被关闭。 胡塞武装宣布消息后，两艘刚刚装载沙特的油轮..."
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-bbc-co-uk-news-articles-c4g4lyze30vo-at-medium-rss-at-campaign-rss",
+          "section": "world",
+          "source": "BBC News World",
+          "sourceUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "link": "https://www.bbc.co.uk/news/articles/c4g4lyze30vo?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5640/live/ecb86200-8584-11f1-bee8-53ce494e1abc.jpg",
+          "publishedAt": "2026-07-22T02:33:11.000Z",
+          "title": {
+            "en": "Gruesome images in D4vd hearing are 'worst nightmare' for teen girl's family",
+            "zh": "D4vd 听证会上的可怕图像对少女的家人来说是“最糟糕的噩梦”"
+          },
+          "summary": {
+            "en": "The court hears the singer ordered a body bag, chainsaws and an inflatable pool to dispose of the teen's body.",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及公义、尊严与问责。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Gruesome images of a teenage girl's dismembered corpse have been shown in court before her horrified parents on the opening day of a preliminary hearing in the murder case against the singer who performs under the stage name D4vd.\n\nProsecutors presented graphic crime scene photos showing 14-year-old Celeste Rivas Hernandez's body when it was found last year inside a Tesla registered to singer David Anthony Burke in Hollywood, Los Angeles.\n\nA homicide detective testified that Burke, 21, had ordered a body bag, chainsaws, an inflatable pool and a shovel online in the days after Celeste's death.\n\nBurke has pleaded not guilty to charges of murdering and sexually abusing the girl.\n\nThe grisly details had previously only been described in court filings. Tuesday's hearing marked the first time that the evidence and photographs were shown publicly in court.\n\nAlthough this is not the trial itself, prosecutors are laying out the evidence they say links Burke to Celeste's death as they seek to convince the judge there is sufficient evidence for the case to proceed to trial.\n\nProsecutors say Burke stabbed Celeste before dismembering her body with a chainsaw to conceal the killing after years of alleged sexual abuse.\n\nThey allege he killed her because she had threatened to reveal his relationship with a minor and destroy his multi-million dollar music career.\n\nFor Celeste's parents, it was an ordeal they had prepared themselves for but could never fully anticipate, according to their lawyer.\n\n\"This is the first time they've heard this evidence in detail, and they're horrified,\" the family's attorney, Patrick Steinfeld, told the BBC after the court hearing.\n\n\"There was an image of Celeste's torso and her head in the trunk of the car, and the prosecutor had to ask what it was because you could not tell it was a head. It was absolutely deplorable.\n\nSteinfeld said Celeste's mother, Mercedes, had been warned in advance that graphic images would be shown.\n\n\"I told her she didn't have to be in the courtroom for this part of the hearing,\" he said.\n\n\"But she said, 'I want to be here to show support for Celeste.' She just put her head down and started crying.\"\n\nHe said he had advised both parents that once they saw the images, they would never be able to \"unsee\" them.\n\n\"I encouraged them to step out for a short period of time, and they decided no - they wanted to be here to show they're supporting their daughter.\"\n\n\"They're an extremely private family,\" he added. \"It's a parent's worst nightmare.\"\n\nThe small downtown Los Angeles courtroom was packed long before Tuesday's hearing began.\n\nJournalists, YouTubers, TikTok creators and members of the public had entered a lottery for one of the limited number of seats to watch the proceedings.\n\nHis handcuffs were removed, but he...",
+            "zh": "在针对艺名 D4vd 的歌手谋杀案初步听证会的开幕当天，法庭上向她惊恐的父母展示了一名少女被肢解的可怕照片。 检察官出示了犯罪现场照片，显示 14 岁的塞莱斯特·里瓦斯·埃尔南德斯 (Celeste Rivas Hernandez) 的尸体，去年在洛杉矶好莱坞一辆注册为歌手大卫·安东尼·伯克 (David Anthony Burke) 的特斯拉车内被发现。 一名凶杀案侦探作证称，21 岁的伯克在塞莱斯特死后几天在网上订购了裹尸袋、电锯、充气泳池和铲子。 伯克对谋杀和性虐待女孩的指控表示不认罪。 这些可怕的细节此前只在法庭文件中描述过。周二的听证会标志着证据和照片首次在法庭上公开展示。 虽然这不是审判本身，但检察官正在列出他们所说的将伯克与塞莱斯特的死亡联系起来的证据，因为他们试图说服法官有足够的证据让案件进入审判阶段。 检察官称，伯克刺伤了塞莱斯特，然后用电锯肢解了她的尸体，以掩盖多年来涉嫌性虐待的杀戮。 他们声称他杀了她，因为她威胁要揭露他与一名未成年人的关系，并毁掉他价值数百万美元的音乐事业。 据塞莱斯特的律师称，对于塞莱斯特的父母来说，这是一场他们早已做好准备但无法完全预料到的磨难。 “这是他们第一次详细听到这些证据，他们感到震惊，”该家庭的律师帕特里克斯坦菲尔德在法庭听证会后告诉英国广播公司。 “汽车后备箱里有一张塞莱斯特躯干和头部的图像，检察官不得不询问那是什么，因为你无法分辨出这是一个头部。这绝对是令人遗憾的。” 斯坦菲尔德说，塞莱斯特的母亲梅塞德斯已提前收到警告，将显示图形图像。 “我告诉她，这部分听证会她不必出庭，”他说。 “但她说，‘我想来这里表达对塞莱斯特的支持。’她只是低下头开始哭泣。” 他说，他已经告诉父母，一旦他们看到这些图像，他们就永远无法“看不见”它们。 “我鼓励他们出去短暂一段时间，但他们决定不——他们想来这里表明他们对女儿的支持。” “他们是一个非常私密的家庭，”他补充道。 “这是父母最可怕的噩梦。” 早在周二的听证会开始之前，洛杉矶市中心的小型法庭就挤满了人。 记者、YouTube 用户、TikTok 创作者和公众参与了抽签活动，获得了有限的观看整个过程的座位。 他的手铐被解开了，但他..."
+          },
+          "reflection": {
+            "en": "This story draws attention to justice, dignity, and accountability. Micah 6:8 reminds us to meet sharp headlines with justice tempered by mercy, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到公义、尊严与问责。Micah 6:8提醒我们，在快速变化的新闻里，仍要以带着怜悯的公义来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Micah 6:8",
+            "textEn": "What does Yahweh require of you? To act justly and to love mercy and to walk humbly with your God.",
+            "textZh": "雅伟向你所要的是什么呢？只要你行公义，好怜悯，存谦卑的心，与你的神同行。",
+            "themeEn": "Justice and mercy",
+            "themeZh": "公义与怜悯"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-bbc-co-uk-news-articles-c70gek2kqyno-at-medium-rss-at-campaign-rss",
+          "section": "world",
+          "source": "BBC News World",
+          "sourceUrl": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "link": "https://www.bbc.co.uk/news/articles/c70gek2kqyno?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/dd9c/live/8cde08d0-8552-11f1-b976-0b9c15b0ccfc.jpg",
+          "publishedAt": "2026-07-22T02:15:05.000Z",
+          "title": {
+            "en": "Iran war has cost US $37.5bn so far, Hegseth says, as Pentagon seeks billions more",
+            "zh": "赫格斯表示，伊朗战争迄今已造成 375 亿美元损失，五角大楼正在寻求数十亿美元的额外援助"
+          },
+          "summary": {
+            "en": "The hearing was disrupted by protests and a shouting match as Hegseth testified at a pivotal time in the war.",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "The war with Iran has cost the US some $37.5bn (£28bn) so far - an increase of nearly $8bn since the last estimate in May, Defence Secretary Pete Hegseth has said.\n\nHegseth told the Senate Appropriations Committee it was urgent that lawmakers approve another $87bn in congressional funding for the Pentagon, with $67bn of that destined for operations in the Middle East.\n\nThe hearing was disrupted several times by anti-war protesters and ended in a shouting match between the defence secretary and a senator.\n\nIt was Hegseth's first appearance on Capitol Hill since hostilities between the US and Iran restarted last week and comes after three American soldiers were confirmed killed in the region.\n\nThe White House asked Congress in April for $1.5tn for the Pentagon over the next fiscal year, which would raise American military spending to an all-time high in the modern era.\n\nThe US carried out an 11th consecutive day of strikes on Tuesday. Iran has been retaliating with strikes of its own against the US and its allies in the Middle East.\n\nThe defence secretary began Tuesday's testimony by saying, \"we live in a dangerous world\" and that it required bold and swift action.\n\nAfter being interrupted by protesters, Hegseth went on to say his funding request came at an urgent time.\n\n\"Without these funds, we face critical shortfalls that threaten our ability to also simply pay our service members, rapidly replenish equipment and munitions, and sustain vital operations without disruption,\" Hegseth said.\n\nEvery dollar appropriated, he added, would be used to build the \"lethality\" of US military forces and \"reinforce peace through strength\".\n\nSenate Appropriations Committee chairwoman Susan Collins, a Republican, questioned Hegseth over what the impact would be if the budget needs were not met.\n\nHegseth said current and future training for military members would need to be cut without the funds, as he repeatedly blamed former President Joe Biden's administration for what he said was an underfunded military.\n\nThe most senior Democrat on the committee, Patty Murray, pushed back on the funding request, saying it \"does not make a lot of sense\".\n\nAsked by Democratic Senator Dick Durbin if he had an estimate for how much the war in Iran has cost so far, Hegseth gave the $37.5bn figure.\n\nTwo Democratic sources and a third source familiar with the matter told the BBC's media partner CBS that they believe the actual cost of the Iran war is much higher.\n\nThey said the current estimate did not include costs like construction for damaged American bases.\n\nThere had been no official government estimate of the US financial cost of the war since 12 May, when a senior Pentagon official put the figure at $29bn.\n\nThe Pentagon previously told lawmakers the war had cost the US some...",
+            "zh": "美国国防部长皮特·赫格斯表示，迄今为止，与伊朗的战争已使美国损失约 375 亿美元（280 亿英镑），比 5 月份的上次估计增加了近 80 亿美元。 赫格斯告诉参议院拨款委员会，议员们迫切需要批准为五角大楼另外提供 870 亿美元的国会资金，其中 670 亿美元用于中东行动。 The hearing was disrupted several times by anti-war protesters and ended in a shouting match between the defence secretary and a senator. 这是自上周美国和伊朗之间的敌对行动重启以来赫格赛斯首次出现在国会山，此前三名美国士兵被证实在该地区丧生。 白宫于 4 月份要求国会在下一财年为五角大楼提供 1.5 兆美元，这将使美国的军费开支达到现代历史最高水平。 The US carried out an 11th consecutive day of strikes on Tuesday.伊朗一直在对美国及其中东盟友发动报复性打击。 国防部长在周二的证词开始时表示，“我们生活在一个危险的世界”，需要采取大胆而迅速的行动。 After being interrupted by protesters, Hegseth went on to say his funding request came at an urgent time. 赫格斯说：“如果没有这些资金，我们将面临严重的短缺，威胁到我们支付军人工资、快速补充设备和弹药以及在不中断的情况下维持重要行动的能力。” 他补充说，拨款的每一美元都将用于增强美国军队的“杀伤力”并“通过实力加强和平”。 参议院拨款委员会主席、共和党人苏珊·柯林斯向赫格斯询问，如果预算需求得不到满足，将会产生什么影响。 赫格斯表示，如果没有资金，当前和未来的军事人员培训就需要削减，他一再指责前总统乔·拜登政府造成了他所说的军队资金不足。 The most senior Democrat on the committee, Patty Murray, pushed back on the funding request, saying it \"does not make a lot of sense\". 当民主党参议员迪克·德宾 (Dick Durbin) 问他是否估计伊朗战争迄今为止造成的损失时，赫格斯给出了 375 亿美元的数字。 两名民主党消息人士和第三名熟悉此事的消息人士告诉英国广播公司的媒体合作伙伴哥伦比亚广播公司，他们认为伊朗战争的实际成本要高得多。 他们表示，目前的估计不包括受损美国基地的建设成本。 自 5 月 12 日五角大楼高级官员称这一数字为 290 亿美元以来，政府一直没有对这场战争的美国财政成本进行官方估计。 The Pentagon previously told lawmakers the war had cost the US some..."
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-strong-concerns-australia-meets-with-china-f",
+          "section": "world",
+          "source": "SBS News World",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/world/feed",
+          "link": "https://www.sbs.com.au/news/article/strong-concerns-australia-meets-with-china-following-ballistic-missile-test/txaw5k5uv",
+          "image": "https://assets.sbs.com.au/dims4/default/82cd764/2147483647/strip/false/crop/5325x2447+0+546/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F6e%2Fdb%2Ffb708e1c449cb77c827a9db5fe5a%2F20260722154689857800-original.jpg",
+          "publishedAt": "2026-07-22T02:08:12.000Z",
+          "title": {
+            "en": "'Strong concerns': Australia meets with China following ballistic missile test",
+            "zh": "“强烈关切”：弹道导弹试验后澳大利亚与中国会面"
+          },
+          "summary": {
+            "en": "Penny Wong reiterated the importance of transparency to her Chinese counterpart.",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Australia has raised its concerns with China over its nuclear-capable missile test in the South Pacific, noting many of the region's nations also shared the same view.\n\nForeign Minister Penny Wong met with her Chinese counterpart, Wang Yi, on the sidelines of ASEAN talks in the Philippines capital, Manila, on Tuesday evening.\n\n\"You speak about the importance of mutual understanding. I agree, and I expect we will discuss our concerns ... including around peace and stability in our region, safe and professional military conduct, and the importance of transparency and reassurance of intent,\" Wong said in opening remarks.\n\nWong noted the \"strong concerns\" expressed by many Pacific Island countries about the submarine-launched missile earlier in July.\n\nThe two foreign ministers also discussed the importance of peace and stability in the Indo-Pacific.\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\n\"You've often heard me say that we will cooperate where we can and disagree where we must, and we want to continue to engage because we believe that is in our national interest,\" Wong said.\n\nAustralia was only given a few hours' notice by China of the test, which was launched within hours of Prime Minister Anthony Albanese signing a new defence alliance with Fiji.\n\nAlbanese slammed the launch as a \"provocative act\" while other Pacific nations including New Zealand, Tuvalu and Fiji condemned the incident.\n\nSolomon Islands Prime Minister Matthew Wale was standing beside his Australian counterpart in his country's capital Honiara in early July when he said the test was \"not the act of a friend\".\n\nAlbanese has previously flagged a strong statement would be issued by the Pacific Islands Forum, but the group's disagreement on the wording of the text has resulted in a delay.\n\nA foreign ministers' meeting of the forum will be held in August, where the issue is likely to be discussed.\n\nFor the latest from SBS News, download our app and subscribe to our newsletter .",
+            "zh": "澳大利亚就中国在南太平洋进行的核导弹试验向中国表达了担忧，并指出该地区许多国家也持有同样的观点。 周二晚上，外交部长黄英贤在菲律宾首都马尼拉举行的东盟会谈期间会见了中国外交部长王毅。 黄在开场白中表示：“你谈到了相互理解的重要性。我同意，并且我希望我们能够讨论我们所关心的问题……包括我们地区的和平与稳定、安全和专业的军事行为，以及透明度和保证意图的重要性。” 黄指出，许多太平洋岛国7月初对潜射导弹表达了“强烈担忧”。 两国外长还讨论了印太地区和平与稳定的重要性。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 黄说：“你们经常听我说，我们将在能够合作的地方合作，在必须反对的地方反对，我们希望继续参与，因为我们相信这符合我们的国家利益。” 中国仅在几个小时内向澳大利亚发出了此次试验的通知，此次试验是在澳大利亚总理安东尼·阿尔巴内塞与斐济签署新的防务联盟后数小时内启动的。 阿尔巴内斯抨击这次发射是“挑衅行为”，而新西兰、图瓦卢和斐济等其他太平洋国家则谴责这一事件。 7月初，所罗门群岛总理马修·威尔在首都霍尼亚拉站在澳大利亚总理旁边，他表示这次测试“不是朋友的行为”。 阿尔巴内塞此前曾表示太平洋岛屿论坛将发表一份强硬声明，但该组织对文本措辞的分歧导致了这一声明的推迟。 论坛外长会议将于8月举行，届时可能会讨论这一问题。 如需了解 SBS 新闻的最新动态，请下载我们的应用程序并订阅我们的时事通讯。"
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-andy-burnham-new-uk-prime-minister-policies-",
+          "section": "world",
+          "source": "SBS News World",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/world/feed",
+          "link": "https://www.sbs.com.au/news/article/andy-burnham-new-uk-prime-minister-policies/cea0pgfza",
+          "image": "https://assets.sbs.com.au/dims4/default/b82b2de/2147483647/strip/false/crop/2000x919+0+207/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fef%2F1a%2F0f09e9bf4e61ba7aae70fd4ac144%2F20260721188117307146-original.jpg",
+          "publishedAt": "2026-07-21T23:38:37.000Z",
+          "title": {
+            "en": "'Business-friendly socialism': What are new UK Prime Minister Andy Burnham's policies?",
+            "zh": "“有利于商业的社会主义”：英国新首相安迪·伯纳姆的政策是什么？"
+          },
+          "summary": {
+            "en": "From energy cuts to rent controls to Brexit, here's what the United Kingdom's new prime minister wants to do.",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及领导、智慧与公共责任。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Andy Burnham, sworn in this week as the United Kingdom's seventh prime minister in a decade, has opened his tenure with a slew of new policies, branding his own political ideology as \"business-friendly socialism\".\n\nBurnham was sworn in as the UK's new prime minister on Monday, replacing Keir Starmer, who resigned following months of pressure from his own MPs after just over two years in the job.\n\nThe former Greater Manchester mayor, nicknamed the 'King of the North' for his defence of the region during his nine-year stint as mayor, used his first days in office to signal a new leftward shift for the Labour government.\n\nOn his first full day, Burnham told the inaugural meeting of his cabinet that he would lead a \"cost of living government\".\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\nBurnham has branded his political ideology \"business-friendly socialism\" &#x2014; with a distinct focus on cost of living measures.\n\nHe has unveiled some early policies designed \"to do some things that people will feel and feel quite quickly\", especially those on the lowest incomes &#x2014; adding that a longer-term plan would be set out later in the year.\n\nOn Tuesday, Burnham announced he will cut taxes on electricity bills &#x2014; one of the main drivers of the UK's cost of living crisis &#x2014; in his first move to ease pressures that have angered the public and helped stoke political instability.\n\nBurnham said his government would remove the value-added tax from domestic electricity bills from 1 October, cutting about &#xA3;45 ($86) from the average annual bill of about &#xA3;1,860 ($3,554) that households pay.\n\n\"We're taking immediate action to cut taxes on energy bills, put more money in people's pockets and bring back hope,\" Burnham said in a statement, having pledged to give people more \"breathing space\" in their lives.\n\nThe government said it would be funded by cancelling Starmer's plan for a digital ID scheme that would have cost the taxpayer &#xA3;1.8 billion ($3.44 billion) &#x2014; but former minister Darren Jones said the ID program had been \"unfunded\".\n\nThe energy announcement is designed to show that Burnham will move quickly to improve living standards after years of stagnation.\n\nHe said on Monday his early policies might not \"take all of the pressure off\" people struggling with rising prices, and that his 10-year plan will be unveiled later this year.\n\nDuring his first speech as prime minister on Monday, Burnham also said his first ambition was to end rough sleeping in the UK.\n\nHe is reportedly considering rent control measures, alongside plans to build more public housing to help bring down welfare spending.\n\nBurnham has pledged to re-industrialise the...",
+            "zh": "安迪·伯纳姆本周宣誓就任英国十年来第七位首相，他以一系列新政策开启了自己的任期，将自己的政治意识形态称为“商业友好型社会主义”。 伯纳姆于周一宣誓就任英国新首相，接替基尔·斯塔默（Keir Starmer）。后者在上任仅两年多后，就在自己国会议员数月的压力下辞职。 这位前大曼彻斯特市长因在担任市长九年期间捍卫该地区而被昵称为“北方之王”，他在上任的第一天就向工党政府发出了新的左倾信号。 在他上任的第一天，伯纳姆在内阁首次会议上表示，他将领导一个“生活成本政府”。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 伯纳姆将他的政治意识形态称为“商业友好型社会主义”——特别关注生活成本措施。 他公布了一些早期政策，旨在“做一些人们会很快感受到的事情”，特别是那些收入最低的人，并补充说，将在今年晚些时候制定一项长期计划。 伯纳姆周二宣布，他将削减电费税——电费是英国生活成本危机的主要驱动因素之一——这是他为缓解激怒公众并加剧政治不稳定压力而采取的第一步举措。 伯纳姆表示，他的政府将从 10 月 1 日起取消家庭电费中的增值税，从而将家庭每年支付的平均电费约 1,860 英镑（3,554 美元）削减约 45 英镑（86 美元）。 伯纳姆在一份声明中表示：“我们正在立即采取行动，削减能源费用税，让更多的钱进入人们的口袋，带回希望。”他承诺为人们的生活提供更多的“喘息空间”。 政府表示，将通过取消斯塔默的数字身份识别计划来为其提供资金，该计划将花费纳税人 18 亿英镑（34.4 亿美元），但前部长达伦·琼斯表示，该身份识别计划“没有资金支持”。 能源公告旨在表明伯纳姆在经历多年的停滞后将迅速采取行动提高生活水平。 他周一表示，他的早期政策可能无法“减轻”那些与物价上涨作斗争的人们的所有压力，他的十年计划将于今年晚些时候公布。 伯纳姆在周一作为首相的首次演讲中还表示，他的首要目标是结束英国的露宿生活。 据报道，他正在考虑采取租金管制措施，同时计划建造更多公共住房以帮助减少福利支出。 伯纳姆承诺重新工业化......"
+          },
+          "reflection": {
+            "en": "This story draws attention to leadership, wisdom, and public responsibility. Proverbs 11:14 reminds us to meet sharp headlines with wisdom, integrity, and service, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到领导、智慧与公共责任。Proverbs 11:14提醒我们，在快速变化的新闻里，仍要以智慧、正直与服事来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Proverbs 11:14",
+            "textEn": "For lack of guidance a nation falls, but victory is won through many advisers.",
+            "textZh": "无智谋，民就败落；谋士多，人便安居。",
+            "themeEn": "Wise counsel",
+            "themeZh": "智谋的价值"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-flights-return-after-a-40-year-hiatus-as-tru",
+          "section": "world",
+          "source": "SBS News World",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/world/feed",
+          "link": "https://www.sbs.com.au/news/article/flights-return-after-a-40-year-hiatus-as-trump-promises-to-help-lebanon-a-lot/yxcowv17t",
+          "image": "https://assets.sbs.com.au/dims4/default/35963d2/2147483647/strip/false/crop/8256x3793+0+855/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fe9%2F09%2F7bad19064ceeb094225f8afe9efe%2Fafp-20260721-c2rt6ll-v1-highres-uslebanonpoliticsdiplomacytrumpaoun.jpg",
+          "publishedAt": "2026-07-21T21:29:28.000Z",
+          "title": {
+            "en": "Flights to return after 40-year hiatus as Trump promises to help Lebanon 'a lot'",
+            "zh": "特朗普承诺“大力”帮助黎巴嫩 航班时隔 40 年回归"
+          },
+          "summary": {
+            "en": "Lebanese President Joseph Aoun says his goal is for \"a complete Israeli withdrawal from Lebanese territory\".",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及领导、智慧与公共责任。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "United States President Donald Trump vowed on Wednesday to help Lebanon \"a lot\" as its president, Joseph Aoun, sought the US' backing for a fragile effort to disarm Hezbollah and forge a path to peace with Israel.\n\nMeeting Aoun at the White House, Trump said Lebanon had been \"a very mistreated country\" that had been \"hit hard\" for decades.\n\n\"It's probably a dangerous place in a lot of ways,\" Trump told reporters. \"But they love the country ... and we're going to help it. We're going to help it a lot.\"\n\nAoun, the first Lebanese president invited to Washington since 2009, asked Trump for political support and continued backing for the Lebanese army, which has begun deploying in southern areas under a US-backed framework agreement with Israel.\n\n\"We need to support the LAF,\" Aoun said, referring to the Lebanese Armed Forces. \"Without the LAF, everything will collapse.\"\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\nAoun's nearly two-hour visit took place as Israeli troops continue to occupy a swath of the country's south and hundreds of thousands of Lebanese remain displaced following Israeli strikes. Hezbollah has rejected the government's direct talks with Israel as well as efforts by the state to disarm it.\n\nThe talks highlighted Aoun's delicate balancing act &#x2014; seeking Trump's help to secure an Israeli withdrawal from southern Lebanon while simultaneously facing pressure from the US and Israel to disarm Hezbollah, which remains a formidable fighting force despite recent setbacks.\n\nThe Lebanese president, a former army commander, said the military was \"the backbone of security and stability\" and the country's most trusted institution.\n\nIn a statement after the talks, the Lebanese presidency said Aoun stressed to Trump the \"urgent need for a complete Israeli withdrawal from Lebanese territory,\" calling it \"an essential step to consolidate stability and enable the Lebanese state to extend its full sovereignty exclusively through its own forces.\"\n\nFollowing his meeting with Aoun, Trump said he would direct his administration to allow all US airline carriers to fly directly to Lebanon&#x2014; a historic policy shift more than 40 years in the making.\n\nUS flights were suspended in 1985 after the hijacking of TWA Flight 847 from Athens, Greece, en route to Rome, Italy, that was forced to land in Beirut. During the 17-day ordeal, a US Navy diver was brutally killed.\n\nThe Federal Aviation Administration and Transportation Department did not immediately comment.\n\nTrump's visit came as the Lebanese army moved into an area of the south under a deal with Israel aimed at proving Lebanon can extend state authority and disarm Iran-backed Hezbollah.\n\nBut in a sign of the...",
+            "zh": "美国总统唐纳德·特朗普周三发誓要“大力”帮助黎巴嫩，因为黎巴嫩总统约瑟夫·奥恩正在寻求美国的支持，以解除真主党武装并与以色列建立和平之路。 特朗普在白宫会见奥恩时表示，黎巴嫩是“一个受到严重虐待的国家”，几十年来一直受到“沉重打击”。 特朗普对记者说：“从很多方面来说，这可能是一个危险的地方。” “但他们热爱这个国家……我们会帮助它。我们会提供很多帮助。” 奥恩是自 2009 年以来第一位受邀访问华盛顿的黎巴嫩总统，他请求特朗普提供政治支持并继续支持黎巴嫩军队。根据美国支持的与以色列的框架协议，黎巴嫩军队已开始在南部地区部署。 “我们需要支持黎巴嫩武装部队，”奥恩说，他指的是黎巴嫩武装部队。 “如果没有 LAF，一切都会崩溃。” 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 奥恩进行近两个小时的访问之际，以色列军队继续占领该国南部大片地区，数十万黎巴嫩人在以色列袭击后仍然流离失所。真主党拒绝了政府与以色列的直接谈判以及该国解除武装的努力。 会谈凸显了奥恩微妙的平衡行为——寻求特朗普的帮助以确保以色列从黎巴嫩南部撤军，同时面临美国和以色列要求解除真主党武装的压力，尽管真主党最近遭遇挫折，但它仍然是一支强大的战斗力量。 这位曾担任陆军指挥官的黎巴嫩总统表示，军队是“安全与稳定的支柱”，也是该国最值得信赖的机构。 黎巴嫩总统府在会谈后的一份声明中表示，奥恩向特朗普强调“迫切需要以色列从黎巴嫩领土上完全撤军”，称这是“巩固稳定并使黎巴嫩国家能够完全通过自己的军队完全行使主权的重要一步”。 与奥恩会面后，特朗普表示，他将指示政府允许所有美国航空公司直飞黎巴嫩——这是 40 多年来酝酿的历史性政策转变。 1985 年，环球航空 847 号航班从希腊雅典飞往意大利罗马途中被劫持，被迫降落在贝鲁特，随后美国航班暂停。在长达17天的磨难中，一名美国海军潜水员惨遭杀害。 美国联邦航空管理局和运输部没有立即发表评论。 特朗普访问之际，黎巴嫩军队根据与以色列达成的一项协议进入南部地区，旨在证明黎巴嫩可以扩大国家权力并解除伊朗支持的真主党的武装。 但有一个迹象表明..."
+          },
+          "reflection": {
+            "en": "This story draws attention to leadership, wisdom, and public responsibility. Proverbs 11:14 reminds us to meet sharp headlines with wisdom, integrity, and service, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到领导、智慧与公共责任。Proverbs 11:14提醒我们，在快速变化的新闻里，仍要以智慧、正直与服事来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Proverbs 11:14",
+            "textEn": "For lack of guidance a nation falls, but victory is won through many advisers.",
+            "textZh": "无智谋，民就败落；谋士多，人便安居。",
+            "themeEn": "Wise counsel",
+            "themeZh": "智谋的价值"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-a-new-front-has-just-emerged-in-global-oil-s",
+          "section": "world",
+          "source": "SBS News World",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/world/feed",
+          "link": "https://www.sbs.com.au/news/article/a-new-front-has-just-emerged-in-global-oil-supply-concerns-heres-what-could-happen-next/oehsnkgj8",
+          "image": "https://assets.sbs.com.au/dims4/default/ff6d8da/2147483647/strip/false/crop/1920x882+0+99/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F8b%2Ffc%2Fd2cd65534c8598fee7a7b6ddf5d5%2Fhouthi-oil-header-210726-v2.png",
+          "publishedAt": "2026-07-21T19:45:27.000Z",
+          "title": {
+            "en": "'It's really going to hurt': The oil route helping keep prices down is now under threat",
+            "zh": "“这真的会造成伤害”：有助于压低油价的石油路线现在正受到威胁"
+          },
+          "summary": {
+            "en": "If Yemen's Houthi rebels successfully blockade Saudi Arabian ships, global oil supplies could come under more pressure.",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "There are concerns global energy supplies could be crippled and oil prices spike even further after Yemen's Houthi rebels opened up a new front in the US-Israeli war on Iran by vowing to impose a maritime blockade on Saudi Arabia.\n\nAnd it could put added pressure on the Albanese government to extend the fuel excise discount &#x2014; which is due to end on 2 August.\n\nEnergy supplies have already been stifled by volatility in the Strait of Hormuz &#x2014; now at the centre of a continuing war that was originally intended by the US and Israel in February to target any Iranian nuclear weapon capability.\n\nThough it's not clear how the Houthis would carry out their campaign against Saudi Arabia, it threatens to disrupt shipping in the Red Sea , through which the Saudis have been exporting millions of barrels of oil.\n\nLurion de Mello, a senior lecturer in applied finance at Macquarie University, said oil prices, especially diesel, could take a hit.\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\n\"Saudi Arabia has been pumping quite a fair bit of oil, and exporting it through its ports in the Red Sea, and this oil has been making its way all the way to China and also into refineries into Asia,\" he told SBS News.\n\n\"So this threat, I think it's really going to hurt the supply coming out of Saudi Arabia, and I think definitely will have an uptick on the oil price.\"\n\nThe Yemeni militant group has been fighting guerrilla wars against the Saudi-backed Yemeni government for years. It is aligned with Iran, which considers the Houthis as part of its regional \"Axis of Resistance\", though the Houthis deny being an Iranian proxy and say they develop their own weapons.\n\nIt is not clear how far the group's new blockade campaign stems from its own strategic priorities or is being made on Iran's behalf.\n\nA long-running conflict between the Houthis and the Saudis flared up again last week, when Yemen's internationally recognised government said it had struck Sanaa airport to stop an Iranian plane landing.\n\nThe Houthis said Saudi Arabia was responsible and in response fired missiles at Abha airport in the kingdom's mountainous southwest.\n\nYemen sits on the Bab al-Mandab Strait &#x2014; the southern gateway to the Red Sea &#x2014; and closing that would open up a new front in the energy crisis and Iran's overarching conflict with the US.\n\nThe strait has emerged as a much-needed alternative to the Strait of Hormuz for global oil flows, with more than seven million barrels per day transiting the strait in June, up from roughly four million barrels before the Iran war.\n\nFollowing Iran's partial blockade of the Strait of Hormuz, Saudi Arabia responded by diverting more than 70 per cent of...",
+            "zh": "也门胡塞叛军誓言对沙特阿拉伯实施海上封锁，在美以对伊朗战争中开辟了新战线，人们担心全球能源供应可能受到削弱，油价进一步飙升。 这可能会给阿尔巴尼亚政府带来更大的压力，要求其延长燃油消费税折扣——该折扣将于 8 月 2 日结束。 能源供应已经因霍尔木兹海峡的动荡而受到抑制——现在正处于一场持续战争的中心，这场战争最初是美国和以色列在二月份打算针对伊朗的任何核武器能力。 尽管尚不清楚胡塞武装将如何针对沙特阿拉伯开展行动，但它可能会扰乱红海的航运，而沙特一直通过红海出口数百万桶石油。 麦考瑞大学应用金融高级讲师卢里昂·德梅洛表示，石油价格，尤其是柴油价格可能会受到打击。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 他告诉SBS新闻：“沙特阿拉伯一直在开采相当多的石油，并通过红海港口出口，这些石油一直运往中国，也进入亚洲的炼油厂。” “因此，我认为这种威胁确实会损害沙特阿拉伯的供应，而且我认为肯定会导致油价上涨。” 也门武装组织多年来一直与沙特支持的也门政府进行游击战。它与伊朗结盟，伊朗将胡塞武装视为其地区“抵抗轴心”的一部分，尽管胡塞武装否认自己是伊朗的代理人，并称他们开发自己的武器。 目前尚不清楚该组织的新封锁行动在多大程度上是出于其自身的战略优先事项，还是代表伊朗进行的。 胡塞武装和沙特之间的长期冲突上周再次爆发，当时国际公认的也门政府表示，它袭击了萨那机场以阻止一架伊朗飞机降落。 胡塞武装称沙特阿拉伯应对此负责，并向该国西南部山区的艾卜哈机场发射了导弹作为回应。 也门位于曼德海峡——通往红海的南部门户——关闭该海峡将为能源危机和伊朗与美国的总体冲突开辟一条新战线。 该海峡已成为全球石油流动急需的霍尔木兹海峡替代品，6月份每天通过该海峡的石油量超过700万桶，高于伊朗战争前的约400万桶。 伊朗部分封锁霍尔木兹海峡后，沙特阿拉伯做出回应，转移了超过 70% 的海峡……"
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-dw-com-en-jordan-faces-growing-risk-of-becoming-latest-frontline-sta",
+          "section": "world",
+          "source": "DW World",
+          "sourceUrl": "https://rss.dw.com/rdf/rss-en-world",
+          "link": "https://www.dw.com/en/jordan-faces-growing-risk-of-becoming-latest-frontline-state-in-us-iran-conflict/a-78055209?maca=en-rss-en-world-4025-rdf",
+          "image": "https://static.dw.com/image/78049718_6.jpg",
+          "publishedAt": "2026-07-21T18:39:00.000Z",
+          "title": {
+            "en": "Jordan faces growing risk of becoming latest frontline state in US-Iran conflict",
+            "zh": "约旦面临成为美伊冲突最新前线国家的日益增长的风险"
+          },
+          "summary": {
+            "en": "Jordan is increasingly becoming a direct participant in the escalating Middle East conflict, facing intensified attacks from Iranian forces. The Hashemite Kingdom is now seen as a new frontline in the regional tensions.",
+            "zh": "随着伊朗袭击的加剧，约旦正日益成为不断扩大的中东冲突中的最新前线国家。这个哈希姆王国现在被视为地区紧张局势中的一个新战场。"
+          },
+          "body": {
+            "en": "As Iranian attacks intensify, Jordan is emerging as the latest frontline state in the widening Middle East conflict. Why is the Hashemite Kingdom a target for Tehran?\n\nAir raid sirens again sounded in parts of Jordan &#160;early Tuesday as Iranian missiles targeted the kingdom.\n\n\"The air defense system intercepted and downed tonight three missiles coming from Iranian territory that entered Jordanian airspace and targeted the kingdom's territory,\" the army said in a statement.\n\nNo injuries were reported, but the latest strikes follow a series of attacks that have raised the stakes for one of the&#160; United States' closest Arab allies in the past days: Two US&#160;service members were killed and around 30 others injured by an Iranian missile strike on a US base in Jordan last week.\n\nJordan is one of the eight Arab countries that host permanent US&#160;military facilities. Some of the other host countries — particularly the Gulf states — have been the&#160; targets of Iranian attacks since the United States and Israel &#160; launched joint attacks on Iran in late February.\n\nThough&#160; Iran &#160;launched missiles toward Jordan shortly thereafter, there has since been a lull in direct attacks on the kingdom, which has helped to&#160;intercept Iranian missiles launched toward Israel, arguing that it is acting in defense of its own airspace.&#160;\n\n\" Iran &#160;has reserved itself the right to return fire on any state in the region that hosts US military assets or bases, and Jordan is one of them,\" Erwin van Veen, a senior research fellow at the Clingendael Institute in The Hague, told DW.&#160;\"Only the options of Jordan's King Abdullah II are quite limited as Jordan is in a very precarious balance with respect to military and economic dependence on the Americans.\"\n\nOn Sunday, in a first diplomatic escalation, Jordan summoned Iran's top diplomat in Amman to demand an immediate end to what the foreign ministry called \"unjustified and blatant Iranian attacks.\"\n\nThe US&#160;is Jordan's largest single foreign supporter. Under a seven-year Memorandum of Understanding signed in 2022, Washington agreed to provide&#160;$1.45 billion (€1.27bn) annually in economic and military assistance. In 2025, Congress increased this to $1.65 billion, which was triple the amount from 2010.\n\nFurthermore, a Defense Cooperation Agreement signed in January 2021 grants US forces formalized access to Jordanian military facilities. According to a recent report , there are currently 4,000 US troops, more than in previous years, stationed in Jordan.\n\nIn March, however, Jordanian Foreign Minister Ayman Safadi insisted that there were no&#160;foreign military bases in the country. Kelly Petillo,&#160;program&#160;manager for Middle East and North Africa at the European Council on...",
+            "zh": "随着伊朗袭击加剧，约旦正在成为不断扩大的中东冲突的最新前线国家。为什么哈希姆王国成为德黑兰的目标？ 周二早些时候，伊朗导弹瞄准约旦，约旦部分地区再次拉响空袭警报。 军方在一份声明中表示：“防空系统今晚拦截并击落了三枚来自伊朗领土的导弹，这些导弹进入约旦领空并瞄准该王国领土。” 没有人员伤亡的报道，但最近的袭击是在过去几天发生的一系列袭击事件之后发生的，这些袭击增加了美国最亲密的阿拉伯盟友之一的风险：上周伊朗导弹袭击了美国驻约旦基地，造成两名美国军人死亡，约 30 人受伤。 约旦是拥有美国永久军事设施的八个阿拉伯国家之一。自二月底美国和以色列对伊朗发动联合袭击以来，其他一些东道国，尤其是海湾国家，一直是伊朗袭击的目标。 尽管伊朗此后不久就向约旦发射了导弹，但此后对约旦的直接攻击已经暂停，这有助于拦截伊朗向以色列发射的导弹，认为这是为了保卫自己的领空。 海牙克林根达尔研究所高级研究员欧文·范维恩对德国之声表示：“伊朗保留向该地区任何拥有美国军事资产或基地的国家进行还击的权利，约旦就是其中之一。” “只有约旦国王阿卜杜拉二世的选择相当有限，因为约旦在军事和经济上对美国的依赖处于非常不稳定的平衡。” 周日，在首次外交升级中，约旦召见伊朗驻安曼高级外交官，要求立即停止外交部所说的“伊朗不公正和公然的袭击”。 美国是约旦最大的单一外国支持者。根据 2022 年签署的为期七年的谅解备忘录，华盛顿同意每年提供 14.5 亿美元（12.7 亿欧元）的经济和军事援助。 2025 年，国会将这一数额增加到 16.5 亿美元，是 2010 年的三倍。 此外，2021 年 1 月签署的国防合作协议允许美军正式进入约旦军事设施。据最新报道，目前驻约旦美军有4000人，比往年多。 然而，三月份，约旦外交部长艾曼·萨法迪坚称该国没有外国军事基地。凯利·佩蒂略 (Kelly Petillo)，欧洲理事会中东和北非项目经理"
+          },
+          "reflection": {
+            "en": "As regional conflicts expand and draw more nations into their orbit, it can feel as though peace is an ever-receding hope. Yet, Psalm 46:9 reminds us that Yahweh ultimately has the power to make wars cease across the earth. This enduring promise offers solace and a vision of a future where even the most entrenched conflicts find their end.",
+            "zh": "当地区冲突不断扩大，将更多国家卷入其中时，和平似乎成为一个遥不可及的希望。然而，诗篇46:9提醒我们，雅伟最终有能力使战争止息，直到地极。这个持久的应许为我们提供了慰藉，并描绘了一个即使是最根深蒂固的冲突也能终结的未来。"
+          },
+          "verse": {
+            "reference": "Psalm 46:9",
+            "textEn": "He makes wars cease to the ends of the earth; he breaks the bow and shatters the spear.",
+            "textZh": "他止息刀兵，直到地极；他折弓断枪。",
+            "themeEn": "God ends wars",
+            "themeZh": "神止息刀兵"
+          },
+          "aiVerseId": "ps_46_9",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-dw-com-en-china-narrows-ai-gap-challenges-us-influence-a-78053001-ma",
+          "section": "world",
+          "source": "DW World",
+          "sourceUrl": "https://rss.dw.com/rdf/rss-en-world",
+          "link": "https://www.dw.com/en/china-narrows-ai-gap-challenges-us-influence/a-78053001?maca=en-rss-en-world-4025-rdf",
+          "image": "https://static.dw.com/image/78000808_6.jpg",
+          "publishedAt": "2026-07-21T14:16:00.000Z",
+          "title": {
+            "en": "China narrows AI gap, challenges US influence",
+            "zh": "中国缩小人工智能差距，挑战美国影响力"
+          },
+          "summary": {
+            "en": "At the World Artificial Intelligence Conference in Shanghai, Beijing showcased advances in AI while promoting its vision of open-source development and global governance.",
+            "zh": "这是一则来自全球栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "At the World Artificial Intelligence Conference in Shanghai, Beijing showcased advances in AI while promoting its vision of open-source development and global governance.\n\nAs China narrows the artificial intelligence (AI) gap with the United States, &#160;Beijing is promoting a narrative centered on \"open source\" and \"inclusive AI\" as an argument for its vision of global governance.\n\nDuring his keynote speech at the World Artificial Intelligence Conference (WAIC) in Shanghai on Friday, Chinese President Xi Jinping expressed China's ambition to take a leading role in setting global standards in AI . He criticized what he described as the \"overextension of the concept of national security.\"\n\nXi did not openly reference the United States.&#160;However, Beijing's effort to position itself as an advocate of a new AI order and challenge&#160;US dominance was unmistakable.\n\nThis year's Shanghai summit sent several important signals, says Rogier Creemers, assistant professor at Leiden University in the Netherlands specializing in China's digital technology policy. The WAIC indicates that artificial intelligence is now one of Beijing's political priorities,&#160;and that China intends to compete with the United States by supporting open-source AI models and promoting AI-driven industrialization, Creemers told DW. He also noted China hopes to win support from countries in the Global South for this effort.\n\nChina is steadily narrowing the gap with the United States in AI model development, and&#160;its efforts at AI application in industrial processes are slowly maturing.&#160;\n\nChinese AI model developers have continued to keep pace on the global stage, largely by training open-weight models on limited but advanced computer hardware, Paul Triolo, senior vice president for China and tech policy lead at DGA-Albright Stonebridge Group, told DW.\n\nTriolo believes deployment of AI across Chinese enterprises may be progressing faster than in the United States.\n\nIn addition, there is less fear of AI among the Chinese population than there is in the US, facilitating more rapid uptake of AI applications at the consumer level.\n\nEarlier this year, Chinese state media claimed that the performance gap between Chinese and US AI models had \"largely disappeared.\"\n\nSeveral experts broadly agreed with this assessment, saying that certain benchmark tests of China's&#160; large language models (LLMs) such as GLM-5.2 and Kimi K3 showed the gap narrowing or even fully closing.\n\nFor most applications,&#160;Triolo noted,&#160;China's leading open-weight AI models are cheaper to run and more than capable of handling most tasks.\n\nAt the same time, advanced proprietary models from leading US companies such as Anthropic, OpenAI &#160;and Google still retain advantages in areas such as...",
+            "zh": "在上海举行的世界人工智能大会上，北京展示了人工智能的进步，同时宣传其开源发展和全球治理的愿景。 随着中国缩小与美国的人工智能 (AI) 差距，北京正在推动以“开源”和“包容性人工智能”为中心的叙事，作为其全球治理愿景的论据。 中国国家主席习近平周五在上海举行的世界人工智能大会（WAIC）上发表主旨演讲时表达了中国在制定人工智能全球标准方面发挥主导作用的雄心。他批评他所说的“国家安全概念的过度延伸”。 习近平没有公开提及美国。 然而，北京将自己定位为人工智能新秩序倡导者并挑战美国主导地位的努力是明确无误的。 荷兰莱顿大学专门研究中国数字技术政策的助理教授罗吉尔·克里默斯表示，今年的上海峰会发出了几个重要信号。 Creemers 告诉德国之声，WAIC 表明人工智能现在是北京的政治优先事项之一，中国打算通过支持开源人工智能模型和促进人工智能驱动的工业化来与美国竞争。他还指出，中国希望为此赢得南方国家的支持。 中国在人工智能模型开发方面与美国的差距正在稳步缩小，人工智能在工业流程中的应用也正在慢慢成熟。 DGA-Albright Stonebridge Group 中国区高级副总裁兼技术政策负责人 Paul Triolo 告诉德国之声，中国人工智能模型开发人员继续在全球舞台上保持同步，主要是在有限但先进的计算机硬件上训练开放权重模型。 Triolo 认为，中国企业的人工智能部署进展可能比美国更快。 此外，中国民众对人工智能的恐惧程度低于美国民众，这有助于消费者更快速地接受人工智能应用。 今年早些时候，中国官方媒体声称中国和美国人工智能模型之间的性能差距已经“基本消失”。 多位专家普遍同意这一评估，并表示，GLM-5.2和Kimi K3等中国大型语言模型（LLM）的某些基准测试表明，差距正在缩小甚至完全缩小。 Triolo 指出，对于大多数应用程序来说，中国领先的开放式人工智能模型的运行成本更低，并且能够处理大多数任务。 与此同时，Anthropic、OpenAI 和 Google 等美国领先公司的先进专有模型仍然在以下领域保持优势……"
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-dw-com-en-how-india-s-youth-led-cockroach-movement-challenges-modi-a",
+          "section": "world",
+          "source": "DW World",
+          "sourceUrl": "https://rss.dw.com/rdf/rss-en-world",
+          "link": "https://www.dw.com/en/how-india-s-youth-led-cockroach-movement-challenges-modi/a-78048621?maca=en-rss-en-world-4025-rdf",
+          "image": "https://static.dw.com/image/78037860_6.jpg",
+          "publishedAt": "2026-07-21T11:35:00.000Z",
+          "title": {
+            "en": "How India's youth-led 'Cockroach' movement challenges Modi",
+            "zh": "印度青年主导的“蟑螂”运动如何挑战莫迪"
+          },
+          "summary": {
+            "en": "A satirical protest in India against exam leaks has evolved into a significant youth-led movement. This movement now expresses broader discontent among young Indians regarding employment opportunities and educational issues.",
+            "zh": "印度一场针对考试泄题的讽刺性抗议活动，已演变为一场由青年主导的更广泛的运动。该运动表达了印度年轻人对就业和教育问题日益增长的不满。"
+          },
+          "body": {
+            "en": "What started as a satirical protest against exam leaks in India has grown into a wider movement voicing young Indians' anger over jobs and education.\n\nRiot police fired tear gas and used batons in New Delhi as tens of thousands of supporters of the satirical Cockroach Janta Party (CJP) marched towards India's Parliament on Monday (July 20).\n\nPolice in the Indian capital said 60 protesters and 118 police officers were injured in the clashes between demonstrators and security forces. Mobile internet was suspended in parts of the city, including around the Jantar Mantar protest site, during the violence.\n\nProtesters are demanding the resignation of Education Minister Dharmendra Pradhan. Earlier this year, authorities canceled the high-stakes NEET medical entrance exam over a leaked question paper , affecting millions of students and sparking outrage across India .\n\nThe CJP began as an online campaign in May and rapidly evolved into a Gen Z street movement , giving a voice to a generation frustrated by unemployment, shrinking opportunities and a failing education system.\n\nThe youth-led \"Cockroach\" party is now posing an unexpected challenge for&#160;Prime Minister Narendra Modi's government , prompting a response that combines political outreach with police action.\n\nModi's rivals have also tried to step in and take advantage of the youth's frustrations.\n\n\"Is this how a government behaves? Using tear gas and baton charges against students? This is a worthless government,\" Renuka Chowdhury, an MP from India's opposition Congress party, told DW.\n\nThe CJP movement &#160;gained fresh momentum over the weekend after veteran reform activist Sonam Wangchuk, whose three-week hunger strike has become a symbol of the protests, was forcibly taken to a hospital by police .&#160;\n\nIt is not the first time India has experienced major protest movements. Hunger strikes, famously used by Mahatma Gandhi, remain a common and peaceful form of protest in India.\n\nIndia Against Corruption (IAC) led by veteran activist Anna Hazare, managed to mobilize millions in 2011 and reshape the country's political landscape. A decade later, yearlong farmers' protests forced Modi to repeal controversial farm laws. However, a 2023 Olympic wrestlers' protest over allegations of sexual harassment achieved few of their goals, despite widespread sympathy.\n\nAnalysts say the CJP lacks a nationwide organizational network, which the farmers had at their disposal.&#160;Yet like the IAC movement, it has tapped into a broader public mood.\n\n\"This protest is different because it reflects a much broader cross-section of Indian society,\" said Yamini Aiyar, an analyst and&#160;senior visiting fellow at Brown University. \"They are expressing their frustration with a country whose long-atrophied education...",
+            "zh": "最初是针对印度考试泄密的讽刺抗议，现已发展成为一场更广泛的运动，表达印度年轻人对就业和教育的愤怒。 周一（7 月 20 日），讽刺性的蟑螂简塔党 (CJP) 的数万名支持者向印度议会游行，防暴警察发射催泪瓦斯并使用警棍。 印度首都警方表示，示威者与安全部队发生冲突，造成 60 名抗议者和 118 名警察受伤。暴力事件期间，该市部分地区的移动互联网被暂停，包括简塔·曼塔天文台抗议地点周围。 抗议者要求教育部长达门德拉·普拉丹(Dharmendra Pradhan)辞职。今年早些时候，当局因试卷泄露而取消了高风险的尼特族医学入学考试，影响了数百万学生，并引发了印度各地的愤怒。 CJP 于 5 月开始是一场在线运动，并迅速演变为 Z 世代街头运动，为因失业、机会减少和教育体系失败而沮丧的一代人发出声音。 由青年领导的“蟑螂”政党现在对纳伦德拉·莫迪总理的政府构成了意想不到的挑战，促使政府采取政治外展与警方行动相结合的应对措施。 莫迪的竞争对手也试图介入并利用年轻人的挫败感。 印度反对党国大党议员雷努卡·乔杜里 (Renuka Chowdhury) 向德国之声表示：“这就是政府的行为方式吗？对学生使用催泪瓦斯和警棍？这是一个毫无价值的政府。” 周末，资深改革活动家索南·旺楚克 (Sonam Wangchuk) 被警察强行送往医院，他的三周绝食已成为抗议活动的象征，CJP 运动获得了新的动力。 这并不是印度第一次经历大规模抗议活动。圣雄甘地著名的绝食抗议仍然是印度常见的和平抗议形式。 由资深活动人士安娜·哈扎尔 (Anna Hazare) 领导的印度反腐败组织 (IAC) 在 2011 年成功动员了数百万人，重塑了该国的政治版图。十年后，长达一年的农民抗议迫使莫迪废除有争议的农业法。然而，2023 年奥运会摔跤手针对性骚扰指控的抗议尽管得到了广泛的同情，但几乎没有实现他们的目标。 分析人士称，CJP 缺乏可供农民使用的全国性组织网络。 然而，就像 IAC 运动一样，它利用了更广泛的公众情绪。 布朗大学分析师兼高级访问学者亚米尼·艾亚尔 (Yamini Aiyar) 表示：“这次抗议活动与众不同，因为它反映了印度社会更广泛的层面。” “他们表达了对这个教育长期萎缩的国家的失望......"
+          },
+          "reflection": {
+            "en": "When young people feel their future is at stake due to systemic issues, their collective voice can rise as a powerful call for change. Yahweh's word reminds us that true justice should flow consistently and powerfully, addressing the deep-seated concerns of a society.",
+            "zh": "当年轻人因系统性问题感到未来受到威胁时，他们的集体声音会成为一股强大的变革呼吁。雅伟的话语提醒我们，真正的公义应如江河般持续而有力地流淌，回应社会深层关切。"
+          },
+          "verse": {
+            "reference": "Amos 5:24",
+            "textEn": "Let justice roll on like a river, righteousness like a never-failing stream!",
+            "textZh": "惟愿公平如大水滚滚，使公义如江河滔滔。",
+            "themeEn": "Demand for justice",
+            "themeZh": "伸张公义"
+          },
+          "aiVerseId": "amos_5_24",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-dw-com-en-mexican-drug-lord-el-mayo-sentenced-to-life-without-parole",
+          "section": "world",
+          "source": "DW World",
+          "sourceUrl": "https://rss.dw.com/rdf/rss-en-world",
+          "link": "https://www.dw.com/en/mexican-drug-lord-el-mayo-sentenced-to-life-without-parole-in-us-prison/a-78042164?maca=en-rss-en-world-4025-rdf",
+          "image": "https://static.dw.com/image/78042119_6.jpg",
+          "publishedAt": "2026-07-20T19:55:00.000Z",
+          "title": {
+            "en": "Mexican drug lord 'El Mayo' sentenced to life without parole in US prison",
+            "zh": "墨西哥毒枭“埃尔·马约”在美国监狱被判无期徒刑"
+          },
+          "summary": {
+            "en": "Ismael \"El Mayo\" Zambada, a co-founder of the notorious Sinaloa cartel and one of the world's most wanted drug traffickers, has been sentenced to life without parole in a US prison.",
+            "zh": "臭名昭著的锡那罗亚贩毒集团联合创始人、全球头号毒枭之一伊斯梅尔·“埃尔·马约”·赞巴达，在美国被判处无期徒刑，不得假释。"
+          },
+          "body": {
+            "en": "Ismael \"El Mayo\" Zambada, a co-founder of the Sinaloa cartel and one of the world's most notorious drug traffickers, was sentenced to life in a US prison.\n\nMexican drug trafficker Ismael \"El Mayo\" Zambada was sentenced to life in prison without the possibility of parole on Tuesday for co-founding and leading the notorious Sinaloa cartel .\n\nZambada was one of the most prominent Mexican drug traffickers to face sentencing in a United States court since Joaquin \"El Chapo\" Guzman was sentenced to life in prison in 2019.\n\n\"The almost unimaginable amount of drugs attributable to him and the number of murders that we can document is enough to justify Congress's decision to make this a mandatory life sentence,\" US District Judge Brian Cogan said.\n\nThe 76-year-old Zambada apologized \"for the harm I caused and for the example I set,\" urging future generations to \"choose a different path.\"\n\nHe was arrested in July 2024 after he said he was kidnapped in Mexico and flown to Texas .\n\nZambada helped found and lead the Sinaloa cartel, becoming one of the most wanted figures for US intelligence and law enforcement agencies for decades.\n\nAccording to prosecutors, he ordered torture and plotted murders, including the killing of his own nephew, as the cartel flooded the US with tons of cocaine, fentanyl, methamphetamine and other drugs .\n\nHe pleaded guilty to charges that included engaging in a continuing criminal enterprise and racketeering conspiracy, acknowledging culpability for 85 underlying crimes. In exchange, prosecutors did not seek the death penalty.\n\n\"I grew up in an environment where violence and crime seemed normal, but now I know that's no excuse,\" Zambada said in court on Monday. \"There comes a time when every person must take responsibility for their decisions. I didn't, and many people paid the price.\"\n\nZambada's former partner \"El Chapo\" is already serving a life sentence in the United States.\n\nHe was convicted in 2019 and is serving a life sentence at the federal Supermax prison in Florence, Colorado.\n\nTogether they built the Sinaloa cartel into one of the world's most powerful drug trafficking organizations.\n\nThe Sinaloa cartel is one of six Mexican drug gangs that US President Donald Trump has designated as Foreign Terrorist Organizations.\n\nZambada was arrested with El Chapo's son, Joaquin Guzman Lopez , one of El Chapo's sons, who has pleaded guilty to federal drug charges. He has yet to be sentenced.\n\nZambada's arrest led to a splintering of the Sinaloa cartel, pitting his loyalists against backers of Guzman's sons, dubbed the Chapitos, or \"little Chapos.\"\n\nDon't let the algorithm hide the news. If you rely on our team for trusted reporting, please take a moment to select us as your Preferred Source on Google , so you'll always see our verified...",
+            "zh": "伊斯梅尔·“埃尔·梅奥”·赞巴达是锡那罗亚贩毒集团的联合创始人，也是世界上最臭名昭著的毒贩之一，在美国监狱被判处终身监禁。 周二，墨西哥毒贩伊斯梅尔·“埃尔·梅奥”·赞巴达因共同创立和领导臭名昭著的锡那罗亚贩毒集团而被判处终身监禁，不得假释。 自 2019 年“矮子”华金·古兹曼被判处终身监禁以来，赞巴达是在美国法院面临判刑的最著名的墨西哥毒贩之一。 美国地区法官布莱恩·科根 (Brian Cogan) 表示：“他所携带的几乎难以想象的毒品数量以及我们可以记录的谋杀案数量足以证明国会决定将其判处强制性无期徒刑。” 76岁的赞巴达“为我造成的伤害和我树立的榜样”道歉，并敦促后代“选择一条不同的道路”。 他于 2024 年 7 月被捕，此前他声称自己在墨西哥被绑架并飞往德克萨斯州。 赞巴达帮助创建并领导了锡那罗亚贩毒集团，成为美国情报和执法机构几十年来最想要的人物之一。 据检察官称，当该贩毒集团向美国大量运送可卡因、芬太尼、冰毒和其他毒品时，他下令实施酷刑并策划谋杀，包括杀害自己的侄子。 他对包括参与持续犯罪活动和共谋敲诈勒索在内的指控表示认罪，承认对 85 项基本犯罪负有责任。作为交换，检察官没有寻求死刑。 赞巴达周一在法庭上表示：“在我成长的环境中，暴力和犯罪似乎很常见，但现在我知道这不是借口。” “总有一天，每个人都必须为自己的决定负责。我没有，很多人为此付出了代价。” 赞巴达的前搭档“矮子”已经在美国服无期徒刑。 他于 2019 年被定罪，目前正在科罗拉多州佛罗伦萨的联邦 Supermax 监狱服无期徒刑。 他们共同将锡那罗亚贩毒集团打造成为世界上最强大的贩毒组织之一。 锡那罗亚贩毒集团是美国总统唐纳德·特朗普指定为外国恐怖组织的六个墨西哥贩毒团伙之一。 赞巴达与矮子的儿子华金·古兹曼·洛佩兹 (Joaquin Guzman Lopez) 一起被捕，华金·古兹曼·洛佩兹 (Joaquin Guzman Lopez) 已承认联邦毒品指控。他尚未被判刑。 赞巴达的被捕导致锡那罗亚贩毒集团的分裂，他的忠诚者与古兹曼儿子的支持者（被称为查皮托斯或“小矮子”）对立起来。 不要让算法隐藏新闻。如果您依赖我们团队提供值得信赖的报告，请花点时间选择我们作为您在 Google 上的首选来源，这样您将始终看到我们经过验证的..."
+          },
+          "reflection": {
+            "en": "The sentencing of a powerful drug lord reminds us that earthly power and illicit gains are ultimately fleeting. Yahweh alone holds the scales of justice, determining the rise and fall of all, ensuring that accountability eventually comes. This outcome underscores the truth that true exaltation does not come from human schemes or worldly empires, but from...",
+            "zh": "这位强大毒枭的判决提醒我们，世俗的权力和非法所得终究是短暂的。唯有雅伟掌管着公义的天平，决定着所有人的兴衰，确保最终的问责。这一结果强调了真正的尊荣并非来自人类的计谋或世俗的帝国，而是来自雅伟至高无上的手。"
+          },
+          "verse": {
+            "reference": "Psalm 75:7",
+            "textEn": "It is God who judges: He brings one down, he exalts another.",
+            "textZh": "惟有神断定；他使这人降卑，使那人升高。",
+            "themeEn": "God lifts and lowers",
+            "themeZh": "神升降"
+          },
+          "aiVerseId": "ps_75_7",
+          "translationState": "localized"
+        }
+      ]
+    },
+    "china": {
+      "id": "china",
+      "title": {
+        "en": "China Desk",
+        "zh": "中国观察"
+      },
+      "strap": {
+        "en": "Policy signals, social change, and national developments inside China.",
+        "zh": "聚焦中国内部政策走向、社会变化与国家动态。"
+      },
+      "sourceNotes": [
+        "SBS News China Focus",
+        "DW Asia China Focus",
+        "The Guardian China"
+      ],
+      "items": [
+        {
+          "id": "www-sbs-com-au-news-article-strong-concerns-australia-meets-with-china-f",
+          "section": "china",
+          "source": "SBS News China Focus",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/world/feed",
+          "link": "https://www.sbs.com.au/news/article/strong-concerns-australia-meets-with-china-following-ballistic-missile-test/txaw5k5uv",
+          "image": "https://assets.sbs.com.au/dims4/default/82cd764/2147483647/strip/false/crop/5325x2447+0+546/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F6e%2Fdb%2Ffb708e1c449cb77c827a9db5fe5a%2F20260722154689857800-original.jpg",
+          "publishedAt": "2026-07-22T02:08:12.000Z",
+          "title": {
+            "en": "'Strong concerns': Australia meets with China following ballistic missile test",
+            "zh": "“强烈关切”：弹道导弹试验后澳大利亚与中国会面"
+          },
+          "summary": {
+            "en": "Penny Wong reiterated the importance of transparency to her Chinese counterpart.",
+            "zh": "这是一则来自中国栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Australia has raised its concerns with China over its nuclear-capable missile test in the South Pacific, noting many of the region's nations also shared the same view.\n\nForeign Minister Penny Wong met with her Chinese counterpart, Wang Yi, on the sidelines of ASEAN talks in the Philippines capital, Manila, on Tuesday evening.\n\n\"You speak about the importance of mutual understanding. I agree, and I expect we will discuss our concerns ... including around peace and stability in our region, safe and professional military conduct, and the importance of transparency and reassurance of intent,\" Wong said in opening remarks.\n\nWong noted the \"strong concerns\" expressed by many Pacific Island countries about the submarine-launched missile earlier in July.\n\nThe two foreign ministers also discussed the importance of peace and stability in the Indo-Pacific.\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\n\"You've often heard me say that we will cooperate where we can and disagree where we must, and we want to continue to engage because we believe that is in our national interest,\" Wong said.\n\nAustralia was only given a few hours' notice by China of the test, which was launched within hours of Prime Minister Anthony Albanese signing a new defence alliance with Fiji.\n\nAlbanese slammed the launch as a \"provocative act\" while other Pacific nations including New Zealand, Tuvalu and Fiji condemned the incident.\n\nSolomon Islands Prime Minister Matthew Wale was standing beside his Australian counterpart in his country's capital Honiara in early July when he said the test was \"not the act of a friend\".\n\nAlbanese has previously flagged a strong statement would be issued by the Pacific Islands Forum, but the group's disagreement on the wording of the text has resulted in a delay.\n\nA foreign ministers' meeting of the forum will be held in August, where the issue is likely to be discussed.\n\nFor the latest from SBS News, download our app and subscribe to our newsletter .",
+            "zh": "澳大利亚就中国在南太平洋进行的核导弹试验向中国表达了担忧，并指出该地区许多国家也持有同样的观点。 周二晚上，外交部长黄英贤在菲律宾首都马尼拉举行的东盟会谈期间会见了中国外交部长王毅。 黄在开场白中表示：“你谈到了相互理解的重要性。我同意，并且我希望我们能够讨论我们所关心的问题……包括我们地区的和平与稳定、安全和专业的军事行为，以及透明度和保证意图的重要性。” 黄指出，许多太平洋岛国7月初对潜射导弹表达了“强烈担忧”。 两国外长还讨论了印太地区和平与稳定的重要性。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 黄说：“你们经常听我说，我们将在能够合作的地方合作，在必须反对的地方反对，我们希望继续参与，因为我们相信这符合我们的国家利益。” 中国仅在几个小时内向澳大利亚发出了此次试验的通知，此次试验是在澳大利亚总理安东尼·阿尔巴内塞与斐济签署新的防务联盟后数小时内启动的。 阿尔巴内斯抨击这次发射是“挑衅行为”，而新西兰、图瓦卢和斐济等其他太平洋国家则谴责这一事件。 7月初，所罗门群岛总理马修·威尔在首都霍尼亚拉站在澳大利亚总理旁边，他表示这次测试“不是朋友的行为”。 阿尔巴内塞此前曾表示太平洋岛屿论坛将发表一份强硬声明，但该组织对文本措辞的分歧导致了这一声明的推迟。 论坛外长会议将于8月举行，届时可能会讨论这一问题。 如需了解 SBS 新闻的最新动态，请下载我们的应用程序并订阅我们的时事通讯。"
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-dw-com-en-china-narrows-ai-gap-challenges-us-influence-a-78053001-ma",
+          "section": "china",
+          "source": "DW Asia China Focus",
+          "sourceUrl": "https://rss.dw.com/rdf/rss-en-asia",
+          "link": "https://www.dw.com/en/china-narrows-ai-gap-challenges-us-influence/a-78053001?maca=en-rss-en-asia-5133-rdf",
+          "image": "https://static.dw.com/image/78000808_6.jpg",
+          "publishedAt": "2026-07-21T14:16:00.000Z",
+          "title": {
+            "en": "China narrows AI gap, challenges US influence",
+            "zh": "中国缩小人工智能差距，挑战美国影响力"
+          },
+          "summary": {
+            "en": "At the World Artificial Intelligence Conference in Shanghai, Beijing showcased advances in AI while promoting its vision of open-source development and global governance.",
+            "zh": "这是一则来自中国栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "At the World Artificial Intelligence Conference in Shanghai, Beijing showcased advances in AI while promoting its vision of open-source development and global governance.\n\nAs China narrows the artificial intelligence (AI) gap with the United States, &#160;Beijing is promoting a narrative centered on \"open source\" and \"inclusive AI\" as an argument for its vision of global governance.\n\nDuring his keynote speech at the World Artificial Intelligence Conference (WAIC) in Shanghai on Friday, Chinese President Xi Jinping expressed China's ambition to take a leading role in setting global standards in AI . He criticized what he described as the \"overextension of the concept of national security.\"\n\nXi did not openly reference the United States.&#160;However, Beijing's effort to position itself as an advocate of a new AI order and challenge&#160;US dominance was unmistakable.\n\nThis year's Shanghai summit sent several important signals, says Rogier Creemers, assistant professor at Leiden University in the Netherlands specializing in China's digital technology policy. The WAIC indicates that artificial intelligence is now one of Beijing's political priorities,&#160;and that China intends to compete with the United States by supporting open-source AI models and promoting AI-driven industrialization, Creemers told DW. He also noted China hopes to win support from countries in the Global South for this effort.\n\nChina is steadily narrowing the gap with the United States in AI model development, and&#160;its efforts at AI application in industrial processes are slowly maturing.&#160;\n\nChinese AI model developers have continued to keep pace on the global stage, largely by training open-weight models on limited but advanced computer hardware, Paul Triolo, senior vice president for China and tech policy lead at DGA-Albright Stonebridge Group, told DW.\n\nTriolo believes deployment of AI across Chinese enterprises may be progressing faster than in the United States.\n\nIn addition, there is less fear of AI among the Chinese population than there is in the US, facilitating more rapid uptake of AI applications at the consumer level.\n\nEarlier this year, Chinese state media claimed that the performance gap between Chinese and US AI models had \"largely disappeared.\"\n\nSeveral experts broadly agreed with this assessment, saying that certain benchmark tests of China's&#160; large language models (LLMs) such as GLM-5.2 and Kimi K3 showed the gap narrowing or even fully closing.\n\nFor most applications,&#160;Triolo noted,&#160;China's leading open-weight AI models are cheaper to run and more than capable of handling most tasks.\n\nAt the same time, advanced proprietary models from leading US companies such as Anthropic, OpenAI &#160;and Google still retain advantages in areas such as...",
+            "zh": "在上海举行的世界人工智能大会上，北京展示了人工智能的进步，同时宣传其开源发展和全球治理的愿景。 随着中国缩小与美国的人工智能 (AI) 差距，北京正在推动以“开源”和“包容性人工智能”为中心的叙事，作为其全球治理愿景的论据。 中国国家主席习近平周五在上海举行的世界人工智能大会（WAIC）上发表主旨演讲时表达了中国在制定人工智能全球标准方面发挥主导作用的雄心。他批评他所说的“国家安全概念的过度延伸”。 习近平没有公开提及美国。 然而，北京将自己定位为人工智能新秩序倡导者并挑战美国主导地位的努力是明确无误的。 荷兰莱顿大学专门研究中国数字技术政策的助理教授罗吉尔·克里默斯表示，今年的上海峰会发出了几个重要信号。 Creemers 告诉德国之声，WAIC 表明人工智能现在是北京的政治优先事项之一，中国打算通过支持开源人工智能模型和促进人工智能驱动的工业化来与美国竞争。他还指出，中国希望为此赢得南方国家的支持。 中国在人工智能模型开发方面与美国的差距正在稳步缩小，人工智能在工业流程中的应用也正在慢慢成熟。 DGA-Albright Stonebridge Group 中国区高级副总裁兼技术政策负责人 Paul Triolo 告诉德国之声，中国人工智能模型开发人员继续在全球舞台上保持同步，主要是在有限但先进的计算机硬件上训练开放权重模型。 Triolo 认为，中国企业的人工智能部署进展可能比美国更快。 此外，中国民众对人工智能的恐惧程度低于美国民众，这有助于消费者更快速地接受人工智能应用。 今年早些时候，中国官方媒体声称中国和美国人工智能模型之间的性能差距已经“基本消失”。 多位专家普遍同意这一评估，并表示，GLM-5.2和Kimi K3等中国大型语言模型（LLM）的某些基准测试表明，差距正在缩小甚至完全缩小。 Triolo 指出，对于大多数应用程序来说，中国领先的开放式人工智能模型的运行成本更低，并且能够处理大多数任务。 与此同时，Anthropic、OpenAI 和 Google 等美国领先公司的先进专有模型仍然在以下领域保持优势……"
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-technology-2026-jul-20-china-google-ai-race",
+          "section": "china",
+          "source": "The Guardian China",
+          "sourceUrl": "https://www.theguardian.com/world/china/rss",
+          "link": "https://www.theguardian.com/technology/2026/jul/20/china-google-ai-race",
+          "image": "https://i.guim.co.uk/img/media/e8094a6a97533611adab0cc9c3b1dff72987ac20/451_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=265e3ccfe38b2d50058d724b8bcb5e0e",
+          "publishedAt": "2026-07-21T12:08:43.000Z",
+          "title": {
+            "en": "Headaches for Silicon Valley as China chips away at the US’s lead in the AI race",
+            "zh": "中国正在削弱美国在人工智能竞赛中的领先地位，这让硅谷感到头疼"
+          },
+          "summary": {
+            "en": "Google’s AI struggles scream trouble as new Chinese models (again) throw US tech dominance into question Hello, I’m Blake Montgomery, writing to you after a double-header feature of Christopher Nolan’s The Odyssey and the World Cup final. What a great Sunday. Today in tech,...",
+            "zh": "这是一则来自中国栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Google’s AI struggles scream trouble as new Chinese models (again) throw US tech dominance into question Hello, I’m Blake Montgomery, writing to you after a double-header feature of Christopher Nolan’s The Odyssey and the World Cup final. What a great Sunday. Today in tech, we’re discussing how China is chipping away at the US’s lead in the AI race and how Silicon Valley’s workers are taking action to protect their jobs from AI. New York becomes first state to impose one-year pause on new AI datacenters Trump rails against New York’s statewide datacenter moratorium Albanese’s AI blueprint sparks calls for datacentre moratorium until new regulations in place ‘Adversarial clothing’: are garments designed to confuse facial recognition systems about to go mainstream? IBM loses quarter of its value as tech giant’s shares plunge and profits falter ‘What’s the point?’ Teenagers give their verdict on Britain’s social media curfew Amazon Web Services customers receive bills for up to $1.5tn after global glitch Trump made $1.4bn from crypto in one year. Is Justin Sun the man who helped him do it? Continue reading...",
+            "zh": "随着新的中国模式（再次）对美国科技主导地位提出质疑，谷歌的人工智能陷入困境。你好，我是布莱克·蒙哥马利，在看完克里斯托弗·诺兰的《奥德赛》和世界杯决赛的双头特写后给你写信。多么美好的周日啊。今天在科技领域，我们正在讨论中国如何削弱美国在人工智能竞赛中的领先地位，以及硅谷的工人如何采取行动保护他们的工作免受人工智能的影响。纽约成为第一个对新人工智能数据中心实施一年暂停的州 特朗普反对纽约州范围内的数据中心暂停 Albanese 的人工智能蓝图引发了人们呼吁在新法规出台之前暂停数据中心 “对抗性服装”：旨在迷惑面部识别系统的服装是否即将成为主流？随着科技巨头股价暴跌和利润下滑，IBM 损失了四分之一的价值“这有什么意义？”青少年对英国社交媒体宵禁做出了裁决，在全球故障特朗普一年内从加密货币中赚了 14 亿美元后，亚马逊网络服务客户收到高达 1.5 万亿美元的账单。孙宇晨是帮助他做到这一点的人吗？继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-dw-com-en-china-philippines-clash-in-south-china-sea-ahead-of-asean-",
+          "section": "china",
+          "source": "DW Asia China Focus",
+          "sourceUrl": "https://rss.dw.com/rdf/rss-en-asia",
+          "link": "https://www.dw.com/en/china-philippines-clash-in-south-china-sea-ahead-of-asean-meeting/a-78044915?maca=en-rss-en-asia-5133-rdf",
+          "image": "https://static.dw.com/image/78045132_6.jpg",
+          "publishedAt": "2026-07-21T08:50:00.000Z",
+          "title": {
+            "en": "China, Philippines clash in South China Sea ahead of ASEAN meeting",
+            "zh": "东盟会议前夕，中国与菲律宾在南海发生冲突"
+          },
+          "summary": {
+            "en": "China and the Philippines traded accusations after a violent altercation between navy personnel in the disputed South China Sea. The incident heightened tensions ahead of a major diplomatic summit in Manila.",
+            "zh": "在南海争议水域，中国和菲律宾海军人员发生暴力冲突后，两国相互指责。这一事件在马尼拉举行的一次重要外交峰会前夕加剧了紧张局势。"
+          },
+          "body": {
+            "en": "China and the Philippines traded accusations after a violent altercation between navy personnel in the disputed South China Sea. The incident heightened tensions ahead of a major diplomatic summit in Manila.\n\nSailors from the Chinese and Philippine navies faced off with oars and batons in the disputed South China Sea , with Philippine officials saying that one of its sailors suffered a head injury as a result of the altercation.\n\nThe latest confrontation took place on Monday near the Second Thomas Shoal, a contested area where the two countries have repeatedly clashed before .&#160; The&#160; Philippines keeps a military presence in the area&#160;aboard the grounded warship BRP Sierra Madre.\n\nManila said that Chinese Coast Guard personnel had&#160;assaulted Filipino sailors as they approached the outpost.&#160;\n\nChina quickly rejected this&#160;narrative. Beijing's Foreign Ministry said in&#160;a statement that the \"Philippine side provoked the incident first,\"&#160;by approaching the&#160;Chinese vessel in small rubber boats, but then \"turned around ​and made counter-accusations, distorted the facts and engaged in malicious ​hype.\"\n\nOn Tuesday, China summoned the Philippine ambassador in Beijing to lodge its complaints, with the Philippines quickly following suit with the Chinese counterpart in Manila.\n\nThe Second Thomas Shoal is part of the Spratly islands, a disputed archipelago in the South China Sea.\n\nThe Spratlys&#160;are key to Beijing's claim of the entire South China Sea, a key global trade route.&#160;Beijing maintains its claim to the waterway despite a 2016&#160;ruling by the&#160;Permanent Court of Arbitration in The Hague that there&#160;is&#160;no legal basis to its argument.\n\nChina has repeatedly demanded the removal of the outpost on the BRP Sierra Madre, and surrounded the atoll with its ships in a tense territorial standoff that has dragged on for years.\n\nThe incident came just ahead of a meeting of the Association of Southeast Asian Nations (ASEAN) which was set to begin on Tuesday with foreign ministers of the eleven member states&#160;and external partners.\n\nAustralia's Foreign Minister&#160;Penny Wong, who was in Manila for the summit, denounced Beijing on Tuesday for what she called \"destabilizing and dangerous conduct\" during the standoff.\n\nWong, during a visit to the headquarters of the Philippine Coast Guard, also announced a&#160;support package for the agency&#160;totaling 10 million Australian dollars&#160;($6.7 million) for drone technology.\n\nThe US State Department also issued a statement criticizing China's actions, saying its \"troubling pattern of provocations against the Philippines' legitimate maritime operations undermines regional peace and stability.\"\n\n\"We stand with our Ally, the Philippines, and commend the...",
+            "zh": "中国和菲律宾海军人员在有争议的南海发生暴力冲突后相互指责。这一事件加剧了马尼拉重大外交峰会前的紧张局势。 中国和菲律宾海军的水手在有争议的南海发生了桨和警棍对峙，菲律宾官员称，一名水手在争执中头部受伤。 最近的一次对抗发生在周一仁爱礁附近，这是两国此前曾多次发生冲突的争议地区。 菲律宾通过搁浅的 BRP Sierra Madre 军舰在该地区保持军事存在。 马尼拉表示，当菲律宾水手接近前哨基地时，中国海岸警卫队人员袭击了他们。 中国很快否认了这种说法。北京外交部在一份声明中表示，“菲律宾方面首先挑起事件”，乘坐小橡皮艇接近中国船只，但随后又“转而反指责，歪曲事实，恶意炒作”。 周二，中国召见菲律宾驻北京大使提出申诉，菲律宾也迅速与中国驻马尼拉大使进行跟进。 仁爱礁是南海有争议群岛南沙群岛的一部分。 南沙群岛是北京宣称对整个南海拥有主权的关键，南海是一条重要的全球贸易路线。 尽管海牙常设仲裁法院 2016 年裁定北京的主张没有法律依据，但北京仍然坚持对这条水道的主权主张。 中国一再要求拆除BRP马德雷山脉上的前哨基地，并用其船只包围了该环礁，造成了持续多年的紧张领土对峙。 这起事件发生在东南亚国家联盟 (ASEAN) 会议召开之前，该会议定于周二开始，十一个成员国和外部伙伴的外交部长参加了该会议。 正在马尼拉参加峰会的澳大利亚外交部长黄英贤周二谴责北京在对峙期间的“破坏稳定和危险的行为”。 黄在访问菲律宾海岸警卫队总部期间还宣布了为该机构提供总计 1000 万澳元（670 万美元）的无人机技术支持计划。 美国国务院也发表声明批评中国的行为，称其“对菲律宾合法海上行动的令人不安的挑衅模式破坏了地区和平与稳定”。 “我们与我们的盟友菲律宾站在一起，并赞扬......"
+          },
+          "reflection": {
+            "en": "Amidst rising tensions and accusations between nations, the call to pursue peace remains vital. Yahweh's word encourages us to live peaceably with all, as far as it depends on us, even when disagreements are sharp. This requires intentional effort and a commitment to de-escalation, especially when diplomatic solutions are sought.",
+            "zh": "在国家之间紧张局势加剧、相互指责之际，追求和平的呼召至关重要。雅伟的话语鼓励我们，只要我们能做到，就尽力与所有人和平相处，即使分歧尖锐。这需要有意的努力和致力于缓和局势，尤其是在寻求外交解决方案时。"
+          },
+          "verse": {
+            "reference": "Romans 12:18",
+            "textEn": "If it is possible, as far as it depends on you, live at peace with everyone.",
+            "textZh": "若是能行，总要尽力与众人和睦。",
+            "themeEn": "Pursuit of peace",
+            "themeZh": "追求和睦"
+          },
+          "aiVerseId": "rom_12_18",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-theguardian-com-world-video-2026-jul-21-chinese-philippine-personnel",
+          "section": "china",
+          "source": "The Guardian China",
+          "sourceUrl": "https://www.theguardian.com/world/china/rss",
+          "link": "https://www.theguardian.com/world/video/2026/jul/21/chinese-philippine-personnel-clash-in-the-south-china-sea",
+          "image": "https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png",
+          "publishedAt": "2026-07-21T05:13:26.000Z",
+          "title": {
+            "en": "Chinese, Philippine personnel clash in the South China Sea",
+            "zh": "中菲人员在南海发生冲突"
+          },
+          "summary": {
+            "en": "Chinese Coast Guard and Philippine Navy personnel clashed in the South China Sea, resulting in a Philippine sailor sustaining a serious head injury. The incident involved the use of wooden batons during a confrontation between their boats.",
+            "zh": "中国海警人员与菲律宾海军人员在南海发生冲突，双方船只上的队员使用木棍对峙，导致一名菲律宾水兵头部受重伤。"
+          },
+          "body": {
+            "en": "China Coast Guard personnel on a rigid hull inflatable boat clashed with Philippine Navy personnel aboard a rubber boat using wooden batons in the South China Sea on 20 July. According to Philippine authorities, one of their sailors suffered a serious head injury when a Chinese crew member allegedly struck him with a wooden baton.",
+            "zh": "7月20日，中国海警人员乘坐刚性充气艇与菲律宾海军人员乘坐橡皮艇在南海使用木棍发生冲突。据菲律宾当局称，一名中国船员据称用木棍殴打一名水手，导致其头部严重受伤。"
+          },
+          "reflection": {
+            "en": "The physical clash between personnel in the South China Sea highlights the fragility of peace in contested regions. Yahweh's word calls us to pursue peace actively, as far as it depends on us, even amidst disagreements. This incident reminds us of the constant need for restraint and diplomatic efforts to prevent escalation and injury.",
+            "zh": "南海人员之间的肢体冲突凸显了争议地区和平的脆弱性。雅伟的话语呼吁我们，只要力所能及，就要积极追求和平，即使在分歧之中也是如此。这一事件提醒我们，需要时刻保持克制并进行外交努力，以防止冲突升级和人员受伤。"
+          },
+          "verse": {
+            "reference": "Romans 12:18",
+            "textEn": "If it is possible, as far as it depends on you, live at peace with everyone.",
+            "textZh": "若是能行，总要尽力与众人和睦。",
+            "themeEn": "Pursuit of peace",
+            "themeZh": "追求和睦"
+          },
+          "aiVerseId": "rom_12_18",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-theguardian-com-world-2026-jul-21-chinese-ship-opens-fire-japan-econ",
+          "section": "china",
+          "source": "The Guardian China",
+          "sourceUrl": "https://www.theguardian.com/world/china/rss",
+          "link": "https://www.theguardian.com/world/2026/jul/21/chinese-ship-opens-fire-japan-economic-zone-south-china-sea",
+          "image": "https://i.guim.co.uk/img/media/159f1bd9b2cbe8963aff8ee1c2498b1a38ef6ab3/0_0_4556_3647/master/4556.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e765b2a82950365e935b58e0e941c2ba",
+          "publishedAt": "2026-07-21T04:20:26.000Z",
+          "title": {
+            "en": "Chinese warship holds live-fire drills inside Japan’s economic waters for first time",
+            "zh": "中国军舰首次在日本专属经济区内举行实弹演习"
+          },
+          "summary": {
+            "en": "A Chinese missile destroyer conducted live-fire drills for the first time within Japan's exclusive economic zone, approximately 180km from Okinotori, Japan's southernmost island. This incident follows recent clashes between Chinese and Philippine sailors in the South China Sea, marking a significant escalation of...",
+            "zh": "一艘中国导弹驱逐舰首次在日本专属经济区内举行实弹演习，地点距离日本最南端的冲之鸟岛约180公里。此次事件发生在中国和菲律宾水兵在南海发生冲突之后，标志着该地区军事活动的显著升级。"
+          },
+          "body": {
+            "en": "Exercise took place about 180km from Okinotori, Japan’s southernmost island, and comes as Chinese and Philippine sailors clashed in the South China Sea A Chinese missile destroyer fired live rounds for the first time inside Japan’s exclusive economic zone (EEZ) during a drill on Sunday, a day before Chinese and Philippine sailors clashed in the South China Sea. Three Chinese warships and a Russian frigate were spotted sailing between Okinawa’s main island and Miyako island into the Pacific on Thursday, before being picked up again around 330km south-west of Okinotori in the early hours of Sunday morning. Continue reading...",
+            "zh": "演习在距日本最南端岛屿冲之鸟岛约 180 公里处举行，正值中国和菲律宾船员在南海发生冲突。周日的演习中，一艘中国导弹驱逐舰首次在日本专属经济区 (EEZ) 内发射实弹，而前一天，中国和菲律宾船员在南海发生冲突。周四，三艘中国军舰和一艘俄罗斯护卫舰被发现在冲绳本岛和宫古岛之间驶入太平洋，周日凌晨在冲绳县西南约 330 公里处再次被发现。继续阅读..."
+          },
+          "reflection": {
+            "en": "The news of live-fire drills in contested waters can stir apprehension and fear about regional stability. In moments of geopolitical tension, Yahweh reminds us not to fear, for He is with us, strengthening and upholding us. His presence offers a steadfast anchor when nations assert power and threats loom.",
+            "zh": "在争议水域进行实弹演习的消息，可能引发人们对地区稳定的担忧和恐惧。在地缘政治紧张的时刻，雅伟提醒我们不要惧怕，因为他与我们同在，加固并扶持我们。当国家展示武力、威胁迫近时，他的同在提供了一个坚定的锚。"
+          },
+          "verse": {
+            "reference": "Isaiah 41:10",
+            "textEn": "So do not fear, for I am with you; do not be dismayed, for I am your God.",
+            "textZh": "你不要害怕，因为我与你同在；不要惊惶，因为我是你的神。",
+            "themeEn": "God is with us",
+            "themeZh": "神与你同在"
+          },
+          "aiVerseId": "isa_41_10",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-theguardian-com-business-2026-jul-20-aliexpress-fined-by-eu-sale-of-",
+          "section": "china",
+          "source": "The Guardian China",
+          "sourceUrl": "https://www.theguardian.com/world/china/rss",
+          "link": "https://www.theguardian.com/business/2026/jul/20/aliexpress-fined-by-eu-sale-of-illegal-fake-goods",
+          "image": "https://i.guim.co.uk/img/media/5344c9c343b5df6fa8c61613050d7d72647eaab6/454_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=966553c4bcbf06f6df4846bac2f57848",
+          "publishedAt": "2026-07-20T14:57:07.000Z",
+          "title": {
+            "en": "AliExpress fined record €550m by EU for failing to stop sale of illegal and fake goods",
+            "zh": "全球速卖通因未能阻止非法和假冒商品销售被欧盟罚款5.5亿欧元"
+          },
+          "summary": {
+            "en": "The Chinese online retail platform AliExpress has been fined €550 million by the EU for failing to prevent the sale of illegal and counterfeit products, including unsafe toys, on its platform.",
+            "zh": "中国在线零售平台全球速卖通（AliExpress）因未能阻止其平台上销售非法和假冒产品（包括不安全玩具）而被欧盟处以5.5亿欧元的罚款。"
+          },
+          "body": {
+            "en": "Chinese retail platform handed penalty over listings for items such as counterfeit products and unsafe toys Business live – latest updates The Chinese online retail platform AliExpress has been fined a record €550m (£470m) by the EU over its failure to stop illegal goods including harmful clothing, cosmetics and kitchen gadgets being sold through its site. The European Commission fine is the biggest imposed by the bloc under Digital Services Act (DSA) legislation to protect consumers from illegal goods and deceptive or addictive marketing techniques. Continue reading...",
+            "zh": "中国零售平台对假冒产品和不安全玩具等商品进行处罚 Business live – 最新更新 中国在线零售平台速卖通因未能阻止通过其网站销售有害服装、化妆品和厨房用具等非法商品而被欧盟处以创纪录的 5.5 亿欧元（4.7 亿英镑）罚款。欧盟委员会的罚款是欧盟根据数字服务法 (DSA) 立法征收的最大一笔罚款，旨在保护消费者免受非法商品和欺骗性或成瘾性营销技术的侵害。继续阅读..."
+          },
+          "reflection": {
+            "en": "This significant fine highlights the critical importance of integrity in commerce and the responsibility of platforms to ensure fair and honest trade. Yahweh's word reminds us that dishonest practices, like false balances, are an abomination, while just weights bring delight. Upholding ethical standards protects consumers and builds trust in the marketplace.",
+            "zh": "这笔巨额罚款凸显了商业诚信的关键重要性，以及平台确保公平诚实贸易的责任。雅伟的话语提醒我们，不诚实的做法，如假秤，是祂所憎恶的，而公道的砝码则令祂喜悦。坚持道德标准能保护消费者，并在市场中建立信任。"
+          },
+          "verse": {
+            "reference": "Proverbs 11:1",
+            "textEn": "Yahweh detests dishonest scales, but accurate weights find favor with him.",
+            "textZh": "诡诈的天平为雅伟所憎恶；公平的法码为他所喜悦。",
+            "themeEn": "Yahweh hates fraud",
+            "themeZh": "雅伟厌恶诡诈"
+          },
+          "aiVerseId": "prov_11_1",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-theguardian-com-commentisfree-2026-jul-19-the-guardian-view-on-perce",
+          "section": "china",
+          "source": "The Guardian China",
+          "sourceUrl": "https://www.theguardian.com/world/china/rss",
+          "link": "https://www.theguardian.com/commentisfree/2026/jul/19/the-guardian-view-on-perceptions-of-superpowers-the-world-isnt-chinamaxxing-its-america-avoidant",
+          "image": "https://i.guim.co.uk/img/media/a702af2ca63a2ae668a7a9411a21fe2365a4ee0a/1093_0_4760_3808/master/4760.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=bcc7a6838f730126e58bc9f1706fd2d4",
+          "publishedAt": "2026-07-19T16:30:31.000Z",
+          "title": {
+            "en": "The Guardian view on perceptions of superpowers: the world isn’t Chinamaxxing, it’s America-avoidant | Editorial",
+            "zh": "《卫报》观点：对超级大国的看法——世界并非在“中国化”，而是在“避开美国” | 社论"
+          },
+          "summary": {
+            "en": "Startling new research shows that in many countries – including old US allies – the public prefers Beijing to Washington. Earlier this year, a spate of Western TikTok and Instagram creators announced that they were at “a very Chinese time in my life” – drinking hot water and...",
+            "zh": "一项令人震惊的新研究显示，在许多国家——包括美国的传统盟友——公众更倾向于北京而非华盛顿。今年早些时候，一些西方TikTok和Instagram创作者宣布他们正处于“我生命中非常中国化的时期”——喝热水并..."
+          },
+          "body": {
+            "en": "Startling new research shows that in many countries – including old US allies – the public prefers Beijing to Washington Earlier this year, a spate of western TikTok and Instagram creators announced that they were at “a very Chinese time in my life” – drinking hot water and wearing slippers around their homes. The Chinamaxxing phenomenon primarily reflected the constant need of influencers for novel content. But social media trends also reflect a growing fascination with China, as the economic historian Adam Tooze has noted . While it broods over China’s economic, military and technical advance, the Trump administration is accelerating Beijing’s diplomatic progress, as striking new polling by the Pew Research Center shows. For the first time, China and Xi Jinping are seen more favourably than the US and its president in most of the 36 major countries surveyed – including Canada, Mexico and Australia. Only in six countries did people rate the US more highly. While Beijing has seen significant improvements in some places, the slump in Washington’s standing is more dramatic. Across 20 countries, the median percentage with a favourable view of China rose from 32% to 46% between 2023 and this year; for the US, it fell from 58% to 36%. Views of China were much more positive in Latin America, Africa and parts of south and south-east Asia than in wealthier European and east Asian countries. Continue reading...",
+            "zh": "令人震惊的新研究表明，在许多国家 — — 包括美国的老盟友 — — 公众更喜欢北京而不是华盛顿。 今年早些时候，一大批西方 TikTok 和 Instagram 创作者宣布，他们正处于“我一生中非常中国化的时期”——喝着热水，在家中穿着拖鞋。 Chinamaxshing现象主要反映了网红对新颖内容的持续需求。但正如经济历史学家亚当·图兹（Adam Tooze）指出的那样，社交媒体趋势也反映出人们对中国日益增长的迷恋。皮尤研究中心令人震惊的最新民意调查显示，在关注中国经济、军事和技术进步的同时，特朗普政府正在加速北京的外交进展。在接受调查的 36 个主要国家（包括加拿大、墨西哥和澳大利亚）中，大多数国家对中国和习近平的好感度首次高于美国及其总统。只有六个国家的人们对美国的评价更高。尽管北京在某些方面取得了显着进步，但华盛顿的地位下滑更为严重。 2023 年至今，20 个国家对中国持好感的中位数百分比从 32% 上升至 46%；美国则从 58% 下降至 36%。拉丁美洲、非洲以及南亚和东南亚部分地区对中国的看法比富裕的欧洲和东亚国家要积极得多。继续阅读..."
+          },
+          "reflection": {
+            "en": "The shifting global perceptions of superpowers, as highlighted in the news, remind us that a nation's true standing is often tied to its character and actions. Proverbs 14:34 suggests that righteousness elevates a people, while moral failings can bring disgrace. This perspective encourages us to consider how nations, like individuals, are ultimately judged...",
+            "zh": "新闻中强调的全球对超级大国看法的转变，提醒我们一个国家真正的地位往往与其品格和行为息息相关。箴言14:34指出，公义使邦国高举，罪恶是人民的羞辱。这一视角鼓励我们思考，国家如同个人，最终会因其正直和所体现的价值观而受到评判。"
+          },
+          "verse": {
+            "reference": "Proverbs 14:34",
+            "textEn": "Righteousness exalts a nation, but sin condemns any people.",
+            "textZh": "公义使邦国高举；罪恶是人民的羞辱。",
+            "themeEn": "National righteousness",
+            "themeZh": "国家公义"
+          },
+          "aiVerseId": "prov_14_34",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-theguardian-com-commentisfree-2026-jul-19-trump-foreign-election-int",
+          "section": "china",
+          "source": "The Guardian China",
+          "sourceUrl": "https://www.theguardian.com/world/china/rss",
+          "link": "https://www.theguardian.com/commentisfree/2026/jul/19/trump-foreign-election-interference",
+          "image": "https://i.guim.co.uk/img/media/ed0dc7c90c8b5ac7e963227aaa4792d97c4acc05/333_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=d5109c140c5333b4e0abf68e7a8052d4",
+          "publishedAt": "2026-07-19T11:00:27.000Z",
+          "title": {
+            "en": "Trump is invoking foreign election interference to justify his own | Jamil Smith",
+            "zh": "特朗普援引外国选举干预来为自己辩护 | 贾米尔·史密斯"
+          },
+          "summary": {
+            "en": "An article discusses how the former president's claims of foreign election interference are used to justify his own actions, leading him to treat voters who opposed him as suspects rather than legitimate participants in the democratic process.",
+            "zh": "一篇文章讨论了前总统如何援引外国选举干预来为自己的行为辩护，导致他将反对他的选民视为嫌疑犯，而非民主进程的合法参与者。"
+          },
+          "body": {
+            "en": "The president no longer treats the people who defeated him as voters. He treats them as suspects There is a version of this country in which Donald Trump tells Americans the truth he has been handed: that their elections are secure. Once, he apparently wanted to. The Atlantic reported after Thursday night’s address that a February 2020 election-security briefing pleased Trump so much he wanted to announce the news himself. The press conference never happened. The election did, and Trump lost it. Continue reading...",
+            "zh": "总统不再将击败他的人视为选民。他将他们视为嫌疑人。这个国家有一个版本，唐纳德·特朗普告诉美国人他所得到的真相：他们的选举是安全的。有一次，他显然想要这么做。 《大西洋月刊》在周四晚上的讲话后报道称，2020 年 2 月的选举安全简报令特朗普非常高兴，他想亲自宣布这一消息。新闻发布会从未发生过。选举确实发生了，但特朗普输了。继续阅读..."
+          },
+          "reflection": {
+            "en": "The news highlights how a leader's refusal to accept election results and subsequent treatment of citizens as \"suspects\" can undermine trust and civic harmony. Proverbs 29:2 reminds us that the character of those in authority profoundly impacts the well-being of the people. When leaders govern with integrity and truth, society flourishes; when they do not,...",
+            "zh": "这则新闻揭示了领导人拒绝接受选举结果并将公民视为“嫌疑犯”的行为，如何损害信任和公民和谐。箴言29:2提醒我们，掌权者的品格深刻影响着民众的福祉。当领导人以正直和真理治理时，社会繁荣；反之，民众则会感到痛苦。"
+          },
+          "verse": {
+            "reference": "Proverbs 29:2",
+            "textEn": "When the righteous thrive, the people rejoice; when the wicked rule, the people groan.",
+            "textZh": "义人增多，民就喜乐；恶人掌权，民就叹息。",
+            "themeEn": "Righteous vs wicked rulers",
+            "themeZh": "义人执政与恶人当道"
+          },
+          "aiVerseId": "prov_29_2",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-donald-trump-election-interference-speech-cl",
+          "section": "china",
+          "source": "SBS News China Focus",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/world/feed",
+          "link": "https://www.sbs.com.au/news/article/donald-trump-election-interference-speech-claims/lvldps7do",
+          "image": "https://assets.sbs.com.au/dims4/default/9f1d8fc/2147483647/strip/false/crop/4000x1838+0+415/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F3b%2Fac%2Ffb86a6704ac5ae9c391c4bc435c8%2Fgettyimages-2268829049.jpg",
+          "publishedAt": "2026-07-17T03:43:00.000Z",
+          "title": {
+            "en": "'Shocking vulnerabilities': Trump makes sweeping claims China meddled in US elections",
+            "zh": "“令人震惊的漏洞”：特朗普就中国干预美国大选发表全面声明"
+          },
+          "summary": {
+            "en": "The US president made broad election security claims, laying groundwork for the federal government to take action.",
+            "zh": "美国总统就选举安全问题发表了广泛声明，为联邦政府采取行动奠定了基础。"
+          },
+          "body": {
+            "en": "In a speech attacking US election integrity on Friday, US President Donald Trump released intelligence that he said showed major Chinese interference in US elections, reviving his false claims he won the 2020 election.\n\nTrump's allegations about the \"shocking vulnerabilities\" in the American electoral system appeared to lay the groundwork for the Republican to dispute the results of November's crucial US midterm elections .\n\nIt underscored Trump's effort to make election security a central political issue ahead of November's midterm vote, when Republicans in Congress will face the prospect of losing control of both the House of Representatives and Senate &#x2014; an outcome that would carry significant political consequences for Trump.\n\n\"We can never watch a stolen election again,\" Trump said in the primetime address, referencing his 2020 presidential election defeat by Democrat Joe Biden.\n\nTrump said he was declassifying huge amounts of intelligence data that showed, among other things, that superpower rival China had illicitly acquired 220 million US voter files.\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\n\"Over a period of years, starting during the 2020 election cycle, the People's Republic of China carried out what is believed to be the largest compromise of election data in history,\" Trump said in the televised speech from the White House.\n\nHe asserted that members of the US intelligence community deliberately suppressed information about the extent of China's activities.\n\nHis allegations contradict an unclassified 2021 US intelligence community assessment that found no indications any foreign actor tried to alter or succeeded in altering \"any technical aspect\" of the 2020 presidential election vote.\n\nThe assessment was conducted under John Ratcliffe, then Trump's director of national intelligence and now his CIA director.\n\nTrump also claimed there were more than 250,000 non-US citizens registered to vote in four states.\n\nTrump has persistently claimed his 2020 election defeat was \"rigged,\" although more than 60 lawsuits produced no ruling establishing fraud capable of changing the outcome, while recounts, audits and his own justice department found none.\n\nAfter railing against election security in the 25-minute address, Trump pressed Republicans in Congress to pass his signature elections legislation, the SAVE America Act, which has been stalled for months.\n\nIt seeks to impose new voter identification and citizenship requirements, despite longstanding findings that voter fraud in US elections is rare.\n\nElection security experts have said these measures would make it harder for millions of eligible voters to cast a ballot.\n\nIn his speech, Trump also...",
+            "zh": "美国总统唐纳德·特朗普在周五发表的一场攻击美国选举公正性的演讲中，公布了他所说的显示中国对美国选举进行重大干预的情报，再次重申了他赢得 2020 年大选的虚假说法。 特朗普对美国选举制度“令人震惊的漏洞”的指控似乎为共和党对11月至关重要的美国中期选举结果提出异议奠定了基础。 这突显了特朗普在11月中期投票之前努力使选举安全成为一个核心政治问题，届时国会中的共和党人将面临失去众议院和参议院控制权的前景——这一结果将对特朗普带来重大政治后果。 特朗普在黄金时段讲话中表示，“我们再也不能看到一场被窃取的选举”，他指的是他在 2020 年总统选举中输给民主党人乔·拜登。 特朗普表示，他正在解密大量情报数据，这些数据显示超级大国竞争对手中国非法获取了 2.2 亿份美国选民档案。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 特朗普在白宫电视讲话中表示：“从 2020 年选举周期开始，多年来，中华人民共和国对选举数据进行了据信是历史上最大规模的妥协。” 他声称，美国情报界成员故意压制有关中国活动范围的信息。 他的指控与美国情报界 2021 年非机密评估相矛盾，该评估没有发现任何外国行为者试图改变或成功改变 2020 年总统选举投票的“任何技术方面”的迹象。 该评估是在时任特朗普国家情报总监、现任中央情报局局长约翰·拉特克利夫的领导下进行的。 特朗普还声称有超过25万名非美国公民在四个州登记投票。 特朗普一直声称他的 2020 年选举失败是“被操纵的”，尽管 60 多起诉讼没有产生任何裁决证明存在能够改变结果的欺诈行为，而重新计票、审计和他自己的司法部门也没有发现任何证据。 在 25 分钟的演讲中谴责选举安全后，特朗普向国会共和党人施压，要求通过他的标志性选举法案《拯救美国法案》，该法案已被搁置数月。 尽管长期以来的调查结果表明美国选举中的选民欺诈很少见，但它仍寻求实施新的选民身份和公民身份要求。 选举安全专家表示，这些措施将使数百万合格选民更难投票。 特朗普在讲话中还..."
+          },
+          "reflection": {
+            "en": "In an era of complex information and significant political claims, the wisdom of Yahweh reminds us to approach sweeping statements with careful discernment. Rather than accepting every assertion, prudence calls us to thoughtfully consider the evidence and implications, especially when national integrity is at stake. This encourages a posture of thoughtful...",
+            "zh": "在信息复杂、政治主张重大的时代，雅伟的智慧提醒我们，要以审慎的态度对待那些笼统的声明。与其全盘接受每项主张，不如审慎地思考证据和影响，尤其当国家诚信受到质疑时。这鼓励我们采取深思熟虑的探究态度，而非草率相信，从而促进更稳定和真实的公共对话。"
+          },
+          "verse": {
+            "reference": "Proverbs 14:15",
+            "textEn": "The simple believe anything, but the prudent give thought to their steps.",
+            "textZh": "愚蒙人是话都信；通达人步步谨慎。",
+            "themeEn": "Discernment",
+            "themeZh": "分辨与谨慎"
+          },
+          "aiVerseId": "prov_14_15",
+          "translationState": "localized"
+        }
+      ]
+    },
+    "australia": {
+      "id": "australia",
+      "title": {
+        "en": "Australia Desk",
+        "zh": "澳洲栏目"
+      },
+      "strap": {
+        "en": "Public life, policy, and community stories shaping Australia now.",
+        "zh": "关注正在影响澳洲公共生活、政策与社区的新闻。"
+      },
+      "sourceNotes": [
+        "The Guardian Australia",
+        "SBS News Australia"
+      ],
+      "items": [
+        {
+          "id": "www-theguardian-com-australia-news-live-2026-jul-22-australia-news-live-",
+          "section": "australia",
+          "source": "The Guardian Australia",
+          "sourceUrl": "https://www.theguardian.com/australia-news/rss",
+          "link": "https://www.theguardian.com/australia-news/live/2026/jul/22/australia-news-live-penny-wong-asean-pacific-missile-pauline-hanson-one-nation-labor-conference-tax-anthony-albanese-antisemitism-royal-commission-ntwnfb",
+          "image": "https://i.guim.co.uk/img/media/2f7bbb4ae2bacbafa3f380652b00942e93c0c9b8/571_0_6483_5187/master/6483.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=813faa69c2839f6ed216876e3b9edf17",
+          "publishedAt": "2026-07-22T04:54:28.000Z",
+          "title": {
+            "en": "Australia news live: Brittany Higgins accuses Hanson of victim-blaming in ‘atrocious’ comments on domestic violence",
+            "zh": "澳大利亚新闻直播：布列塔尼·希金斯指责汉森在对家庭暴力的“残暴”评论中指责受害者"
+          },
+          "summary": {
+            "en": "Follow today’s news live Get our breaking news email, free app or daily news podcast The New South Wales premier, Chris Minns, says the state’s Labor party is under threat from One Nation and “we’ve got to fight for those votes”. Appearing on ABC Radio National this morning,...",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Follow today’s news live Get our breaking news email , free app or daily news podcast The New South Wales premier, Chris Minns , says the state’s Labor party is under threat from One Nation and “we’ve got to fight for those votes”. Appearing on ABC Radio National this morning, Minns was asked if One Nation was a “racist party”. He said people who had concerns about the levels of immigration weren’t necessarily racist but some of the things Pauline Hanson had said were. Certainly some of the things Pauline Hanson says are definitely racist, when she said there’s no such thing as a good Muslim. I mean, how else do you characterise that? You’ve got to be straight with people. And that clearly is. But I don’t think everyone who’s supporting them currently is racist at all … And we’ve got to fight for those votes. I think that we are under threat in a whole bunch of seats as a result of the surge of votes for One Nation … So we’re doing some what we regard as practical commonsense changes to policy in New South Wales. When people join the Do Not Call Register or unsubscribe from marketing messages, they are making a clear choice. Those choices must be respected – especially given the heightened risks of financial loss and psychological harm from gambling marketing. The scale and range of these breaches point to serious weaknesses in TAB’s compliance systems. Continue reading...",
+            "zh": "关注今天的新闻直播 获取我们的突发新闻电子邮件、免费应用程序或每日新闻播客 新南威尔士州州长克里斯·明斯 (Chris Minns) 表示，该州工党受到“一国党”的威胁，“我们必须为这些选票而战”。今天早上，明斯在美国广播公司国家广播电台上被问及一国党是否是一个“种族主义政党”。他说，对移民水平感到担忧的人不一定是种族主义者，但宝琳·汉森所说的一些话是种族主义者。当然，宝琳·汉森所说的一些话绝对是种族主义的，当她说没有好穆斯林这样的东西时。我的意思是，你还能如何描述这一点？你必须与人坦诚相待。显然是这样。但我不认为目前支持他们的每个人都是种族主义者……我们必须为这些选票而战。我认为，由于一国党的选票激增，我们的一大堆席位都受到威胁……因此，我们正在对新南威尔士州的政策进行一些我们认为是实际常识性的改变。当人们加入谢绝来电登记或取消订阅营销信息时，他们就做出了明确的选择。这些选择必须得到尊重——特别是考虑到赌博营销造成的经济损失和心理伤害的风险更高。这些违规行为的规模和范围暴露了 TAB 合规系统的严重缺陷。继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-australia-news-2026-jul-22-rebel-wilson-wins-defamat",
+          "section": "australia",
+          "source": "The Guardian Australia",
+          "sourceUrl": "https://www.theguardian.com/australia-news/rss",
+          "link": "https://www.theguardian.com/australia-news/2026/jul/22/rebel-wilson-wins-defamation-case-charlotte-macinnes-ntwnfb",
+          "image": "https://i.guim.co.uk/img/media/53c0b06f2252d8d743e38ff77a92793a74421532/222_0_2420_1936/master/2420.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=07bf5aa5bacfaa9436be04fa0dc5ff68",
+          "publishedAt": "2026-07-22T04:50:03.000Z",
+          "title": {
+            "en": "Rebel Wilson wins defamation case brought by co-star after bitter dispute",
+            "zh": "瑞贝尔·威尔逊在激烈争执后赢得了联合主演提起的诽谤诉讼"
+          },
+          "summary": {
+            "en": "Judge finds Wilson did not defame Charlotte MacInnes, lead actor in Pitch Perfect star’s directorial debut The Deb After a blistering dispute that spanned continents and years, Hollywood A-lister Rebel Wilson has been found not to have defamed her co-star in a series of social...",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Judge finds Wilson did not defame Charlotte MacInnes, lead actor in Pitch Perfect star’s directorial debut The Deb After a blistering dispute that spanned continents and years, Hollywood A-lister Rebel Wilson has been found not to have defamed her co-star in a series of social media posts. The Pitch Perfect star was sued by Australian actor Charlotte MacInnes, who played the lead role in Wilson’s directorial debut film The Deb. Continue reading...",
+            "zh": "法官认定威尔逊没有诽谤《完美音调》明星的导演处女作《黛布》中的男主角夏洛特·麦金尼斯。在一场跨越各大洲、历年的激烈争议之后，好莱坞一线明星瑞贝尔·威尔逊被发现没有在一系列社交媒体帖子中诽谤她的搭档。这位《完美音调》的明星被澳大利亚演员夏洛特·麦金尼斯起诉，后者在威尔逊的导演处女作《黛布》中扮演主角。继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-origin-energy-hacked-millions-of-australian-",
+          "section": "australia",
+          "source": "SBS News Australia",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/australia/feed",
+          "link": "https://www.sbs.com.au/news/article/origin-energy-hacked-millions-of-australian-customer-details-potentially-exposed/vynizk11h",
+          "image": "https://assets.sbs.com.au/dims4/default/a8ad9d9/2147483647/strip/false/crop/8256x3793+0+855/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F2f%2Fb8%2F4bc4849a4bc1a36123a53a549ca0%2F20231123001868602514-original.jpg",
+          "publishedAt": "2026-07-22T04:42:55.000Z",
+          "title": {
+            "en": "Mllions of Australian customer details potentially exposed after Origin Energy hacked",
+            "zh": "Origin Energy 遭黑客攻击后，数百万澳大利亚客户详细信息可能遭到泄露"
+          },
+          "summary": {
+            "en": "The company said it was aware of an incident in which customer data may have been accessed by an unauthorised party.",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及管家责任、供应与公共福祉。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Millions of Australians may have had data accessed by hackers after Origin Energy confirmed it is investigating a cybersecurity incident.\n\nThe energy giant is aware of an incident where unauthorised access to customer data may have been granted, it said in a statement to the ASX on Wednesday afternoon.\n\nHowever, the company said it does not believe the data that was breached includes customer credit card or bank details.\n\n\"We understand an incident like this may raise concerns and acknowledge the impact of this uncertainty on Origin customers,\" it said.\n\n\"Our investigations into this incident are occurring as a matter of urgency, and Origin will provide further updates as appropriate.\"\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\nEarlier, The Australian newspaper reported it had received a sample of 50 customer records containing names, addresses, emails, dates of birth, phone numbers and bill history via a hacker.\n\nOrigin has 4.8 million customer accounts in Australia and provides electricity, natural gas, LPG, and internet services to residential and business customers.\n\nThe company says it has notified the Australian Federal Police, the Australian Cyber Security Centre and the Office of the Australian Information Commissioner about the incident.\n\nFor the latest from SBS News, download our app and subscribe to our newsletter .",
+            "zh": "在 Origin Energy 证实正在调查网络安全事件后，数百万澳大利亚人的数据可能被黑客访问。 该能源巨头在周三下午向澳大利亚证券交易所发表的一份声明中表示，意识到可能存在未经授权访问客户数据的事件。 然而，该公司表示，它不认为被泄露的数据包括客户信用卡或银行详细信息。 该公司表示：“我们了解此类事件可能会引起担忧，并承认这种不确定性对 Origin 客户的影响。” “我们正在紧急调查这一事件，Origin 将酌情提供进一步的更新。” 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 此前，《澳大利亚人报》报道称，该公司通过黑客收到了 50 份客户记录样本，其中包含姓名、地址、电子邮件、出生日期、电话号码和账单历史记录。 Origin 在澳大利亚拥有 480 万个客户账户，为住宅和商业客户提供电力、天然气、液化石油气和互联网服务。 该公司表示已将这一事件通知澳大利亚联邦警察、澳大利亚网络安全中心和澳大利亚信息专员办公室。 如需了解 SBS 新闻的最新动态，请下载我们的应用程序并订阅我们的时事通讯。"
+          },
+          "reflection": {
+            "en": "This story draws attention to stewardship, provision, and the common good. 1 Peter 4:10 reminds us to meet sharp headlines with stewardship that serves neighbours, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到管家责任、供应与公共福祉。1 Peter 4:10提醒我们，在快速变化的新闻里，仍要以服事邻舍的好管家心态来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Colossians 3:23",
+            "textEn": "Whatever you do, work at it with all your heart, as working for Yahweh, not for human masters.",
+            "textZh": "无论做什么，都要从心里做，像是给主做的，不是给人做的。",
+            "themeEn": "Work for the Lord",
+            "themeZh": "为主而做"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-aus-alert-warning-impact-domestic-violence-v",
+          "section": "australia",
+          "source": "SBS News Australia",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/australia/feed",
+          "link": "https://www.sbs.com.au/news/article/aus-alert-warning-impact-domestic-violence-victims/8b97tjlpg",
+          "image": "https://assets.sbs.com.au/dims4/default/29e12e4/2147483647/strip/false/crop/1920x882+0+99/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F99%2Fa3%2F44c0910e4fd7aff38f7dc581331e%2Fgfx-220726-ausalert-header.png",
+          "publishedAt": "2026-07-22T04:33:13.000Z",
+          "title": {
+            "en": "The phone alert that could reveal a hidden lifeline",
+            "zh": "电话警报可能揭示隐藏的生命线"
+          },
+          "summary": {
+            "en": "Millions of phones will sound an emergency alert. For some, that noise could have consequences.",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Share your feedback and help us improve this feature. Read more about how we use AI at SBS here.\n\nOn Monday 27 July, millions of mobile phones across Australia will simultaneously emit a loud emergency alert as authorities test the nation's new AusAlert system for the first time.\n\nThe nationwide test is designed to ensure Australians receive lifesaving warnings during emergencies such as natural disasters, public safety threats and biosecurity incidents.\n\nBut family and domestic violence advocates warn the mandatory alert could also create unintended safety risks for some victim&#x2013;survivors.\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\nImmigrant Women's Speak Out Association in western Sydney says its biggest concern is for women who depend on hidden emergency phones to seek help.\n\nIts CEO, Maria Kissouri, says: \"They need that phone in case of an emergency to be able to contact Triple Zero if they felt their life was threatened &#x2014; that those women's safety might be compromised as an unintended consequence of the AusAlert system.\"\n\nThe organisation has supported migrant women experiencing domestic and family violence for more than 40 years.\n\nA 2021 national study of migrant and refugee women conducted by Monash University's Migration and Inclusion Centre and the Harmony Alliance found one in three respondents had experienced family and domestic violence in the previous five years, rising to 40 per cent among temporary visa holders, who also reported much higher patterns of migration-related abuse and threats.\n\n\"What they experience after arriving in the country is abuse from their fianc&#xE9;, their partner, or the person that they've just married,\" Kissouri tells SBS News.\n\nAs the nationwide test alert approaches, advocates are working to contact victim-survivors who may face risks from the alert &#x2014; but say they cannot contact some people directly because doing so could compromise their safety.\n\nThey're also concerned the authorities haven't provided information about the alert in enough languages.\n\n\"Where it's safe to do so, [we've been] calling every woman that we're aware of that has a safe phone and letting her know to have it switched off well before the alert is scheduled, or to give the phone to somebody else, if that's possible,\" Kissouri says.\n\n\"It's often not possible, often people don't have a safe person that they've disclosed the abuse to; many women share with us that we're the first person that really knows just what's going on for them in their home and for their children as well.\"\n\nKatarina Carroll, deputy coordinator general for emergency management and response with the National Emergency Management Agency, says the...",
+            "zh": "分享您的反馈并帮助我们改进此功能。请在此处详细了解我们如何在 SBS 使用人工智能。 7 月 27 日星期一，当局首次测试该国新的 AusAlert 系统，澳大利亚各地数百万部手机将同时发出响亮的紧急警报。 这项全国性测试旨在确保澳大利亚人在自然灾害、公共安全威胁和生物安全事件等紧急情况下收到救生警告。 但家庭暴力倡导者警告说，强制警报也可能给一些受害者幸存者带来意想不到的安全风险。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 悉尼西部的移民妇女大声疾呼协会表示，该协会最关心的是那些依靠隐藏的紧急电话寻求帮助的妇女。 其首席执行官玛丽亚·基苏里 (Maria Kissouri) 表示：“在紧急情况下，如果她们感到自己的生命受到威胁，她们需要这部电话，以便能够联系“三零”——因为 AusAlert 系统的意外后果可能会损害这些女性的安全。” 40 多年来，该组织一直为遭受家庭暴力的移民妇女提供支持。 莫纳什大学移民与包容中心和和谐联盟在 2021 年对移民和难民妇女进行了一项全国性研究，发现三分之一的受访者在过去五年中经历过家庭暴力，在临时签证持有者中这一比例上升至 40%，他们还报告了与移民相关的虐待和威胁的情况要高得多。 基苏里告诉 SBS 新闻：“他们抵达该国后所经历的就是来自未婚夫、伴侣或刚结婚的人的虐待。” 随着全国范围内的测试警报临近，倡导者正在努力联系可能面临警报风险的受害者幸存者，但表示他们无法直接联系某些人，因为这样做可能会危及他们的安全。 他们还担心当局没有以足够的语言提供有关警报的信息。 基苏里说：“在安全的情况下，我们会打电话给我们所知道的每一位拥有安全手机的女性，并让她知道在安排警报之前就将其关闭，或者如果可能的话，将手机交给其他人。” “这通常是不可能的，人们通常没有一个安全的人可以向他们透露虐待行为；许多女性与我们分享，我们是第一个真正了解她们在家中以及她们的孩子所发生的事情的人。” 国家应急管理局负责应急管理和响应的副协调员卡塔琳娜·卡罗尔（Katarina Carroll）表示..."
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-calls-for-header-restrictions-after-former-s",
+          "section": "australia",
+          "source": "SBS News Australia",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/australia/feed",
+          "link": "https://www.sbs.com.au/news/article/calls-for-header-restrictions-after-former-socceroo-diagnosed-with-probable-cte/8hxvd5hdy",
+          "image": "https://assets.sbs.com.au/dims4/default/4ba1d5b/2147483647/strip/false/crop/1920x882+0+0/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F25%2F74%2F589b781e418aa54ce137a93349a0%2Fpaul-wade-lead-img.png",
+          "publishedAt": "2026-07-22T04:23:56.000Z",
+          "title": {
+            "en": "Former Socceroo becomes first Australian footballer to share probable CTE diagnosis",
+            "zh": "前澳大利亚足球运动员成为第一位分享可能患有 CTE 诊断的澳大利亚足球运动员"
+          },
+          "summary": {
+            "en": "There are growing calls for restrictions on football heading after Paul Wade revealed he likely has a neurodegenerative disease.",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Former Socceroos captain Paul Wade has revealed a diagnosis of probable chronic traumatic encephalopathy (CTE), a neurodegenerative disease associated with repeated head impacts.\n\nIn a statement shared by Professional Footballers Australia (PFA), Wade, who captained the Socceroos between 1990 and 1996, including at the Olympic Games and across two World Cup qualifying campaigns, says a neurologist diagnosed him with probable CTE in late 2025 after he presented with neurological symptoms in late 2024.\n\nIt makes him the first Australian footballer to disclose a diagnosis of probable CTE.\n\nCTE is a progressive, degenerative brain disease caused by repeated head trauma, which has commonly been associated with boxers. Concerns about the risks to footballers were first raised publicly after former England striker Jeff Astle became the first British footballer found to have died from the disease. Since then, a growing body of research has revealed the link between heading the ball and increased risk of neurodegenerative disease.\n\nWhile CTE is generally confirmed after death, medical specialists are able to diagnose suspected or probable cases based on an individual's background, history of repeated head knocks and symptoms of cognitive impairment.\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\nWade says he is sharing his diagnosis to raise awareness of concussion, repeated head impacts and brain health across all levels of football.\n\n\"Football gave me so much. It gave me a life, a career, incredible experiences and the privilege of representing Australia. But I also must be honest about the challenges I now face and the uncertainty that comes with living with a neurodegenerative condition,\" he says.\n\n\"If sharing my experience can help someone seek support, create better education and prevention, or help the game take brain health more seriously, then it is worth doing.\n\n\"I do not want to discourage anyone from playing football, as I think there are so many positive health benefits. But we do need to understand more about the long-term effects of repeated head impacts and make sure that players, families and the game have the information and support they need to protect future generations.\"\n\nAs SBS News has previously reported, football associations in the United Kingdom and United States have introduced laws banning heading for young players, and have also limited the practice among older cohorts due to concerns about the cumulative impacts of heading the ball.\n\nFootball Australia, which is responsible for regulating football in the country, has not introduced any similar recommendations.\n\nA spokesperson for Football Australia said it had established an expert...",
+            "zh": "前澳大利亚队队长保罗·韦德被诊断出可能患有慢性创伤性脑病（CTE），这是一种与头部反复撞击有关的神经退行性疾病。 韦德在澳大利亚职业足球运动员 (PFA) 分享的一份声明中表示，韦德在 1990 年至 1996 年间担任澳大利亚国家队队长，参加过奥运会和两次世界杯预选赛。韦德在 2024 年底出现神经系统症状后，于 2025 年底诊断出他可能患有 CTE。 这使他成为第一位披露可能患有 CTE 诊断的澳大利亚足球运动员。 CTE 是一种由反复头部创伤引起的进行性退行性脑部疾病，通常与拳击手有关。在前英格兰前锋杰夫·阿斯特尔成为第一位被发现死于这种疾病的英国足球运动员后，人们首次公开提出对足球运动员面临的风险的担忧。从那时起，越来越多的研究揭示了头球与神经退行性疾病风险增加之间的联系。 虽然 CTE 通常在死后确诊，但医学专家能够根据个人背景、反复头部撞击史和认知障碍症状诊断疑似或可能病例。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 韦德表示，他分享自己的诊断结果是为了提高各个级别的足球界对脑震荡、反复头部撞击和大脑健康的认识。 “足球给了我很多。它给了我生活、事业、令人难以置信的经历和代表澳大利亚的荣幸。但我也必须诚实地面对我现在面临的挑战以及患有神经退行性疾病所带来的不确定性，”他说。 “如果分享我的经验可以帮助某人寻求支持，提供更好的教育和预防，或者帮助游戏更重视大脑健康，那么这是值得做的。 “我不想阻止任何人踢足球，因为我认为足球对健康有很多积极的好处。但我们确实需要更多地了解重复头部撞击的长期影响，并确保玩家、家庭和游戏获得保护子孙后代所需的信息和支持。” 正如 SBS 新闻此前报道的那样，英国和美国的足协已经出台了禁止年轻球员头球的法律，并且由于担心头球的累积影响，还限制了年长球员的头球做法。 负责监管该国足球的澳大利亚足球协会尚未提出任何类似的建议。 澳大利亚足球协会的一位发言人表示，他们已经任命了一名专家......"
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-australia-news-2026-jul-22-perth-bentley-teenage-boy",
+          "section": "australia",
+          "source": "The Guardian Australia",
+          "sourceUrl": "https://www.theguardian.com/australia-news/rss",
+          "link": "https://www.theguardian.com/australia-news/2026/jul/22/perth-bentley-teenage-boy-charged-murder-mother-attempting-to-kill-sister-ntwnfb",
+          "image": "https://i.guim.co.uk/img/media/9a4e5fbebd7ceaf72f927d623e3c43def3355295/872_0_3284_2626/master/3284.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=766694600a95278b7cc23771fed764a5",
+          "publishedAt": "2026-07-21T23:46:06.000Z",
+          "title": {
+            "en": "Perth teenager charged with murdering his mother and attempting to kill sister",
+            "zh": "珀斯少年被控谋杀母亲并试图杀死妹妹"
+          },
+          "summary": {
+            "en": "Police found woman dead in Bentley home and seriously injured girl on nearby highway Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast A teenage boy has been charged with murder after he allegedly killed his mother...",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及公义、尊严与问责。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Police found woman dead in Bentley home and seriously injured girl on nearby highway Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast A teenage boy has been charged with murder after he allegedly killed his mother with a knife and stabbed his little sister, who managed to flee to get help. The 16-year-old boy was charged on Wednesday with one count of murder and one count of attempting to unlawfully kill after police attended a home at Bentley, in Perth’s south-east, on Tuesday morning. Continue reading...",
+            "zh": "警方在本特利家中发现一名妇女死亡，附近高速公路上发现一名受重伤的女孩关注我们的澳大利亚新闻直播博客以获取最新动态获取我们的突发新闻电子邮件、免费应用程序或每日新闻播客一名十几岁的男孩据称用刀杀死了他的母亲并刺伤了他的妹妹，后者设法逃离寻求帮助，因此被指控犯有谋杀罪。周二上午，警方前往珀斯东南部本特利的一户人家，这名 16 岁男孩周三被指控一项谋杀罪和一项企图非法杀人罪。继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to justice, dignity, and accountability. Micah 6:8 reminds us to meet sharp headlines with justice tempered by mercy, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到公义、尊严与问责。Micah 6:8提醒我们，在快速变化的新闻里，仍要以带着怜悯的公义来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Micah 6:8",
+            "textEn": "What does Yahweh require of you? To act justly and to love mercy and to walk humbly with your God.",
+            "textZh": "雅伟向你所要的是什么呢？只要你行公义，好怜悯，存谦卑的心，与你的神同行。",
+            "themeEn": "Justice and mercy",
+            "themeZh": "公义与怜悯"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-commentisfree-2026-jul-22-family-domestic-violence-d",
+          "section": "australia",
+          "source": "The Guardian Australia",
+          "sourceUrl": "https://www.theguardian.com/australia-news/rss",
+          "link": "https://www.theguardian.com/commentisfree/2026/jul/22/family-domestic-violence-deaths-women-killed-australia-ntwnfb",
+          "image": "https://i.guim.co.uk/img/media/2c6f8c76ea33d7a9583795747f842b0ea12497c0/114_0_2700_2160/master/2700.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=15c22d4743878f6dda590f823b836080",
+          "publishedAt": "2026-07-21T23:38:27.000Z",
+          "title": {
+            "en": "Every 11 days a woman in Australia is killed by someone she trusted. How can this keep happening? | Joumanah El-Matrah",
+            "zh": "每 11 天就有一名澳大利亚妇女被她信任的人杀害。这种事怎么能一直发生呢？ |朱马纳·埃尔-马特拉"
+          },
+          "summary": {
+            "en": "We need more resources to reach people at risk of family violence earlier: women and children experiencing abuse, and perpetrators who need to be held accountable Last week alone, four women were allegedly killed by male violence in Australia. Two of these tragedies occurred in...",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及公义、尊严与问责。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "We need more resources to reach people at risk of family violence earlier: women and children experiencing abuse, and perpetrators who need to be held accountable Last week alone, four women were allegedly killed by male violence in Australia. Two of these tragedies occurred in Victoria, and two of the victims were teenagers. Every single one of them should still be alive today. These are not isolated tragedies. This year, nine women have died in Victoria, while across Australia, 37 women* have allegedly been killed by men. Shockingly, 17 children have died as a result of violence in 2026 – the youngest victim was an eight-week-old baby. With a woman dying on average every 11 days in Australia in 2024-25, we are left feeling that we are in a crisis we cannot escape. Continue reading...",
+            "zh": "我们需要更多的资源来更早地接触面临家庭暴力风险的人：遭受虐待的妇女和儿童，以及需要追究责任的肇事者 仅上周，澳大利亚就有四名妇女据称被男性暴力杀害。其中两起悲剧发生在维多利亚州，其中两名受害者是青少年。他们每个人今天都应该还活着。这些并不是孤立的悲剧。今年，维多利亚州有 9 名女性死亡，而澳大利亚各地据称有 37 名女性*被男性杀害。令人震惊的是，2026 年有 17 名儿童因暴力而死亡，最小的受害者是一名八周大的婴儿。 2024-25 年，澳大利亚平均每 11 天就有一名妇女死亡，我们感觉自己正处于一场无法逃避的危机中。继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to justice, dignity, and accountability. Micah 6:8 reminds us to meet sharp headlines with justice tempered by mercy, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到公义、尊严与问责。Micah 6:8提醒我们，在快速变化的新闻里，仍要以带着怜悯的公义来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Micah 6:8",
+            "textEn": "What does Yahweh require of you? To act justly and to love mercy and to walk humbly with your God.",
+            "textZh": "雅伟向你所要的是什么呢？只要你行公义，好怜悯，存谦卑的心，与你的神同行。",
+            "themeEn": "Justice and mercy",
+            "themeZh": "公义与怜悯"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-australia-news-2026-jul-22-morning-mail-wednesday-nt",
+          "section": "australia",
+          "source": "The Guardian Australia",
+          "sourceUrl": "https://www.theguardian.com/australia-news/rss",
+          "link": "https://www.theguardian.com/australia-news/2026/jul/22/morning-mail-wednesday-ntwnfb",
+          "image": "https://i.guim.co.uk/img/media/e8ed2c5b2a9a8d8c64476bd9a24f472ccbfd7a41/464_0_4640_3712/master/4640.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e0f12fb606d8b0431ec9622c2c64d19f",
+          "publishedAt": "2026-07-21T21:03:32.000Z",
+          "title": {
+            "en": "Morning Mail: Queensland buries DV report, rate hike fears grow, Zendaya’s cultural ‘hijack’",
+            "zh": "早间邮报：昆士兰州埋葬 DV 报告，加息担忧加剧，赞达亚的文化“劫持”"
+          },
+          "summary": {
+            "en": "Want to get this in your inbox every weekday? Sign up for the Morning Mail here, and finish your day with our Afternoon Update newsletter Morning everyone. The Liberal National government in Queensland has repeatedly said it would “put victims at the heart” of the state’s...",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及真理、分辨与诚实。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Want to get this in your inbox every weekday? Sign up for the Morning Mail here , and finish your day with our Afternoon Update newsletter Morning everyone. The Liberal National government in Queensland has repeatedly said it would “put victims at the heart” of the state’s justice policies – but we have an exclusive report today on how a panel of victim-survivors of domestic violence saw their report buried after it slammed police handling of cases and called for civilian reviews. Plus: the incoming Labor president says concerns about personal safety are hindering how politicians do their job, economists say the renewal of the Middle East conflict makes rate hikes more likely here, and Zendaya has been accused of lacking “cultural knowledge” by wearing ancient jewellery. ‘Make a difference’ | The incoming Labor president, Kate Ellis, says toxicity in politics is spilling into the broader community and public debate, warning threats against MPs’ safety are limiting how elected politicians do their jobs. Exclusive | The Queensland government has buried the findings of its own working group of domestic violence victim-survivors, after their report was heavily critical of police responses and called for a “civilian review mechanism” to escalate complaints about police. Surgeon banned | A surgeon has been found guilty of professional misconduct and barred from practising medicine for six months by a tribunal in New South Wales after she failed to detect cancer in one patient and operated on the wrong end of the bowel of another. Rate risk | The likelihood of a Reserve Bank interest rate hike has doubled according to market forecasts, as the escalating Middle East crisis once again drives fuel prices higher amid dwindling global oil reserves. Family first | An Aboriginal family preservation program aimed at giving at-risk children space to “tell their own stories” has been launched across New South Wales after a historic investment from the state government. Continue reading...",
+            "zh": "想每个工作日将其发送到您的收件箱吗？在这里注册《晨报》，并通过我们的下午更新时事通讯结束您的一天。大家早上好。昆士兰州自由党国家党政府一再表示将“将受害者置于该州司法政策的核心”，但今天我们收到了一份独家报告，内容是家庭暴力受害者幸存者小组在猛烈抨击警方处理案件并呼吁进行民事审查后，如何看到他们的报告被埋没。另外：即将上任的工党总统表示，对个人安全的担忧正在阻碍政治家们开展工作，经济学家表示，中东冲突的重新爆发使得加息的可能性更大，赞达亚因佩戴古老的珠宝而被指责缺乏“文化知识”。 “有所作为”|即将上任的工党主席凯特·埃利斯表示，政治中的毒性正在蔓延到更广泛的社区和公众辩论中，她警告说，对议员安全的威胁正在限制民选政客的工作方式。独家|昆士兰州政府埋葬了自己的家庭暴力受害者幸存者工作组的调查结果，因为他们的报告严厉批评了警方的应对措施，并呼吁建立“公民审查机制”以升级对警察的投诉。外科医生被禁止|新南威尔士州的一个法庭判定一名外科医生犯有职业不当行为，并禁止其在六个月内行医，原因是她未能检测出一名患者的癌症，并对另一名患者的肠道末端进行了错误的手术。利率风险|根据市场预测，随着中东危机不断升级，在全球石油储备不断减少的情况下，燃油价格再次上涨，储备银行加息的可能性增加了一倍。家庭第一 |在州政府进行历史性投资后，新南威尔士州启动了一项原住民家庭保护计划，旨在为高危儿童提供“讲述自己故事”的空间。继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to truth, discernment, and honest speech. Philippians 4:8 reminds us to meet sharp headlines with discernment and truthful speech, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到真理、分辨与诚实。Philippians 4:8提醒我们，在快速变化的新闻里，仍要以分辨与诚实表达来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Philippians 4:8",
+            "textEn": "Whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable — think about such things.",
+            "textZh": "凡是真实的、可敬的、公义的、清洁的、可爱的、有美名的，这些事你们都要思念。",
+            "themeEn": "Mind discipline",
+            "themeZh": "心思的操练"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-gen-z-first-generation-history-men-more-reli",
+          "section": "australia",
+          "source": "SBS News Australia",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/australia/feed",
+          "link": "https://www.sbs.com.au/news/article/gen-z-first-generation-history-men-more-religious-than-women/62xmj4ufk",
+          "image": "https://assets.sbs.com.au/dims4/default/a6980a7/2147483647/strip/false/crop/4256x1956+0+438/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F40%2Ff1%2F3211325944968b30266e603d38b2%2F20120511000471733233-original.jpg",
+          "publishedAt": "2026-07-21T20:41:47.000Z",
+          "title": {
+            "en": "Gen Z is the first generation in history in which men are more religious than women",
+            "zh": "Z世代是历史上第一代男性比女性更虔诚的人"
+          },
+          "summary": {
+            "en": "Religious affiliation has been in decline for decades. Now, a religious divide is appearing among gen Z men and women.",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及和平与克制。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "It&#x2019;s not news that young Australians are less religious than their parents and grandparents. Census data has shown a steady decline in religious affiliation for decades, particularly among Christians, who remain Australia&#x2019;s largest faith group.\n\nYet over the past few years there have been reports that seemed to point in the opposite direction. As I wrote about religious revival in countries as diverse as Japan, Thailand, China, India, Turkey, the United Kingdom and the United States, a common theme emerged. Some young people appeared to be returning to religion.\n\nMore surprising still, in many places the trend seemed increasingly driven by young men rather than young women.\n\nTo figure out what was happening in Australia, I crunched the numbers. While Australia is continuing to secularise overall, beneath that trend, gen Z appears to be the first generation where men are more likely than women to identify with a religion.\n\nThat divide is closely tied to political ideology and may reflect wider gendered political polarisation.\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\nIn this analysis, I focus primarily on religious affiliation: whether respondents identify with a religion at all.\n\nWhile church attendance tells us about participation in organised religion, affiliation captures something broader about identity, belonging and self-understanding.\n\nThe overall pattern was exactly as expected: religious affiliation declines sharply across generations. Older Australians remain significantly more likely than younger Australians to identify with a religion.\n\nThe gender pattern showed for every generation from the war generation through to millennials, women are more likely than men to report a religious affiliation.\n\nI then zoomed in on the two youngest generations to see how the gender gap in religious affiliation has evolved over time.\n\nMillennials (gen Y) largely follow the familiar pattern seen in older generations. Both men and women have become less religious over time, but women consistently remain ahead. In the 2025 Australian Election Study, 46.2% of gen Y women reported a religious affiliation compared with 40.3% of gen Y men.\n\nIn the 2025 survey, 55.7% of gen Z men reported a religious affiliation, compared with 43.2% of gen Z women.\n\nAnd this is more than just a one-off quirk. While religious affiliation among gen Y men remained relatively stable between 2019 and 2025 (41.0% to 40.3%), affiliation among gen Z men rose from 35.3% in 2019 to 49.1% in 2022 and 55.7% in 2025.\n\nThe pattern survives after accounting for other influences. It&#x2019;s also still present when political ideology, parental birthplace, marital status and place of...",
+            "zh": "年轻的澳大利亚人不如他们的父母和祖父母那么虔诚，这并不是什么新闻。人口普查数据显示，几十年来宗教信仰持续下降，尤其是基督徒，他们仍然是澳大利亚最大的信仰团体。 然而，在过去的几年里，有一些报道似乎指向相反的方向。当我写到日本、泰国、中国、印度、土耳其、英国和美国等不同国家的宗教复兴时，出现了一个共同的主题。一些年轻人似乎正在回归宗教。 更令人惊讶的是，在许多地方，这一趋势似乎越来越多地由年轻男性而不是年轻女性推动。 为了弄清楚澳大利亚正在发生什么，我计算了数据。虽然澳大利亚总体上继续世俗化，但在这种趋势下，Z 世代似乎是第一代男性比女性更有可能认同某种宗教的人。 这种分歧与政治意识形态密切相关，可能反映了更广泛的性别政治两极分化。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 在本次分析中，我主要关注宗教信仰：受访者是否认同某种宗教。 参加教堂活动告诉我们参与有组织的宗教活动，而归属感则涵盖了更广泛的身份、归属感和自我理解。 总体模式与预期完全一致：几代人的宗教信仰急剧下降。与年轻的澳大利亚人相比，年长的澳大利亚人仍然更有可能认同某种宗教。 性别模式显示，从战争一代到千禧一代，每一代人中，女性比男性更有可能报告宗教信仰。 然后，我放大了最年轻的两代人，看看宗教信仰中的性别差距是如何随着时间的推移而演变的。 千禧一代（Y 一代）很大程度上遵循老一辈人所熟悉的模式。随着时间的推移，男性和女性的宗教信仰都下降了，但女性始终保持领先地位。在 2025 年澳大利亚选举研究中，46.2% 的 Y 世代女性表示有宗教信仰，而 Y 世代男性的这一比例为 40.3%。 在 2025 年的调查中，55.7% 的 Z 世代男性表示有宗教信仰，而 Z 世代女性的这一比例为 43.2%。 这不仅仅是一次性的怪癖。虽然 2019 年至 2025 年间，Y 世代男性的宗教信仰保持相对稳定（41.0% 至 40.3%），但 Z 世代男性的宗教信仰从 2019 年的 35.3% 上升至 2022 年的 49.1% 和 2025 年的 55.7%。 在考虑其他影响后，该模式仍然存在。当政治意识形态、父母的出生地、婚姻状况和所在地……时，它仍然存在。"
+          },
+          "reflection": {
+            "en": "This story draws attention to peace-making and restraint. Matthew 5:9 reminds us to meet sharp headlines with mercy, truth, and restraint, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到和平与克制。Matthew 5:9提醒我们，在快速变化的新闻里，仍要以怜悯、真实与节制来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Matthew 5:9",
+            "textEn": "Blessed are the peacemakers, for they will be called children of God.",
+            "textZh": "使人和睦的人有福了，因为他们必称为神的儿子。",
+            "themeEn": "Peacemaking",
+            "themeZh": "和睦"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-australia-news-audio-2026-jul-21-the-fallout-from-pa",
+          "section": "australia",
+          "source": "The Guardian Australia",
+          "sourceUrl": "https://www.theguardian.com/australia-news/rss",
+          "link": "https://www.theguardian.com/australia-news/audio/2026/jul/21/the-fallout-from-pauline-hansons-euro-summer-full-story-podcast",
+          "image": "https://i.guim.co.uk/img/media/5df0053d18c66bfc582ae0fc753fdb39c7112ac3/313_0_1875_1500/master/1875.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9c6c99bda92c9bd7a242a48d982e1450",
+          "publishedAt": "2026-07-21T15:00:52.000Z",
+          "title": {
+            "en": "The fallout from Pauline Hanson’s Euro Summer - podcast",
+            "zh": "宝琳·汉森 (Pauline Hanson) 欧洲之夏的影响 - 播客"
+          },
+          "summary": {
+            "en": "There has been no end to the negative headlines generated in response to comments made by Pauline Hanson on her trip overseas – and it has forced members of One Nation, including Barnaby Joyce, to defend and explain her actions back home. Guardian Australia political reporter...",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及真理、分辨与诚实。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "There has been no end to the negative headlines generated in response to comments made by Pauline Hanson on her trip overseas – and it has forced members of One Nation, including Barnaby Joyce, to defend and explain her actions back home. Guardian Australia political reporter Josh Butler speaks to Reged Ahmad about how the trip’s many controversies could play with One Nation supporters in Australia Read more: Barnaby Joyce says One Nation doesn’t want return of White Australia policy but back Pauline Hanson on mass deportations Pauline Hanson shares Seven pitch for Spotlight special that says program would highlight ‘uncontrolled immigration’ Continue reading...",
+            "zh": "针对宝琳·汉森 (Pauline Hanson) 在海外旅行中发表的评论而引发的负面头条新闻层出不穷，这迫使包括巴纳比·乔伊斯 (Barnaby Joyce) 在内的一国党成员为她在国内的行为进行辩护和解释。 《卫报》澳大利亚政治记者乔什·巴特勒向雷吉德·艾哈迈德讲述了这次旅行的许多争议如何与澳大利亚一国党支持者进行讨论阅读更多：巴纳比·乔伊斯表示一国党不希望回归白澳政策，但支持宝琳·汉森大规模驱逐出境宝琳·汉森分享了《聚光灯》特别节目的七项宣传，称该计划将突出“不受控制的移民”继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to truth, discernment, and honest speech. Philippians 4:8 reminds us to meet sharp headlines with discernment and truthful speech, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到真理、分辨与诚实。Philippians 4:8提醒我们，在快速变化的新闻里，仍要以分辨与诚实表达来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Philippians 4:8",
+            "textEn": "Whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable — think about such things.",
+            "textZh": "凡是真实的、可敬的、公义的、清洁的、可爱的、有美名的，这些事你们都要思念。",
+            "themeEn": "Mind discipline",
+            "themeZh": "心思的操练"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-theguardian-com-australia-news-2026-jul-22-rba-interest-rate-rise-li",
+          "section": "australia",
+          "source": "The Guardian Australia",
+          "sourceUrl": "https://www.theguardian.com/australia-news/rss",
+          "link": "https://www.theguardian.com/australia-news/2026/jul/22/rba-interest-rate-rise-likely-us-iran-war-markets-forecast",
+          "image": "https://i.guim.co.uk/img/media/05c2ba94c36b9d4d0e5d040fb36d8f9aa87bd4b6/388_128_3260_2608/master/3260.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6715ed78cae49082172a7be86bb2d493",
+          "publishedAt": "2026-07-21T15:00:51.000Z",
+          "title": {
+            "en": "RBA now twice as likely to hike interest rates as US-Iran war drives fuel prices higher",
+            "zh": "由于美伊战争推高燃油价格，澳洲联储现在加息的可能性是原来的两倍"
+          },
+          "summary": {
+            "en": "Experts warn global energy market at a ‘critical juncture’ with escalating Middle East crisis expected to further drag on a slowing Australian economy Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The...",
+            "zh": "这是一则来自澳洲栏目的新闻，重点涉及管家责任、供应与公共福祉。如需完整细节，请阅读英文原始报道。"
+          },
+          "body": {
+            "en": "Experts warn global energy market at a ‘critical juncture’ with escalating Middle East crisis expected to further drag on a slowing Australian economy Follow our Australia news live blog for latest updates Get our breaking news email , free app or daily news podcast The likelihood of a Reserve Bank interest rate hike has doubled, according to market forecasts, as the escalating Middle East crisis once again drives fuel prices higher amid dwindling global oil reserves. The total breakdown in the fragile ceasefire between the US and Iran has sent the international Brent crude benchmark surging by 23% over the past two weeks and back within reach of $US90 a barrel. Continue reading...",
+            "zh": "专家警告称，全球能源市场正处于“紧要关头”，不断升级的中东危机预计将进一步拖累正在放缓的澳大利亚经济。 关注我们的澳大利亚新闻直播博客，了解最新动态 获取我们的突发新闻电子邮件、免费应用程序或每日新闻播客 根据市场预测，随着中东危机不断升级，在全球石油储备不断减少的情况下，随着中东危机的升级再次推高燃油价格，澳大利亚央行加息的可能性已增加了一倍。美国和伊朗之间脆弱的停火协议彻底破裂，导致国际布伦特原油基准价格在过去两周飙升 23%，回到每桶 90 美元的水平。继续阅读..."
+          },
+          "reflection": {
+            "en": "This story draws attention to stewardship, provision, and the common good. 1 Peter 4:10 reminds us to meet sharp headlines with stewardship that serves neighbours, asking how faithful people can respond with wisdom instead of noise.",
+            "zh": "这则新闻让人想到管家责任、供应与公共福祉。1 Peter 4:10提醒我们，在快速变化的新闻里，仍要以服事邻舍的好管家心态来回应，并学习用祷告与分辨代替情绪化判断。"
+          },
+          "verse": {
+            "reference": "Colossians 3:23",
+            "textEn": "Whatever you do, work at it with all your heart, as working for Yahweh, not for human masters.",
+            "textZh": "无论做什么，都要从心里做，像是给主做的，不是给人做的。",
+            "themeEn": "Work for the Lord",
+            "themeZh": "为主而做"
+          },
+          "translationState": "fallback"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-two-years-government-social-housing-push-rep",
+          "section": "australia",
+          "source": "SBS News Australia",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/australia/feed",
+          "link": "https://www.sbs.com.au/news/article/two-years-government-social-housing-push-report-well-behind/nlomkmlcv",
+          "image": "https://assets.sbs.com.au/dims4/default/e759383/2147483647/strip/false/crop/7439x3418+0+770/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F3e%2Faf%2F1a5ef2ee4175a92375c2a2dffcc5%2F20260703176274606845-original.jpg",
+          "publishedAt": "2026-07-21T09:17:47.000Z",
+          "title": {
+            "en": "Two years into the government's social housing push, a new report says it's well behind target",
+            "zh": "政府推动社会保障性住房两年后，一份新报告称其远未达标"
+          },
+          "summary": {
+            "en": "A new report from the Australian National Audit Office indicates that the government's social housing initiative is significantly behind its stated targets.",
+            "zh": "澳大利亚国家审计署的一份新报告指出，政府的社会保障性住房建设计划远未达到其既定目标。"
+          },
+          "body": {
+            "en": "Less than four per cent of the social homes promised by the Albanese government's signature social housing fund have been delivered, two years into a five-year target period.\n\nAs of May 2026, 1432 of the Housing Australia Future Fund's target of 40,000 new social and affordable homes had been delivered, the Australian National Audit Office found in a report released on Tuesday.\n\nThe $10 billion fund's forecast to hit its target by mid-2029 faced \"considerable uncertainty\" as of June, the auditor-general found.\n\nIt's another setback for the government's broader housing supply agenda, with the construction industry about a year behind on its target to deliver 1.2 million new homes in the five years to June 2029.\n\nMeanwhile, the social housing waitlist has grown from 155,000 to 169,000 in the 10 years to June 2024.\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\nWhile Treasury was largely effective in designing the fund, the department had failed to take clear responsibility for delivering the program and provided little transparency about how it was progressing, the audit found.\n\nAlthough funding applications opened in January 2024, Treasury had not finalised delivery arrangements until May 2026.\n\n\"The delayed finalisation of most governance and oversight arrangements has limited the ability of Treasury to systematically monitor and manage program risks and performance over time,\" the auditor-general said.\n\n\"Once finalised, Treasury has not always implemented governance and oversight arrangements as intended, with sometimes out-of-date and inconsistent arrangements.\n\nThe fund works by giving money to providers to either build new homes or purchase newly constructed homes from developers.\n\nOnce built, homes are subsidised by the government to provide tenants below-market rates for 25 years, at a cost of about $393,000 per dwelling in today's money.\n\nOf the 1432 homes delivered by the fund, 762 were new homes constructed by housing providers, and 670 were newly built by private developers and purchased by a housing provider before, during or immediately after development.\n\nThe audit made five recommendations to improve governance, risk management, performance review and transparency of the program.\n\nHousing Minister Clare O'Neil welcomed the report findings and accepted all recommendations.\n\n\"Importantly, the report found Treasury's design of the Housing Australia Future Fund was largely effective and supported by largely sound policy advice,\" she said.\n\n\"This program is being delivered in one of the toughest construction markets in decades.\n\n\"As building and financing costs increased, Treasury identified those pressures early, and the government acted to protect...",
+            "zh": "阿尔巴尼亚政府标志性社会住房基金承诺的社会住房中，只有不到 4% 已经交付，距离五年目标期已经过去两年了。 澳大利亚国家审计办公室在周二发布的一份报告中发现，截至 2026 年 5 月，澳大利亚住房未来基金的 40,000 套新社会经济适用房目标中的 1432 套已经交付。 审计长发现，截至 6 月份，该基金预计到 2029 年中期达到 100 亿美元的目标时面临“相当大的不确定性”。 这是政府更广泛的住房供应议程的又一次挫折，建筑业距离其在截至 2029 年 6 月的五年内交付 120 万套新房的目标大约落后了一年。 与此同时，截至 2024 年 6 月的 10 年间，社会住房等候名单已从 155,000 人增加到 169,000 人。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 审计发现，虽然财政部在设计该基金方面在很大程度上是有效的，但该部门未能明确承担实施该计划的责任，并且对该计划的进展情况几乎没有提供透明度。 尽管资金申请于 2024 年 1 月开始，但财政部直到 2026 年 5 月才最终确定交付安排。 审计长表示：“大多数治理和监督安排的延迟最终确定限制了财政部系统地监控和管理项目风险和绩效的能力。” “一旦最终确定，财政部并不总是按预期实施治理和监督安排，有时安排已经过时且不一致。 该基金的运作方式是向供应商提供资金，以建造新房或从开发商处购买新建房屋。 房屋建成后，将获得政府补贴，在 25 年内为租户提供低于市场价格的价格，按今天的价格计算，每套住宅的成本约为 393,000 美元。 在该基金交付的 1432 套住房中，762 套是由住房提供商建造的新住房，670 套是由私人开发商新建并由住房提供商在开发前、开发期间或开发后立即购买的。 审计提出了五项建议，以改善该计划的治理、风险管理、绩效审查和透明度。 住房部长克莱尔·奥尼尔对报告的调查结果表示欢迎，并接受所有建议。 “重要的是，报告发现财政部对澳大利亚住房未来基金的设计基本上是有效的，并且得到了基本上合理的政策建议的支持，”她说。 “该计划是在几十年来最艰难的建筑市场之一实施的。 “随着建筑和融资成本的增加，财政部很早就发现了这些压力，政府采取行动保护......"
+          },
+          "reflection": {
+            "en": "The prophet Jeremiah reminded leaders of their sacred duty to ensure justice and care for the vulnerable in society. When government initiatives aimed at providing essential needs like housing fall short, it highlights the ongoing challenge of translating good intentions into tangible support for those who need it most.",
+            "zh": "先知耶利米提醒领袖们，他们有神圣的职责，要确保社会中的弱势群体得到公正和关怀。当政府旨在提供住房等基本需求的举措未能达标时，这凸显了将良好意图转化为对最需要帮助者实际支持的持续挑战。"
+          },
+          "verse": {
+            "reference": "Jeremiah 22:3",
+            "textEn": "Do what is just and right. Rescue from the hand of the oppressor the one who has been robbed.",
+            "textZh": "你们要施行公平和公义，拯救被抢夺的脱离欺压人的手。",
+            "themeEn": "Royal justice mandate",
+            "themeZh": "王者的公义责任"
+          },
+          "aiVerseId": "jer_22_3",
+          "translationState": "localized"
+        },
+        {
+          "id": "www-sbs-com-au-news-article-pine-gap-secret-spy-base-protests-sacred-arr",
+          "section": "australia",
+          "source": "SBS News Australia",
+          "sourceUrl": "https://www.sbs.com.au/news/topic/australia/feed",
+          "link": "https://www.sbs.com.au/news/article/pine-gap-secret-spy-base-protests-sacred-arrernte-land/qzqlnlqtw",
+          "image": "https://assets.sbs.com.au/dims4/default/9c5b716/2147483647/strip/false/crop/1920x882+0+198/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F82%2F4b%2F54b577e540a8831b60769302c1f3%2Fpine-gap-header-1.png",
+          "publishedAt": "2026-07-21T06:19:22.000Z",
+          "title": {
+            "en": "The secret spy base many Australians know almost nothing about",
+            "zh": "许多澳大利亚人几乎一无所知的秘密间谍基地"
+          },
+          "summary": {
+            "en": "A top-secret facility located in central Australia has been a source of public intrigue and controversy for many decades.",
+            "zh": "位于澳大利亚中部的一个绝密设施几十年来一直引发公众的好奇和争议。"
+          },
+          "body": {
+            "en": "It's been nearly 60 years since a mysterious spy base was opened in a sacred stretch of Australian outback. Even today, what happens inside Pine Gap remains a closely guarded secret.\n\nThere's been renewed focus on the joint United States-Australian intelligence facility this week after hundreds of protesters gathered there to protest its existence.\n\nLocated 18km south-west of Alice Springs, the top-secret base is often described as one of Australia&#x2019;s most secure and secretive facilities.\n\nIts most recognisable feature is the cluster of large white domes scattered across the site. The facility uses satellite equipment to collect intelligence and detect missile launches.\n\nThe three-day gathering over the weekend marked the 60th anniversary of the agreement between the US and Australia that paved the way for the construction of the facility on Arrernte Country.\n\nYour trusted source for staying up-to-date with the world around you. Get free daily news updates and analysis, straight to your inbox.\n\nIn a statement to SBS News, the defence department said the government does not comment on intelligence matters or the operation of its joint facilities.\n\nThe facility has been a source of scrutiny and controversy since it was established by the US' Central Intelligence Agency in the late 1960s to gather intelligence on Soviet missile tests during the Cold War.\n\nIt's expanded in scale and capacity over the decades, and has drawn repeated protest action, including a major demonstration in 1987 that saw more than 1,000 protesters march up to its gates. Organisers said Monday's protest was the largest since then.\n\nIn 1983, hundreds of women camped outside Pine Gap as part of a two-week peace protest, arguing it made Australia a nuclear target and tied the country to the US military machine.\n\nIn Alice Springs, where Census data puts the population at around 26,000, it employs around 800 of the town's residents, ABC Backstory reported in 2024. According to that reporting, locals remain divided over the facility.\n\nSome view it as vital to the local economy, while some still fear it makes Alice Springs a nuclear target.\n\nThe Australian Federal Police, in a recruitment page for protective service officers at Pine Gap, describes it as one of its \"most unique and critical protection sites\".\n\nAnti-war and anti- AUKUS campaigners, as well as pro-Palestinian solidarity groups, participated in the gathering over the weekend, calling for greater scrutiny of the facility's role in the Hamas-Israel war.\n\nLast year, United Nations investigators accused Israel of committing genocide in Gaza during the war, an accusation which Israel denies.\n\nRichard Tanter, a senior research associate with the Nautilus Institute and longtime Pine Gap opponent, said signals intelligence...",
+            "zh": "距离澳大利亚内陆神圣地区开设一个神秘间谍基地已有近 60 年了。即使在今天，松峡内发生的事情仍然是一个严密保守的秘密。 本周，在数百名抗议者聚集在那里抗议美国-澳大利亚联合情报机构的存在后，人们再次关注该机构。 这个绝密基地位于爱丽丝泉西南 18 公里处，通常被描述为澳大利亚最安全、最秘密的设施之一。 它最显着的特征是散布在整个场地的大型白色圆顶群。该设施使用卫星设备收集情报并探测导弹发射。 周末为期三天的聚会标志着美国和澳大利亚签署协议 60 周年，该协议为在阿伦特县建设该设施铺平了道路。 您值得信赖的来源，让您了解周围世界的最新动态。直接将免费的每日新闻更新和分析发送到您的收件箱。 国防部在给 SBS 新闻的一份声明中表示，政府不会就情报问题或其联合设施的运营发表评论。 自 20 世纪 60 年代末美国中央情报局为收集冷战期间苏联导弹试验的情报而建立该设施以来，该设施一直备受关注和争议。 几十年来，它的规模和容量不断扩大，并多次引发抗议行动，包括 1987 年的一次大规模示威，有 1,000 多名抗议者游行至其门口。组织者表示，周一的抗议活动是自那时以来规模最大的一次。 1983 年，数百名妇女在松峡外露营，参加为期两周的和平抗议活动，她们认为这使澳大利亚成为核目标，并将该国与美国军事机器联系在一起。 据 ABC Backstory 2024 年报道，在爱丽丝泉，人口普查数据显示该镇人口约为 26,000 人，该工厂雇佣了该镇约 800 名居民。根据该报道，当地人对该设施仍存在分歧。 有些人认为它对当地经济至关重要，而有些人仍然担心它会使爱丽斯泉成为核目标。 澳大利亚联邦警察在 Pine Gap 保护服务官员的招聘页面中将其描述为“最独特和最重要的保护地点之一”。 反战和反 AUKUS 活动人士以及亲巴勒斯坦团结团体参加了周末的集会，呼吁对该设施在哈马斯-以色列战争中的作用进行更严格的审查。 去年，联合国调查人员指控以色列在战争期间在加沙实施种族灭绝，但以色列否认了这一指控。 理查德·坦特 (Richard Tanter) 是鹦鹉螺研究所的高级研究员，也是松峡的长期反对者，他表示情报信号......"
+          },
+          "reflection": {
+            "en": "A secret facility generating decades of intrigue highlights the tension between national security and public transparency. Yahweh's word reminds us that knowing the truth can bring freedom, suggesting that clarity, where possible, fosters trust and reduces controversy. Even in matters of state, the pursuit of understanding can lead to greater societal peace.",
+            "zh": "一个秘密设施几十年来引发了人们的好奇和争议，这凸显了国家安全与公共透明度之间的张力。雅伟的话语提醒我们，认识真理可以带来自由，这表明在可能的情况下，清晰度能增进信任并减少争议。即使在国家事务中，对理解的追求也能带来更大的社会和平。"
+          },
+          "verse": {
+            "reference": "John 8:32",
+            "textEn": "Then you will know the truth, and the truth will set you free.",
+            "textZh": "你们必晓得真理，真理必叫你们得以自由。",
+            "themeEn": "Liberating truth",
+            "themeZh": "真理使人自由"
+          },
+          "aiVerseId": "john_8_32",
+          "translationState": "localized"
+        }
+      ]
+    }
+  }
+}
