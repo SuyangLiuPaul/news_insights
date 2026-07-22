@@ -54,9 +54,13 @@ class AppTheme {
       dividerTheme: DividerThemeData(
         color: scheme.outlineVariant.withValues(alpha: 0.5),
       ),
-      textTheme: Typography.material2021(platform: TargetPlatform.iOS)
-          .black
-          .apply(
+      // No `platform:` override here — this app is bilingual (EN/中文)
+      // and Typography's iOS/"englishLike" geometry (tight letter-
+      // spacing tuned for Latin scripts) mis-measured some CJK glyph
+      // combinations tightly enough to clip chip labels (e.g. "世界"
+      // rendered as just "世"). The platform-default geometry picks
+      // the CJK-safe "dense" set on Android/other non-Apple targets.
+      textTheme: Typography.material2021().black.apply(
             bodyColor: scheme.onSurface,
             displayColor: scheme.onSurface,
           ),

@@ -293,7 +293,7 @@ class _SectionFilterBar extends StatelessWidget {
           final (id, label) = options[i];
           final selected = value == id;
           return ChoiceChip(
-            label: Text(label),
+            label: Text(label, overflow: TextOverflow.visible, softWrap: false),
             selected: selected,
             onSelected: (_) => onChanged(id),
           );
