@@ -31,4 +31,10 @@ const Map<String, Map<String, String>> uiStrings = {
     'zh': '选择一则新闻阅读',
   },
   'source': {'en': 'Source', 'zh': '来源'},
+  'loadingMore': {'en': 'Loading more…', 'zh': '正在加载更多…'},
+  'noMoreStories': {'en': 'No more stories', 'zh': '没有更多新闻了'},
+  'retryLoadMore': {
+    'en': 'Failed to load more — tap to retry',
+    'zh': '加载失败，点击重试',
+  },
 };

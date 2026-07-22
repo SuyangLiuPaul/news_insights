@@ -28,10 +28,40 @@ class _FeedPageState extends State<FeedPage> {
   bool _refreshing = false;
   String? _error;
 
+  // Infinite scroll into yswords-data's daily archive (older editions,
+  // one per calendar day — see that repo's refresh-news.mjs). The
+  // live bundle above is always the current edition; these hold
+  // whatever older days have been paged in on top of it.
+  final List<NewsArticle> _archiveArticles = [];
+  List<String> _archiveQueue = const [];
+  bool _archiveIndexLoaded = false;
+  bool _loadingMore = false;
+  bool _archiveExhausted = false;
+  bool _loadMoreFailed = false;
+  final ScrollController _scrollController = ScrollController();
+
   @override
   void initState() {
     super.initState();
     _load();
+    _scrollController.addListener(_onScroll);
+  }
+
+  @override
+  void dispose() {
+    _scrollController.removeListener(_onScroll);
+    _scrollController.dispose();
+    super.dispose();
+  }
+
+  void _onScroll() {
+    if (!_scrollController.hasClients) return;
+    final position = _scrollController.position;
+    // Trigger a bit before the true end so the next page is usually
+    // ready by the time the user actually reaches the bottom.
+    if (position.pixels >= position.maxScrollExtent - 600) {
+      _loadMore();
+    }
   }
 
   Future<void> _load() async {
@@ -43,6 +73,7 @@ class _FeedPageState extends State<FeedPage> {
         _error = null;
         _selected ??= b.allArticles.isNotEmpty ? b.allArticles.first : null;
       });
+      await _loadArchiveIndexIfNeeded();
     } catch (e) {
       if (!mounted) return;
       setState(() => _error = e.toString());
@@ -59,12 +90,21 @@ class _FeedPageState extends State<FeedPage> {
       setState(() {
         _bundle = b;
         _error = null;
+        // A manual refresh restarts the scroll history from the live
+        // edition — otherwise a story that moved between sections/ids
+        // across the refresh could linger in the stale archive list.
+        _archiveArticles.clear();
+        _archiveQueue = const [];
+        _archiveIndexLoaded = false;
+        _archiveExhausted = false;
+        _loadMoreFailed = false;
         final keepSelected = _selected != null &&
             b.allArticles.any((a) => a.id == _selected!.id);
         if (!keepSelected) {
           _selected = b.allArticles.isNotEmpty ? b.allArticles.first : null;
         }
       });
+      await _loadArchiveIndexIfNeeded();
     } catch (e) {
       if (!mounted) return;
       setState(() => _error = e.toString());
@@ -73,8 +113,88 @@ class _FeedPageState extends State<FeedPage> {
     }
   }
 
+  Future<void> _loadArchiveIndexIfNeeded() async {
+    if (_archiveIndexLoaded) return;
+    final dates = await NewsService.loadArchiveIndex();
+    if (!mounted) return;
+    setState(() {
+      _archiveQueue = dates;
+      _archiveIndexLoaded = true;
+      _archiveExhausted = dates.isEmpty;
+    });
+    _fillIfNotScrollable();
+  }
+
+  Future<void> _loadMore() async {
+    if (_loadingMore || _archiveExhausted || !_archiveIndexLoaded) return;
+    if (_archiveQueue.isEmpty) {
+      setState(() => _archiveExhausted = true);
+      return;
+    }
+
+    setState(() {
+      _loadingMore = true;
+      _loadMoreFailed = false;
+    });
+
+    final date = _archiveQueue.first;
+    final edition = await NewsService.loadArchiveEdition(date);
+    if (!mounted) return;
+
+    if (edition == null) {
+      // Leave the date at the front of the queue so retrying (either
+      // the explicit button or the next scroll trigger) tries the
+      // same day again rather than silently skipping it.
+      setState(() {
+        _loadingMore = false;
+        _loadMoreFailed = true;
+      });
+      return;
+    }
+
+    final known = <NewsArticle>[
+      ...(_bundle?.allArticles ?? const <NewsArticle>[]),
+      ..._archiveArticles,
+    ];
+    final added = mergeUniqueArticles(known, edition.allArticles);
+
+    setState(() {
+      _archiveQueue = _archiveQueue.sublist(1);
+      _archiveArticles.addAll(added);
+      _loadingMore = false;
+      _archiveExhausted = _archiveQueue.isEmpty;
+    });
+    _fillIfNotScrollable();
+  }
+
+  void _retryLoadMore() {
+    setState(() => _loadMoreFailed = false);
+    _loadMore();
+  }
+
+  /// If the current (possibly filtered) list is short enough that the
+  /// list isn't scrollable at all, the user can never perform the
+  /// "scroll near the bottom" gesture that normally triggers the next
+  /// page — so proactively keep paging in older editions until either
+  /// the viewport is filled or the archive genuinely runs out.
+  void _fillIfNotScrollable() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted || !_scrollController.hasClients) return;
+      final position = _scrollController.position;
+      if (position.maxScrollExtent <= 0 &&
+          !_loadingMore &&
+          !_archiveExhausted &&
+          _archiveIndexLoaded) {
+        _loadMore();
+      }
+    });
+  }
+
   List<NewsArticle> get _filtered {
-    final all = _bundle?.allArticles ?? const [];
+    final all = <NewsArticle>[
+      ...(_bundle?.allArticles ?? const <NewsArticle>[]),
+      ..._archiveArticles,
+    ];
     if (_sectionFilter == 'all') return all;
     return all.where((a) => a.section == _sectionFilter).toList();
   }
@@ -159,9 +279,13 @@ class _FeedPageState extends State<FeedPage> {
     return RefreshIndicator(
       onRefresh: _manualRefresh,
       child: ListView.builder(
+        controller: _scrollController,
         padding: const EdgeInsets.symmetric(vertical: 8),
-        itemCount: articles.length,
+        itemCount: articles.length + 1,
         itemBuilder: (context, i) {
+          if (i == articles.length) {
+            return _buildListFooter(context, locale);
+          }
           final a = articles[i];
           return ArticleCard(
             article: a,
@@ -196,9 +320,13 @@ class _FeedPageState extends State<FeedPage> {
           child: RefreshIndicator(
             onRefresh: _manualRefresh,
             child: ListView.builder(
+              controller: _scrollController,
               padding: const EdgeInsets.symmetric(vertical: 8),
-              itemCount: articles.length,
+              itemCount: articles.length + 1,
               itemBuilder: (context, i) {
+                if (i == articles.length) {
+                  return _buildListFooter(context, locale);
+                }
                 final a = articles[i];
                 return ArticleCard(
                   article: a,
@@ -218,7 +346,7 @@ class _FeedPageState extends State<FeedPage> {
                       uiStrings['selectAStory']?[locale] ?? 'Select a story'),
                 )
               : ArticleDetailPage(
-                  key: ValueKey(selected.id),
+                  key: ValueKey<String>(selected.id),
                   article: selected,
                   locale: locale,
                   embedded: true,
@@ -226,6 +354,72 @@ class _FeedPageState extends State<FeedPage> {
         ),
       ],
     );
+  }
+
+  /// End-of-list state for the infinite scroll: loading spinner while
+  /// the next archived day is being fetched, a retry affordance if
+  /// that fetch failed, "no more stories" once the archive is
+  /// genuinely exhausted (including day one, before any day has ever
+  /// been archived upstream), or nothing while the archive index
+  /// itself is still being probed.
+  Widget _buildListFooter(BuildContext context, String locale) {
+    if (!_archiveIndexLoaded) {
+      return const SizedBox(height: 24);
+    }
+
+    final scheme = Theme.of(context).colorScheme;
+
+    if (_loadingMore) {
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 20),
+        child: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const SizedBox(
+                width: 20,
+                height: 20,
+                child: CircularProgressIndicator(strokeWidth: 2),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                uiStrings['loadingMore']?[locale] ?? 'Loading more…',
+                style: TextStyle(fontSize: 12, color: scheme.onSurfaceVariant),
+              ),
+            ],
+          ),
+        ),
+      );
+    }
+
+    if (_loadMoreFailed) {
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 12),
+        child: Center(
+          child: TextButton.icon(
+            onPressed: _retryLoadMore,
+            icon: const Icon(Icons.refresh, size: 16),
+            label: Text(
+              uiStrings['retryLoadMore']?[locale] ?? 'Tap to retry',
+            ),
+          ),
+        ),
+      );
+    }
+
+    if (_archiveExhausted) {
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 20),
+        child: Center(
+          child: Text(
+            uiStrings['noMoreStories']?[locale] ?? 'No more stories',
+            style: TextStyle(fontSize: 12, color: scheme.onSurfaceVariant),
+          ),
+        ),
+      );
+    }
+
+    return const SizedBox(height: 24);
   }
 }
 

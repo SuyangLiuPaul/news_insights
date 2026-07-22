@@ -163,4 +163,37 @@ void main() {
       expect(b.allArticles.map((a) => a.id).toList(), ['w1', 'w2', 'c1']);
     });
   });
+
+  group('mergeUniqueArticles', () {
+    NewsArticle article(String id) => NewsArticle.fromJson({'id': id});
+
+    test('returns only articles not already present', () {
+      final existing = [article('a'), article('b')];
+      final incoming = [article('b'), article('c'), article('d')];
+      final added = mergeUniqueArticles(existing, incoming);
+      expect(added.map((a) => a.id).toList(), ['c', 'd']);
+    });
+
+    test('returns everything when nothing overlaps', () {
+      final added = mergeUniqueArticles([article('a')], [article('b'), article('c')]);
+      expect(added.map((a) => a.id).toList(), ['b', 'c']);
+    });
+
+    test('returns empty when incoming is a full subset of existing', () {
+      final added = mergeUniqueArticles(
+        [article('a'), article('b')],
+        [article('a'), article('b')],
+      );
+      expect(added, isEmpty);
+    });
+
+    test('dedupes within incoming itself, keeping the first occurrence', () {
+      final added = mergeUniqueArticles([], [article('a'), article('a')]);
+      expect(added.map((a) => a.id).toList(), ['a']);
+    });
+
+    test('empty existing + empty incoming yields empty', () {
+      expect(mergeUniqueArticles([], []), isEmpty);
+    });
+  });
 }

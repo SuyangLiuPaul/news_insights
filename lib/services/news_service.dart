@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+import 'package:http/http.dart' as http;
+
 import 'package:news_insights/models/news_article.dart';
 import 'package:news_insights/services/remote_data_service.dart';
 
@@ -38,6 +42,18 @@ class _NewsServiceImpl extends RemoteDataService<DailyNewsBundle> {
   DateTime? generatedAt(DailyNewsBundle bundle) => bundle.generatedAt;
 }
 
+/// Base URL for the archive tree (yswords-data's daily-rollover
+/// snapshots — see that repo's refresh-news.mjs). No bundled-asset
+/// fallback makes sense here (there's nothing to ship for arbitrary
+/// historical dates), so this talks to the network directly rather
+/// than going through [RemoteDataService]. Every call is best-effort:
+/// network failures, a 404 (nothing archived yet), or malformed JSON
+/// all just resolve to an empty/null result rather than throwing —
+/// callers treat that the same as "no more stories to page into"
+/// instead of surfacing a hard error mid-scroll.
+const String _archiveBaseUrl =
+    'https://yswords-data.netlify.app/data/archive';
+
 /// Public façade — keeps call sites (`NewsService.load()` /
 /// `refresh()`) simple and independent of the underlying
 /// [RemoteDataService] implementation.
@@ -48,4 +64,39 @@ class NewsService {
   static Future<void> refresh({bool force = false}) =>
       _impl.refresh(force: force);
   static Future<void> clearCache() => _impl.clearCache();
+
+  /// Available archive dates, newest first (matches the pipeline's own
+  /// sort). Empty list on any failure — including the expected
+  /// "nothing archived yet" case on a brand-new deploy, before the
+  /// first day-rollover has happened upstream.
+  static Future<List<String>> loadArchiveIndex() async {
+    try {
+      final resp = await http
+          .get(Uri.parse('$_archiveBaseUrl/index.json'))
+          .timeout(const Duration(seconds: 10));
+      if (resp.statusCode != 200) return const [];
+      final j = jsonDecode(resp.body) as Map<String, dynamic>;
+      final dates = (j['dates'] as List?) ?? const [];
+      return dates.whereType<String>().toList();
+    } catch (_) {
+      return const [];
+    }
+  }
+
+  /// One archived edition (YYYY-MM-DD, as listed by
+  /// [loadArchiveIndex]). Null on any failure so the caller can offer
+  /// a retry for *this specific date* rather than silently skipping
+  /// it or crashing the scroll interaction.
+  static Future<DailyNewsBundle?> loadArchiveEdition(String date) async {
+    try {
+      final resp = await http
+          .get(Uri.parse('$_archiveBaseUrl/$date.json'))
+          .timeout(const Duration(seconds: 12));
+      if (resp.statusCode != 200) return null;
+      final j = jsonDecode(resp.body) as Map<String, dynamic>;
+      return DailyNewsBundle.fromJson(j);
+    } catch (_) {
+      return null;
+    }
+  }
 }

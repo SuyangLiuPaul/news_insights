@@ -217,3 +217,25 @@ class DailyNewsBundle {
   /// order then per-section order.
   List<NewsArticle> get allArticles => [for (final s in sections) ...s.items];
 }
+
+/// Pure helper for infinite-scroll paging: given the articles already
+/// on screen (live edition + any previously-appended archive pages)
+/// and a freshly-fetched archive edition's articles, returns only the
+/// ones not already present (by [NewsArticle.id]), in their original
+/// order. Guards against the same story surviving into an older
+/// day's cached top-up (RemoteDataService's cache/topUp logic can
+/// carry a story across editions) showing up twice in the feed.
+/// Exposed for testing.
+List<NewsArticle> mergeUniqueArticles(
+  List<NewsArticle> existing,
+  List<NewsArticle> incoming,
+) {
+  final knownIds = existing.map((a) => a.id).toSet();
+  final added = <NewsArticle>[];
+  for (final article in incoming) {
+    if (knownIds.add(article.id)) {
+      added.add(article);
+    }
+  }
+  return added;
+}

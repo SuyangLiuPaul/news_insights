@@ -1,11 +1,11 @@
 {
-    "name": "news_insights",
-    "short_name": "news_insights",
+    "name": "News Insights",
+    "short_name": "News Insights",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#FBF3E7",
+    "theme_color": "#B8860B",
+    "description": "World, China and Australia headlines paired with a related Bible verse and reflection.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
