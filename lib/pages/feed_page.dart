@@ -104,6 +104,10 @@ class _FeedPageState extends State<FeedPage> {
           _selected = b.allArticles.isNotEmpty ? b.allArticles.first : null;
         }
       });
+      // The archive history above was just cleared back to only the
+      // live edition, so any scroll position deeper than that is now
+      // stale — jump back to the top of the fresh list.
+      _scrollToTop();
       await _loadArchiveIndexIfNeeded();
     } catch (e) {
       if (!mounted) return;
@@ -170,6 +174,24 @@ class _FeedPageState extends State<FeedPage> {
   void _retryLoadMore() {
     setState(() => _loadMoreFailed = false);
     _loadMore();
+  }
+
+  /// Scrolling target 0 is always valid regardless of the (possibly
+  /// still stale, pre-rebuild) scroll extent, so this is safe to call
+  /// right after a setState that changes the list's content — no need
+  /// to wait a frame for the new extent to be measured.
+  void _scrollToTop() {
+    if (!_scrollController.hasClients) return;
+    _scrollController.animateTo(
+      0,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeOut,
+    );
+  }
+
+  void _onSectionFilterChanged(String value) {
+    setState(() => _sectionFilter = value);
+    _scrollToTop();
   }
 
   /// If the current (possibly filtered) list is short enough that the
@@ -258,7 +280,7 @@ class _FeedPageState extends State<FeedPage> {
         _SectionFilterBar(
           value: _sectionFilter,
           locale: locale,
-          onChanged: (v) => setState(() => _sectionFilter = v),
+          onChanged: _onSectionFilterChanged,
         ),
         const Divider(height: 1),
         Expanded(
